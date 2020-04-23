@@ -218,7 +218,7 @@ class Trainer():
 			#test_acc_i += b_acc_i
 		print ("final test temp_acc:{}, ans_acc:{}".format(test_temp_acc/self.test_len, test_ans_acc/self.test_len))
 		#logging.debug("final test temp_acc:{}, ans_acc:{}".format(test_ans_acc/self.test_len, test_ans_acc/self.test_len))
-		write_data_json(save_info, "result_recur/dolphin_rep/save_info_"+str(test_temp_acc/self.test_len)+"_"+str(test_ans_acc/self.test_len)+".json")
+		# write_data_json(save_info, "result_recur/dolphin_rep/save_info_"+str(test_temp_acc/self.test_len)+"_"+str(test_ans_acc/self.test_len)+".json")
 		return save_info
 
 	
