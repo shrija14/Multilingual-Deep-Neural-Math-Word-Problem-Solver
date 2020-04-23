@@ -195,9 +195,15 @@ class Trainer():
 					except:
 						pred_ans = -float('inf')
 			
-			
-				if abs(float(pred_ans)-float(gold_ans)) < 1e-5:
-					test_ans_acc += 1
+				if ';' in gold_ans:
+					anss = gold_ans.split(';')
+					ans1 = anss[0]
+					ans2 = anss[1]
+					if abs(float(pred_ans)-float(ans1)) < 1e-5 or abs(float(pred_ans)-float(ans2)):
+						test_ans_acc += 1
+				else:
+					if abs(float(pred_ans)-float(gold_ans)) < 1e-5:
+						test_ans_acc += 1
 				if ' '.join(pred_post_equ) == ' '.join(gold_post_equ):
 					test_temp_acc += 1
 				#print (pred_ans, gold_ans)

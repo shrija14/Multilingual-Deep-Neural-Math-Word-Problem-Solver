@@ -142,6 +142,6 @@ def main():
         trainer.train(self_att_recu_tree, optimizer)
     else:
         model = torch.load('model_combined_att.pt')
-        trainer.predict_joint(model)
+        trainer.predict_joint(model).to(device)
 
 main()
