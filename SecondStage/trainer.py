@@ -199,7 +199,7 @@ class Trainer():
 					anss = gold_ans.split(';')
 					ans1 = anss[0]
 					ans2 = anss[1]
-					if abs(float(pred_ans)-float(ans1)) < 1e-5 or abs(float(pred_ans)-float(ans2)):
+					if abs(float(pred_ans)-float(ans1)) < 1e-5 or abs(float(pred_ans)-float(ans2)) < 1e-5:
 						test_ans_acc += 1
 				else:
 					if abs(float(pred_ans)-float(gold_ans)) < 1e-5:
