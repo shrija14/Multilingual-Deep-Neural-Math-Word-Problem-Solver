@@ -46,8 +46,8 @@ class SupervisedTrainer(object):
             for j in range(colums):
                 #idx = self.decode_classes_dict[self.vocab_list[target_variable[i][j].data[0]]]
                 temp_op = self.vocab_list[target_variable[i][j].item()]
-                if temp_op in ('+', '-', '*', '/'):
-                    temp_op = '<OP>'
+                # if temp_op in ('+', '-', '*', '/'):
+                #     temp_op = '<OP>'
                 idx = self.decode_classes_dict[temp_op]
                 tmp.append(idx)
             new_variable.append(tmp)

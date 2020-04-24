@@ -309,7 +309,7 @@ class Word2vec:
         emb_vectors.append(np.random.rand((128))/1000.0)
         emb_vectors.append(np.random.rand((128))/1000.0)
 
-        ext_list = ['<OP>'] + ['PAD_token', 'END_token']+[u'+', u'*', u'-', u'/', u'100', u'1', u'PI', u'temp_m', u'temp_l', u'temp_o', u'temp_n', u'temp_i', u'temp_h', u'temp_k', u'temp_j', u'temp_e', u'temp_d', u'temp_g', u'temp_f', u'temp_a', u'temp_c', u'temp_b', u'^']
+        ext_list = ['+', '-', '*', '/'] + ['PAD_token', 'END_token']+[u'+', u'*', u'-', u'/', u'100', u'1', u'PI', u'temp_m', u'temp_l', u'temp_o', u'temp_n', u'temp_i', u'temp_h', u'temp_k', u'temp_j', u'temp_e', u'temp_d', u'temp_g', u'temp_f', u'temp_a', u'temp_c', u'temp_b', u'^']
 
         for k, v in new_data.items(): 
             token_list.append(k)
