@@ -17,22 +17,24 @@ Generator:
 The code in FirstStage/src contains the model that will generate equations. It can be run using the command  
 > python main.py --cuda-use --checkpoint-dir-name params_12 --mode 0 --teacher-forcing-ratio 0.5 --input-dropout 0.4 --encoder-hidden-size 512 --decoder-hidden-size 1024  --generator 1
 
-This will create 3 files for train, validation and test with generated equations. Sample has been provided in Results/GeneratorModel.
+This will create 3 files with generated equations for train, validation and test datasets. Sample files are provided in Results/GeneratorModel.
 
 Predictor:  
 The code in SecondStage takes template equations and predicts operators between them.
-In order to train a model predict flag to True. By default it is False.
-To predict we need the model that can be downloaded from [here](https://drive.google.com/file/d/1EZ8-55lvaa__VlAhm-NZhqETZ-hGqpTP/view?usp=sharing) to SecondStage/data/ 
+In order to train the model, set predict flag to False. To run the trained Predictor model, set the flag to True.
+To predict, downlaod the trained model from [here](https://drive.google.com/file/d/1EZ8-55lvaa__VlAhm-NZhqETZ-hGqpTP/view?usp=sharing) to SecondStage/data/ 
 > python main.py true #predict  
 > python main.py false #train
 
-This will output sample correct/matched equations with ground truth.
+This will also generate sample files with predictions along with the ground truth.
 
 GenPred:  
-In this we generate equation templates as opposed to entire equation in Generator. The command to train this models is  
+In this, we generate equation templates as opposed to entire equation in Generator. The command to train this model is  
 > python main.py --cuda-use --checkpoint-dir-name params_12 --mode 0 --teacher-forcing-ratio 0.5 --input-dropout 0.4 --encoder-hidden-size 512 --decoder-hidden-size 1024  --generator 0
 
 This will create train, validation and test files with equation templates. These files can later be fed into second stage with predictor flag = true
+
+Post Processing and error analysis code is available [here](https://github.com/shrija14/Multilingual-Deep-Neural-Math-Word-Problem-Solver/blob/master/Miscellaneous/Plot.ipynb)
 
 #### References
 [Template-Based Math Word Problem Solvers with Recursive Neural Networks](https://github.com/uestc-db/T-RNN)
