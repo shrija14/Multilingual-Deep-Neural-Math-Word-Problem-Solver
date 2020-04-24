@@ -21,8 +21,8 @@ def save_pickle(data, filename):
 def split_by_feilong_23k(data_dict):
     #t_path = "./data/id_ans_test"
     #v_path = "./data/valid_ids.json"
-    t_path = "./data/id_ans_test"
-    v_path = "./data/valid_ids_combined_s2.json"
+    t_path = "./data/id_ans_test" #"./data/id_ans_test"
+    v_path = "./data/valid_ids.json"
     valid_ids = read_data_json(v_path)
     test_ids = []
     with open(t_path, 'r') as f:

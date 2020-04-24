@@ -17,7 +17,7 @@ class Trainer():
 		#self.optimizer = torch.optim.SGD(model.parameters(), lr=0.01, momentum=0.9, dampening=0.0)
 		#self.pg_seq = dict(read_data_json("./data/pg_seq_norm_0828.json")) #dict
 		if predict:
-			self.pg_seq = dict(read_data_json("./data/pg_seq_norm_0821_test.json")) #dict
+			self.pg_seq = dict(read_data_json("./data/pg_seq_norm_0821_test_best.json")) #dict
 
 	
 	def _train_batch_recur(self, model, batch_encode_pad_idx, batch_encode_num_pos, batch_encode_len, batch_gd_tree):
@@ -114,7 +114,7 @@ class Trainer():
 			batch_seq_tree.append(temp_tree)
 			num_list = batch_num_list[i]
 			if num_len >= len(num_list):
-				print ('error num len',new_op_temps, num_list)
+				# print ('error num len',new_op_temps, num_list)
 				batch_flags.append(0)
 			else:
 				batch_flags.append(1)
