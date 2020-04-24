@@ -22,7 +22,7 @@ This will create 3 files for train, validation and test with generated equations
 Predictor: 
 The code in SecondStage takes template equations and predicts operators between them.
 In order to train a model predict flag to True. By default it is False.
-> python main.py true #predict
+> python main.py true #predict  
 > python main.py false #train
 
 This will output sample correct/matched equations with ground truth.
