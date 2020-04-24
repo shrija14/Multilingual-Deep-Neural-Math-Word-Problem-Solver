@@ -30,64 +30,37 @@ warnings.filterwarnings("ignore")
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
-#np.random.seed(123)
-#random.seed(123)
-
 def main():
-    predict = False
-    # dataset = read_data_json("./data/final_dolphin_data_replicate.json")
-    # dataset = read_data_json("./data/final_combined_data_replicate.json")/
+    if(len(sys.argv)>1):
+        if(sys.argv[1]=="true"):
+            predict = True
+        else:
+            predict = False
+    else:
+        predict = False
+    if(predict):
+        print("yes")
+    else:
+        print("no")
     dataset = read_data_json("./data/final_combined_replicate.json")
-
-
-    #emb_vectors = np.load('./data/emb_100.npy')
-    #dict_keys(['text', 'ans', 'mid_template', 'num_position', 'post_template', 'num_list', \
-    #'template_text', 'expression', 'numtemp_order', 'index', 'gd_tree_list'])
     count = 0
     max_l = 0
     if predict:
         norm_templates = dict(read_data_json("./data/pg_seq_norm_0821_test.json"))
-        # print(norm_templates)
-        # norm_templates = {words[0]:words[1:][0] for words in norm_templates}
-    # print(norm_templates)
     newd = {}
     for key, elem in dataset.items():
-        #print (elem['post_template'])
-        #print (norm_templates[key])
-        #print ()
         if predict:
             if key in norm_templates:
                 elem['post_template'] = norm_templates[key]
                 elem['gd_tree_list'] = form_gdtree(elem)
                 if(len(elem['gd_tree_list'])):
                     newd[key] = elem
-        # print(key,elem)
         else:
             elem['gd_tree_list'] = form_gdtree(elem)
-            # print("Length is ",len(elem['gd_tree_list']))
             if(len(elem['gd_tree_list'])):
                 newd[key] = elem
-            # print("hi")
-            # print(dataset)
-            # print(key,elem)
-        # if len(elem['gd_tree_list']):
-        #     #print (elem.keys())
-        #     #print (elem['text'])
-        #     #print (elem['mid_template'])
-        #     #print (elem['post_template'])
-        #     #print (elem['post_template'][2:])
-        #     # l = max([int(i.split('_')[1]) for i in set(elem['post_template']) if 'temp' in i])
-        #     # if max_l < l:
-        #     #     max_l = l
-        #     count += 1
-    # print ("Max length of equation is", max_l)
-    #print (elem['gd_tree_list'])
-    # print (count)
-    # print("poooo")
     print("new", len(newd))
     data_loader = DataLoader(newd) 
-    # print("klpo")
-    # print(newd)
     print ('loading finished')
 
     if os.path.isfile("./ablation_recursive-Copy1.log"):
@@ -119,15 +92,8 @@ def main():
         "variable_lengths_flag": True
     }
 
-    #dataset = read_data_json("/home/wanglei/aaai_2019/pointer_math_dqn/dataset/source_2/math23k_final.json")
-    #emb_vectors = np.load('/home/wanglei/aaai_2019/parsing_for_mwp/data/source_2/emb_100.npy')
-    #data_loader = DataLoader(dataset) 
-    #print ('loading finished')
 
-
-    
     trainer = Trainer(data_loader, params, predict)
-
     if predict == True:
         recu_nn = RecursiveNN(data_loader.vocab_len, encode_params['emb_size'], params["rnn_classes"])
         #recu_nn = recu_nn.cuda()
