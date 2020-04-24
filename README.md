@@ -30,6 +30,6 @@ This will output sample correct/matched equations with ground truth.
 
 GenPred:  
 In this we generate equation templates as opposed to entire equation in Generator. The command to train this models is  
-> python main.py --cuda-use --checkpoint-dir-name params_12 --mode 0 --teacher-forcing-ratio 0.5 --input-dropout 0.4 --encoder-hidden-size 512 --decoder-hidden-size 1024  --generator 1
+> python main.py --cuda-use --checkpoint-dir-name params_12 --mode 0 --teacher-forcing-ratio 0.5 --input-dropout 0.4 --encoder-hidden-size 512 --decoder-hidden-size 1024  --generator 0
 
 This will create train, validation and test files with equation templates. These files can later be fed into second stage with predictor flag = true
