@@ -13,13 +13,14 @@ import pdb
 
 class SupervisedTrainer(object):
     def __init__(self, vocab_dict, vocab_list, decode_classes_dict, decode_classes_list, cuda_use, \
-                  loss, print_every, teacher_schedule, checkpoint_dir_name):
+                  loss, print_every, teacher_schedule, checkpoint_dir_name,generator=1):
         self.vocab_dict = vocab_dict
         self.vocab_list = vocab_list
         self.decode_classes_dict = decode_classes_dict
         self.decode_classes_list = decode_classes_list
         self.class_dict = decode_classes_dict
         self.class_list = decode_classes_list
+        self.generator = generator
 
         random_seed = 10
         if random_seed is not None:
@@ -46,8 +47,9 @@ class SupervisedTrainer(object):
             for j in range(colums):
                 #idx = self.decode_classes_dict[self.vocab_list[target_variable[i][j].data[0]]]
                 temp_op = self.vocab_list[target_variable[i][j].item()]
-                # if temp_op in ('+', '-', '*', '/'):
-                #     temp_op = '<OP>'
+                if(self.generator==0):
+                    if temp_op in ('+', '-', '*', '/'):
+                        temp_op = '<OP>'
                 idx = self.decode_classes_dict[temp_op]
                 tmp.append(idx)
             new_variable.append(tmp)
@@ -251,7 +253,8 @@ class SupervisedTrainer(object):
                                    decode_classes_dict = self.decode_classes_dict,
                                    decode_classes_list = self.decode_classes_list,
                                    loss = NLLLoss(),
-                                   cuda_use = self.cuda_use)
+                                   cuda_use = self.cuda_use,
+                                   generator = self.generator)
         if resume:
             checkpoint_path = Checkpoint.get_certain_checkpoint("./experiment", "best")
             resume_checkpoint = Checkpoint.load(checkpoint_path)

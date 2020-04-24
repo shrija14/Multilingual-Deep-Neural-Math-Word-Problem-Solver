@@ -327,7 +327,7 @@ class Word2vec:
         self.emb_vectors = emb_vectors
 
 class DataLoader():
-    def __init__(self, args=None):
+    def __init__(self,args=None):
         '''
         seq2seq model data
         '''
@@ -341,7 +341,10 @@ class DataLoader():
         self.vocab_len = len(self.vocab_list)
         print('load 23k, 57k, word2vec sucessfully')
 
-        self.decode_classes_list = ['<OP>'] + ['PAD_token', 'END_token']+[u'^', u'1', u'100', u'PI', u'temp_m', u'temp_l', u'temp_o', u'temp_n', u'temp_i', u'temp_h', u'temp_k', u'temp_j', u'temp_e', u'temp_d', u'temp_g', u'temp_f', u'temp_a', u'temp_c', u'temp_b']
+        if(self.args==1):
+            self.decode_classes_list = ['+','-','*','/'] + ['PAD_token', 'END_token']+[u'^', u'1', u'100', u'PI', u'temp_m', u'temp_l', u'temp_o', u'temp_n', u'temp_i', u'temp_h', u'temp_k', u'temp_j', u'temp_e', u'temp_d', u'temp_g', u'temp_f', u'temp_a', u'temp_c', u'temp_b']
+        else:
+            self.decode_classes_list = ['<OP>'] + ['PAD_token', 'END_token']+[u'^', u'1', u'100', u'PI', u'temp_m', u'temp_l', u'temp_o', u'temp_n', u'temp_i', u'temp_h', u'temp_k', u'temp_j', u'temp_e', u'temp_d', u'temp_g', u'temp_f', u'temp_a', u'temp_c', u'temp_b']
         self.decode_classes_dict = \
               dict([(elem, idx) for idx, elem in enumerate(self.decode_classes_list)])
         self.classes_len = len(self.decode_classes_list)

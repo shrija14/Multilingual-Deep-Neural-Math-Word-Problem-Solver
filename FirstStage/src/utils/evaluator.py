@@ -14,8 +14,9 @@ print_flag_ = 0
 
 class Evaluator(object):
     def __init__(self, vocab_dict, vocab_list, decode_classes_dict, decode_classes_list,\
-                       loss=NLLLoss(), cuda_use=False):
+                       loss=NLLLoss(), cuda_use=False, generator = 1):
         self.loss = loss
+        self.generator = generator
         self.cuda_use = cuda_use
         if self.cuda_use:
             self.loss.cuda()
@@ -37,8 +38,10 @@ class Evaluator(object):
                 #print target_variable[i][j].data[0]
                 try:
                   temp_op = self.vocab_list[target_variable[i][j].item()]
-                #   if temp_op in ('+', '-', '*', '/'):
-                #     temp_op = '<OP>'
+                  if(self.generator==0):
+                      print("not here")
+                      if temp_op in ('+', '-', '*', '/'):
+                          temp_op = '<OP>'
                   idx = self.decode_classes_dict[temp_op]
                   tmp.append(idx)
                 except:

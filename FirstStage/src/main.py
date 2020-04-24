@@ -31,7 +31,7 @@ def step_one():
         encoder_cell = 'lstm'
         decoder_cell = 'gru'
 
-    data_loader = DataLoader()
+    data_loader = DataLoader(args.generator)
     embed_model = nn.Embedding(data_loader.vocab_len, 512)
     embed_model.weight.data.copy_(torch.from_numpy(data_loader.word2vec.emb_vectors))
     encode_model = EncoderRNN(vocab_size = data_loader.vocab_len,
@@ -74,7 +74,8 @@ def step_one():
                            loss = loss,
                            print_every = 10,
                            teacher_schedule = False,
-                           checkpoint_dir_name = args.checkpoint_dir_name)
+                           checkpoint_dir_name = args.checkpoint_dir_name,
+                           generator = int(args.generator))
 
 
     print('start training')

@@ -31,6 +31,7 @@ def get_args():
     parser.add_argument('--input-dropout', type=float, dest='input_dropout',default=0)
     parser.add_argument('--layer', type=int, dest='layer',default=2)
     parser.add_argument('--cuda-id', type=str, dest='cuda_id',default='0')
+    parser.add_argument('--generator', type=str, dest='generator',default=0)
 
     args = parser.parse_args()
     return args
