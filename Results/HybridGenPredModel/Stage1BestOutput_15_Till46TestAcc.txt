@@ -1,0 +1,2312 @@
+/usr/local/lib/python3.6/dist-packages/torch/nn/_reduction.py:43: UserWarning: size_average and reduce args will be deprecated, please use reduction='mean' instead.
+  warnings.warn(warning.format(ret))
+loading 23k, 57k, word2vec
+load 23k, 57k, word2vec sucessfully
+start training
+/usr/local/lib/python3.6/dist-packages/torch/nn/functional.py:1340: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+step: 20, Progress: 0%, Train Avg NLLLoss: 4.6691, Teacher_r: 0.83
+step: 30, Progress: 0%, Train Avg NLLLoss: 1.5377, Teacher_r: 0.83
+step: 40, Progress: 0%, Train Avg NLLLoss: 1.4495, Teacher_r: 0.83
+step: 50, Progress: 0%, Train Avg NLLLoss: 1.5062, Teacher_r: 0.83
+step: 60, Progress: 0%, Train Avg NLLLoss: 1.3094, Teacher_r: 0.83
+step: 70, Progress: 0%, Train Avg NLLLoss: 1.3021, Teacher_r: 0.83
+step: 80, Progress: 0%, Train Avg NLLLoss: 1.2579, Teacher_r: 0.83
+step: 90, Progress: 0%, Train Avg NLLLoss: 1.2356, Teacher_r: 0.83
+step: 100, Progress: 0%, Train Avg NLLLoss: 1.0093, Teacher_r: 0.83
+step: 110, Progress: 0%, Train Avg NLLLoss: 1.3636, Teacher_r: 0.83
+step: 120, Progress: 0%, Train Avg NLLLoss: 1.2776, Teacher_r: 0.83
+step: 130, Progress: 0%, Train Avg NLLLoss: 1.2446, Teacher_r: 0.83
+step: 140, Progress: 0%, Train Avg NLLLoss: 1.2774, Teacher_r: 0.83
+step: 150, Progress: 0%, Train Avg NLLLoss: 1.2391, Teacher_r: 0.83
+step: 160, Progress: 0%, Train Avg NLLLoss: 1.2563, Teacher_r: 0.83
+step: 170, Progress: 0%, Train Avg NLLLoss: 0.9347, Teacher_r: 0.83
+step: 180, Progress: 0%, Train Avg NLLLoss: 1.0547, Teacher_r: 0.83
+step: 190, Progress: 0%, Train Avg NLLLoss: 1.0002, Teacher_r: 0.83
+step: 200, Progress: 0%, Train Avg NLLLoss: 1.1115, Teacher_r: 0.83
+step: 210, Progress: 0%, Train Avg NLLLoss: 0.9958, Teacher_r: 0.83
+step: 220, Progress: 0%, Train Avg NLLLoss: 1.2875, Teacher_r: 0.83
+step: 230, Progress: 0%, Train Avg NLLLoss: 1.1497, Teacher_r: 0.83
+step: 240, Progress: 0%, Train Avg NLLLoss: 2.6379, Teacher_r: 0.83
+step: 250, Progress: 0%, Train Avg NLLLoss: 1.3141, Teacher_r: 0.83
+step: 260, Progress: 0%, Train Avg NLLLoss: 2.5236, Teacher_r: 0.83
+step: 270, Progress: 0%, Train Avg NLLLoss: 1.8771, Teacher_r: 0.83
+step: 280, Progress: 0%, Train Avg NLLLoss: 1.2796, Teacher_r: 0.83
+step: 290, Progress: 0%, Train Avg NLLLoss: 2.0699, Teacher_r: 0.83
+step: 300, Progress: 0%, Train Avg NLLLoss: 1.8150, Teacher_r: 0.83
+step: 310, Progress: 0%, Train Avg NLLLoss: 1.1176, Teacher_r: 0.83
+step: 320, Progress: 0%, Train Avg NLLLoss: 1.1907, Teacher_r: 0.83
+step: 330, Progress: 0%, Train Avg NLLLoss: 1.1396, Teacher_r: 0.83
+step: 340, Progress: 0%, Train Avg NLLLoss: 1.2952, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 1, Step: 342, train_acc: 0.13, validate_acc: 0.12, test_acc: 0.13
+step: 350, Progress: 1%, Train Avg NLLLoss: 1.3097, Teacher_r: 0.83
+step: 360, Progress: 1%, Train Avg NLLLoss: 1.2277, Teacher_r: 0.83
+step: 370, Progress: 1%, Train Avg NLLLoss: 0.9519, Teacher_r: 0.83
+step: 380, Progress: 1%, Train Avg NLLLoss: 0.9081, Teacher_r: 0.83
+step: 390, Progress: 1%, Train Avg NLLLoss: 0.9769, Teacher_r: 0.83
+step: 400, Progress: 1%, Train Avg NLLLoss: 0.7772, Teacher_r: 0.83
+step: 410, Progress: 1%, Train Avg NLLLoss: 0.7239, Teacher_r: 0.83
+step: 420, Progress: 1%, Train Avg NLLLoss: 1.0718, Teacher_r: 0.83
+step: 430, Progress: 1%, Train Avg NLLLoss: 0.8025, Teacher_r: 0.83
+step: 440, Progress: 1%, Train Avg NLLLoss: 0.6557, Teacher_r: 0.83
+step: 450, Progress: 1%, Train Avg NLLLoss: 0.8668, Teacher_r: 0.83
+step: 460, Progress: 1%, Train Avg NLLLoss: 0.6894, Teacher_r: 0.83
+step: 470, Progress: 1%, Train Avg NLLLoss: 0.6083, Teacher_r: 0.83
+step: 480, Progress: 1%, Train Avg NLLLoss: 0.7061, Teacher_r: 0.83
+step: 490, Progress: 1%, Train Avg NLLLoss: 0.7775, Teacher_r: 0.83
+step: 500, Progress: 1%, Train Avg NLLLoss: 0.7471, Teacher_r: 0.83
+step: 510, Progress: 1%, Train Avg NLLLoss: 0.6858, Teacher_r: 0.83
+step: 520, Progress: 1%, Train Avg NLLLoss: 0.6796, Teacher_r: 0.83
+step: 530, Progress: 1%, Train Avg NLLLoss: 0.6419, Teacher_r: 0.83
+step: 540, Progress: 1%, Train Avg NLLLoss: 0.7075, Teacher_r: 0.83
+step: 550, Progress: 1%, Train Avg NLLLoss: 0.5851, Teacher_r: 0.83
+step: 560, Progress: 1%, Train Avg NLLLoss: 0.5479, Teacher_r: 0.83
+step: 570, Progress: 1%, Train Avg NLLLoss: 0.5455, Teacher_r: 0.83
+step: 580, Progress: 1%, Train Avg NLLLoss: 0.6537, Teacher_r: 0.83
+step: 590, Progress: 1%, Train Avg NLLLoss: 0.6239, Teacher_r: 0.83
+step: 600, Progress: 1%, Train Avg NLLLoss: 1.1021, Teacher_r: 0.83
+step: 610, Progress: 1%, Train Avg NLLLoss: 0.9295, Teacher_r: 0.83
+step: 620, Progress: 1%, Train Avg NLLLoss: 0.9663, Teacher_r: 0.83
+step: 630, Progress: 1%, Train Avg NLLLoss: 1.0176, Teacher_r: 0.83
+step: 640, Progress: 1%, Train Avg NLLLoss: 0.8529, Teacher_r: 0.83
+step: 650, Progress: 1%, Train Avg NLLLoss: 0.6824, Teacher_r: 0.83
+step: 660, Progress: 1%, Train Avg NLLLoss: 1.0564, Teacher_r: 0.83
+step: 670, Progress: 1%, Train Avg NLLLoss: 0.6540, Teacher_r: 0.83
+step: 680, Progress: 1%, Train Avg NLLLoss: 0.7591, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 2, Step: 684, train_acc: 0.14, validate_acc: 0.13, test_acc: 0.13
+step: 690, Progress: 2%, Train Avg NLLLoss: 0.8515, Teacher_r: 0.83
+step: 700, Progress: 2%, Train Avg NLLLoss: 0.6026, Teacher_r: 0.83
+step: 710, Progress: 2%, Train Avg NLLLoss: 0.5130, Teacher_r: 0.83
+step: 720, Progress: 2%, Train Avg NLLLoss: 0.5073, Teacher_r: 0.83
+step: 730, Progress: 2%, Train Avg NLLLoss: 0.4854, Teacher_r: 0.83
+step: 740, Progress: 2%, Train Avg NLLLoss: 0.4687, Teacher_r: 0.83
+step: 750, Progress: 2%, Train Avg NLLLoss: 0.4778, Teacher_r: 0.83
+step: 760, Progress: 2%, Train Avg NLLLoss: 0.4382, Teacher_r: 0.83
+step: 770, Progress: 2%, Train Avg NLLLoss: 0.4228, Teacher_r: 0.83
+step: 780, Progress: 2%, Train Avg NLLLoss: 0.4943, Teacher_r: 0.83
+step: 790, Progress: 2%, Train Avg NLLLoss: 0.4932, Teacher_r: 0.83
+step: 800, Progress: 2%, Train Avg NLLLoss: 0.4570, Teacher_r: 0.83
+step: 810, Progress: 2%, Train Avg NLLLoss: 0.4173, Teacher_r: 0.83
+step: 820, Progress: 2%, Train Avg NLLLoss: 0.4796, Teacher_r: 0.83
+step: 830, Progress: 2%, Train Avg NLLLoss: 0.4492, Teacher_r: 0.83
+step: 840, Progress: 2%, Train Avg NLLLoss: 0.6917, Teacher_r: 0.83
+step: 850, Progress: 2%, Train Avg NLLLoss: 0.6448, Teacher_r: 0.83
+step: 860, Progress: 2%, Train Avg NLLLoss: 0.4453, Teacher_r: 0.83
+step: 870, Progress: 2%, Train Avg NLLLoss: 0.4373, Teacher_r: 0.83
+step: 880, Progress: 2%, Train Avg NLLLoss: 0.4081, Teacher_r: 0.83
+step: 890, Progress: 2%, Train Avg NLLLoss: 0.4297, Teacher_r: 0.83
+step: 900, Progress: 2%, Train Avg NLLLoss: 0.4354, Teacher_r: 0.83
+step: 910, Progress: 2%, Train Avg NLLLoss: 0.4084, Teacher_r: 0.83
+step: 920, Progress: 2%, Train Avg NLLLoss: 0.5030, Teacher_r: 0.83
+step: 930, Progress: 2%, Train Avg NLLLoss: 0.4179, Teacher_r: 0.83
+step: 940, Progress: 2%, Train Avg NLLLoss: 0.6899, Teacher_r: 0.83
+step: 950, Progress: 2%, Train Avg NLLLoss: 0.9990, Teacher_r: 0.83
+step: 960, Progress: 2%, Train Avg NLLLoss: 0.8013, Teacher_r: 0.83
+step: 970, Progress: 2%, Train Avg NLLLoss: 1.1192, Teacher_r: 0.83
+step: 980, Progress: 2%, Train Avg NLLLoss: 0.5696, Teacher_r: 0.83
+step: 990, Progress: 2%, Train Avg NLLLoss: 0.5654, Teacher_r: 0.83
+step: 1000, Progress: 2%, Train Avg NLLLoss: 0.7018, Teacher_r: 0.83
+step: 1010, Progress: 2%, Train Avg NLLLoss: 0.4297, Teacher_r: 0.83
+step: 1020, Progress: 2%, Train Avg NLLLoss: 0.5004, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 3, Step: 1026, train_acc: 0.14, validate_acc: 0.13, test_acc: 0.14
+step: 1030, Progress: 3%, Train Avg NLLLoss: 0.6272, Teacher_r: 0.83
+step: 1040, Progress: 3%, Train Avg NLLLoss: 0.4177, Teacher_r: 0.83
+step: 1050, Progress: 3%, Train Avg NLLLoss: 0.4512, Teacher_r: 0.83
+step: 1060, Progress: 3%, Train Avg NLLLoss: 0.3757, Teacher_r: 0.83
+step: 1070, Progress: 3%, Train Avg NLLLoss: 0.4090, Teacher_r: 0.83
+step: 1080, Progress: 3%, Train Avg NLLLoss: 0.3203, Teacher_r: 0.83
+step: 1090, Progress: 3%, Train Avg NLLLoss: 0.4012, Teacher_r: 0.83
+step: 1100, Progress: 3%, Train Avg NLLLoss: 0.3450, Teacher_r: 0.83
+step: 1110, Progress: 3%, Train Avg NLLLoss: 0.3123, Teacher_r: 0.83
+step: 1120, Progress: 3%, Train Avg NLLLoss: 0.3352, Teacher_r: 0.83
+step: 1130, Progress: 3%, Train Avg NLLLoss: 0.4413, Teacher_r: 0.83
+step: 1140, Progress: 3%, Train Avg NLLLoss: 0.2827, Teacher_r: 0.83
+step: 1150, Progress: 3%, Train Avg NLLLoss: 0.4614, Teacher_r: 0.83
+step: 1160, Progress: 3%, Train Avg NLLLoss: 0.4234, Teacher_r: 0.83
+step: 1170, Progress: 3%, Train Avg NLLLoss: 0.4434, Teacher_r: 0.83
+step: 1180, Progress: 3%, Train Avg NLLLoss: 0.4555, Teacher_r: 0.83
+step: 1190, Progress: 3%, Train Avg NLLLoss: 0.4774, Teacher_r: 0.83
+step: 1200, Progress: 3%, Train Avg NLLLoss: 0.3957, Teacher_r: 0.83
+step: 1210, Progress: 3%, Train Avg NLLLoss: 0.4121, Teacher_r: 0.83
+step: 1220, Progress: 3%, Train Avg NLLLoss: 0.3324, Teacher_r: 0.83
+step: 1230, Progress: 3%, Train Avg NLLLoss: 0.3434, Teacher_r: 0.83
+step: 1240, Progress: 3%, Train Avg NLLLoss: 0.4013, Teacher_r: 0.83
+step: 1250, Progress: 3%, Train Avg NLLLoss: 0.3212, Teacher_r: 0.83
+step: 1260, Progress: 3%, Train Avg NLLLoss: 0.3156, Teacher_r: 0.83
+step: 1270, Progress: 3%, Train Avg NLLLoss: 0.3232, Teacher_r: 0.83
+step: 1280, Progress: 3%, Train Avg NLLLoss: 0.5101, Teacher_r: 0.83
+step: 1290, Progress: 3%, Train Avg NLLLoss: 0.5477, Teacher_r: 0.83
+step: 1300, Progress: 3%, Train Avg NLLLoss: 0.6290, Teacher_r: 0.83
+step: 1310, Progress: 3%, Train Avg NLLLoss: 0.5900, Teacher_r: 0.83
+step: 1320, Progress: 3%, Train Avg NLLLoss: 0.4571, Teacher_r: 0.83
+step: 1330, Progress: 3%, Train Avg NLLLoss: 0.4478, Teacher_r: 0.83
+step: 1340, Progress: 3%, Train Avg NLLLoss: 0.4888, Teacher_r: 0.83
+step: 1350, Progress: 3%, Train Avg NLLLoss: 0.2935, Teacher_r: 0.83
+step: 1360, Progress: 3%, Train Avg NLLLoss: 0.4340, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 4, Step: 1368, train_acc: 0.19, validate_acc: 0.18, test_acc: 0.18
+step: 1370, Progress: 4%, Train Avg NLLLoss: 0.4066, Teacher_r: 0.83
+step: 1380, Progress: 4%, Train Avg NLLLoss: 0.3573, Teacher_r: 0.83
+step: 1390, Progress: 4%, Train Avg NLLLoss: 0.4137, Teacher_r: 0.83
+step: 1400, Progress: 4%, Train Avg NLLLoss: 0.3491, Teacher_r: 0.83
+step: 1410, Progress: 4%, Train Avg NLLLoss: 0.2887, Teacher_r: 0.83
+step: 1420, Progress: 4%, Train Avg NLLLoss: 0.2916, Teacher_r: 0.83
+step: 1430, Progress: 4%, Train Avg NLLLoss: 0.2465, Teacher_r: 0.83
+step: 1440, Progress: 4%, Train Avg NLLLoss: 0.2745, Teacher_r: 0.83
+step: 1450, Progress: 4%, Train Avg NLLLoss: 0.2822, Teacher_r: 0.83
+step: 1460, Progress: 4%, Train Avg NLLLoss: 0.3360, Teacher_r: 0.83
+step: 1470, Progress: 4%, Train Avg NLLLoss: 0.2659, Teacher_r: 0.83
+step: 1480, Progress: 4%, Train Avg NLLLoss: 0.2958, Teacher_r: 0.83
+step: 1490, Progress: 4%, Train Avg NLLLoss: 0.2886, Teacher_r: 0.83
+step: 1500, Progress: 4%, Train Avg NLLLoss: 0.2510, Teacher_r: 0.83
+step: 1510, Progress: 4%, Train Avg NLLLoss: 0.2231, Teacher_r: 0.83
+step: 1520, Progress: 4%, Train Avg NLLLoss: 0.2894, Teacher_r: 0.83
+step: 1530, Progress: 4%, Train Avg NLLLoss: 0.3026, Teacher_r: 0.83
+step: 1540, Progress: 4%, Train Avg NLLLoss: 0.3431, Teacher_r: 0.83
+step: 1550, Progress: 4%, Train Avg NLLLoss: 0.2729, Teacher_r: 0.83
+step: 1560, Progress: 4%, Train Avg NLLLoss: 0.2382, Teacher_r: 0.83
+step: 1570, Progress: 4%, Train Avg NLLLoss: 0.2717, Teacher_r: 0.83
+step: 1580, Progress: 4%, Train Avg NLLLoss: 0.2855, Teacher_r: 0.83
+step: 1590, Progress: 4%, Train Avg NLLLoss: 0.2403, Teacher_r: 0.83
+step: 1600, Progress: 4%, Train Avg NLLLoss: 0.2749, Teacher_r: 0.83
+step: 1610, Progress: 4%, Train Avg NLLLoss: 0.2659, Teacher_r: 0.83
+step: 1620, Progress: 4%, Train Avg NLLLoss: 0.2835, Teacher_r: 0.83
+step: 1630, Progress: 4%, Train Avg NLLLoss: 0.3246, Teacher_r: 0.83
+step: 1640, Progress: 4%, Train Avg NLLLoss: 0.5165, Teacher_r: 0.83
+step: 1650, Progress: 4%, Train Avg NLLLoss: 0.3455, Teacher_r: 0.83
+step: 1660, Progress: 4%, Train Avg NLLLoss: 0.4461, Teacher_r: 0.83
+step: 1670, Progress: 4%, Train Avg NLLLoss: 0.4342, Teacher_r: 0.83
+step: 1680, Progress: 4%, Train Avg NLLLoss: 0.3092, Teacher_r: 0.83
+step: 1690, Progress: 4%, Train Avg NLLLoss: 0.2726, Teacher_r: 0.83
+step: 1700, Progress: 4%, Train Avg NLLLoss: 0.3471, Teacher_r: 0.83
+step: 1710, Progress: 5%, Train Avg NLLLoss: 0.3262, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 5, Step: 1710, train_acc: 0.19, validate_acc: 0.19, test_acc: 0.18
+step: 1720, Progress: 5%, Train Avg NLLLoss: 0.3654, Teacher_r: 0.83
+step: 1730, Progress: 5%, Train Avg NLLLoss: 0.3091, Teacher_r: 0.83
+step: 1740, Progress: 5%, Train Avg NLLLoss: 0.2508, Teacher_r: 0.83
+step: 1750, Progress: 5%, Train Avg NLLLoss: 0.2969, Teacher_r: 0.83
+step: 1760, Progress: 5%, Train Avg NLLLoss: 0.2080, Teacher_r: 0.83
+step: 1770, Progress: 5%, Train Avg NLLLoss: 0.2070, Teacher_r: 0.83
+step: 1780, Progress: 5%, Train Avg NLLLoss: 0.2072, Teacher_r: 0.83
+step: 1790, Progress: 5%, Train Avg NLLLoss: 0.2074, Teacher_r: 0.83
+step: 1800, Progress: 5%, Train Avg NLLLoss: 0.2252, Teacher_r: 0.83
+step: 1810, Progress: 5%, Train Avg NLLLoss: 0.2085, Teacher_r: 0.83
+step: 1820, Progress: 5%, Train Avg NLLLoss: 0.2303, Teacher_r: 0.83
+step: 1830, Progress: 5%, Train Avg NLLLoss: 0.1740, Teacher_r: 0.83
+step: 1840, Progress: 5%, Train Avg NLLLoss: 0.2639, Teacher_r: 0.83
+step: 1850, Progress: 5%, Train Avg NLLLoss: 0.2302, Teacher_r: 0.83
+step: 1860, Progress: 5%, Train Avg NLLLoss: 0.2470, Teacher_r: 0.83
+step: 1870, Progress: 5%, Train Avg NLLLoss: 0.1997, Teacher_r: 0.83
+step: 1880, Progress: 5%, Train Avg NLLLoss: 0.2206, Teacher_r: 0.83
+step: 1890, Progress: 5%, Train Avg NLLLoss: 0.1891, Teacher_r: 0.83
+step: 1900, Progress: 5%, Train Avg NLLLoss: 0.2693, Teacher_r: 0.83
+step: 1910, Progress: 5%, Train Avg NLLLoss: 0.2077, Teacher_r: 0.83
+step: 1920, Progress: 5%, Train Avg NLLLoss: 0.2141, Teacher_r: 0.83
+step: 1930, Progress: 5%, Train Avg NLLLoss: 0.1912, Teacher_r: 0.83
+step: 1940, Progress: 5%, Train Avg NLLLoss: 0.1957, Teacher_r: 0.83
+step: 1950, Progress: 5%, Train Avg NLLLoss: 0.2050, Teacher_r: 0.83
+step: 1960, Progress: 5%, Train Avg NLLLoss: 0.2215, Teacher_r: 0.83
+step: 1970, Progress: 5%, Train Avg NLLLoss: 0.3276, Teacher_r: 0.83
+step: 1980, Progress: 5%, Train Avg NLLLoss: 0.4047, Teacher_r: 0.83
+step: 1990, Progress: 5%, Train Avg NLLLoss: 0.3283, Teacher_r: 0.83
+step: 2000, Progress: 5%, Train Avg NLLLoss: 0.4025, Teacher_r: 0.83
+step: 2010, Progress: 5%, Train Avg NLLLoss: 0.3735, Teacher_r: 0.83
+step: 2020, Progress: 5%, Train Avg NLLLoss: 0.2391, Teacher_r: 0.83
+step: 2030, Progress: 5%, Train Avg NLLLoss: 0.2717, Teacher_r: 0.83
+step: 2040, Progress: 5%, Train Avg NLLLoss: 0.2180, Teacher_r: 0.83
+step: 2050, Progress: 6%, Train Avg NLLLoss: 0.2567, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 6, Step: 2052, train_acc: 0.17, validate_acc: 0.16, test_acc: 0.16
+step: 2060, Progress: 6%, Train Avg NLLLoss: 0.3262, Teacher_r: 0.83
+step: 2070, Progress: 6%, Train Avg NLLLoss: 0.2563, Teacher_r: 0.83
+step: 2080, Progress: 6%, Train Avg NLLLoss: 0.2512, Teacher_r: 0.83
+step: 2090, Progress: 6%, Train Avg NLLLoss: 0.2237, Teacher_r: 0.83
+step: 2100, Progress: 6%, Train Avg NLLLoss: 0.2207, Teacher_r: 0.83
+step: 2110, Progress: 6%, Train Avg NLLLoss: 0.1764, Teacher_r: 0.83
+step: 2120, Progress: 6%, Train Avg NLLLoss: 0.2140, Teacher_r: 0.83
+step: 2130, Progress: 6%, Train Avg NLLLoss: 0.1847, Teacher_r: 0.83
+step: 2140, Progress: 6%, Train Avg NLLLoss: 0.1884, Teacher_r: 0.83
+step: 2150, Progress: 6%, Train Avg NLLLoss: 0.1927, Teacher_r: 0.83
+step: 2160, Progress: 6%, Train Avg NLLLoss: 0.2018, Teacher_r: 0.83
+step: 2170, Progress: 6%, Train Avg NLLLoss: 0.1662, Teacher_r: 0.83
+step: 2180, Progress: 6%, Train Avg NLLLoss: 0.1626, Teacher_r: 0.83
+step: 2190, Progress: 6%, Train Avg NLLLoss: 0.1708, Teacher_r: 0.83
+step: 2200, Progress: 6%, Train Avg NLLLoss: 0.1633, Teacher_r: 0.83
+step: 2210, Progress: 6%, Train Avg NLLLoss: 0.2244, Teacher_r: 0.83
+step: 2220, Progress: 6%, Train Avg NLLLoss: 0.2038, Teacher_r: 0.83
+step: 2230, Progress: 6%, Train Avg NLLLoss: 0.1752, Teacher_r: 0.83
+step: 2240, Progress: 6%, Train Avg NLLLoss: 0.2013, Teacher_r: 0.83
+step: 2250, Progress: 6%, Train Avg NLLLoss: 0.1727, Teacher_r: 0.83
+step: 2260, Progress: 6%, Train Avg NLLLoss: 0.1859, Teacher_r: 0.83
+step: 2270, Progress: 6%, Train Avg NLLLoss: 0.1808, Teacher_r: 0.83
+step: 2280, Progress: 6%, Train Avg NLLLoss: 0.1660, Teacher_r: 0.83
+step: 2290, Progress: 6%, Train Avg NLLLoss: 0.1615, Teacher_r: 0.83
+step: 2300, Progress: 6%, Train Avg NLLLoss: 0.1803, Teacher_r: 0.83
+step: 2310, Progress: 6%, Train Avg NLLLoss: 0.2191, Teacher_r: 0.83
+step: 2320, Progress: 6%, Train Avg NLLLoss: 0.2658, Teacher_r: 0.83
+step: 2330, Progress: 6%, Train Avg NLLLoss: 0.3345, Teacher_r: 0.83
+step: 2340, Progress: 6%, Train Avg NLLLoss: 0.3658, Teacher_r: 0.83
+step: 2350, Progress: 6%, Train Avg NLLLoss: 0.3850, Teacher_r: 0.83
+step: 2360, Progress: 6%, Train Avg NLLLoss: 0.1709, Teacher_r: 0.83
+step: 2370, Progress: 6%, Train Avg NLLLoss: 0.3482, Teacher_r: 0.83
+step: 2380, Progress: 6%, Train Avg NLLLoss: 0.1834, Teacher_r: 0.83
+step: 2390, Progress: 7%, Train Avg NLLLoss: 0.1869, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 7, Step: 2394, train_acc: 0.19, validate_acc: 0.19, test_acc: 0.19
+step: 2400, Progress: 7%, Train Avg NLLLoss: 0.3119, Teacher_r: 0.83
+step: 2410, Progress: 7%, Train Avg NLLLoss: 0.2498, Teacher_r: 0.83
+step: 2420, Progress: 7%, Train Avg NLLLoss: 0.2245, Teacher_r: 0.83
+step: 2430, Progress: 7%, Train Avg NLLLoss: 0.2045, Teacher_r: 0.83
+step: 2440, Progress: 7%, Train Avg NLLLoss: 0.1700, Teacher_r: 0.83
+step: 2450, Progress: 7%, Train Avg NLLLoss: 0.1554, Teacher_r: 0.83
+step: 2460, Progress: 7%, Train Avg NLLLoss: 0.1562, Teacher_r: 0.83
+step: 2470, Progress: 7%, Train Avg NLLLoss: 0.1676, Teacher_r: 0.83
+step: 2480, Progress: 7%, Train Avg NLLLoss: 0.1463, Teacher_r: 0.83
+step: 2490, Progress: 7%, Train Avg NLLLoss: 0.1452, Teacher_r: 0.83
+step: 2500, Progress: 7%, Train Avg NLLLoss: 0.1705, Teacher_r: 0.83
+step: 2510, Progress: 7%, Train Avg NLLLoss: 0.1441, Teacher_r: 0.83
+step: 2520, Progress: 7%, Train Avg NLLLoss: 0.1605, Teacher_r: 0.83
+step: 2530, Progress: 7%, Train Avg NLLLoss: 0.1467, Teacher_r: 0.83
+step: 2540, Progress: 7%, Train Avg NLLLoss: 0.1451, Teacher_r: 0.83
+step: 2550, Progress: 7%, Train Avg NLLLoss: 0.1467, Teacher_r: 0.83
+step: 2560, Progress: 7%, Train Avg NLLLoss: 0.1826, Teacher_r: 0.83
+step: 2570, Progress: 7%, Train Avg NLLLoss: 0.1522, Teacher_r: 0.83
+step: 2580, Progress: 7%, Train Avg NLLLoss: 0.1709, Teacher_r: 0.83
+step: 2590, Progress: 7%, Train Avg NLLLoss: 0.1414, Teacher_r: 0.83
+step: 2600, Progress: 7%, Train Avg NLLLoss: 0.1528, Teacher_r: 0.83
+step: 2610, Progress: 7%, Train Avg NLLLoss: 0.1195, Teacher_r: 0.83
+step: 2620, Progress: 7%, Train Avg NLLLoss: 0.1520, Teacher_r: 0.83
+step: 2630, Progress: 7%, Train Avg NLLLoss: 0.1513, Teacher_r: 0.83
+step: 2640, Progress: 7%, Train Avg NLLLoss: 0.1617, Teacher_r: 0.83
+step: 2650, Progress: 7%, Train Avg NLLLoss: 0.1514, Teacher_r: 0.83
+step: 2660, Progress: 7%, Train Avg NLLLoss: 0.2097, Teacher_r: 0.83
+step: 2670, Progress: 7%, Train Avg NLLLoss: 0.2325, Teacher_r: 0.83
+step: 2680, Progress: 7%, Train Avg NLLLoss: 0.3684, Teacher_r: 0.83
+step: 2690, Progress: 7%, Train Avg NLLLoss: 0.2561, Teacher_r: 0.83
+step: 2700, Progress: 7%, Train Avg NLLLoss: 0.2120, Teacher_r: 0.83
+step: 2710, Progress: 7%, Train Avg NLLLoss: 0.2182, Teacher_r: 0.83
+step: 2720, Progress: 7%, Train Avg NLLLoss: 0.1346, Teacher_r: 0.83
+step: 2730, Progress: 7%, Train Avg NLLLoss: 0.1945, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 8, Step: 2736, train_acc: 0.17, validate_acc: 0.16, test_acc: 0.16
+step: 2740, Progress: 8%, Train Avg NLLLoss: 0.2523, Teacher_r: 0.83
+step: 2750, Progress: 8%, Train Avg NLLLoss: 0.2326, Teacher_r: 0.83
+step: 2760, Progress: 8%, Train Avg NLLLoss: 0.2161, Teacher_r: 0.83
+step: 2770, Progress: 8%, Train Avg NLLLoss: 0.2172, Teacher_r: 0.83
+step: 2780, Progress: 8%, Train Avg NLLLoss: 0.1751, Teacher_r: 0.83
+step: 2790, Progress: 8%, Train Avg NLLLoss: 0.1344, Teacher_r: 0.83
+step: 2800, Progress: 8%, Train Avg NLLLoss: 0.1263, Teacher_r: 0.83
+step: 2810, Progress: 8%, Train Avg NLLLoss: 0.1517, Teacher_r: 0.83
+step: 2820, Progress: 8%, Train Avg NLLLoss: 0.1441, Teacher_r: 0.83
+step: 2830, Progress: 8%, Train Avg NLLLoss: 0.1275, Teacher_r: 0.83
+step: 2840, Progress: 8%, Train Avg NLLLoss: 0.1448, Teacher_r: 0.83
+step: 2850, Progress: 8%, Train Avg NLLLoss: 0.1491, Teacher_r: 0.83
+step: 2860, Progress: 8%, Train Avg NLLLoss: 0.1324, Teacher_r: 0.83
+step: 2870, Progress: 8%, Train Avg NLLLoss: 0.1278, Teacher_r: 0.83
+step: 2880, Progress: 8%, Train Avg NLLLoss: 0.1454, Teacher_r: 0.83
+step: 2890, Progress: 8%, Train Avg NLLLoss: 0.1194, Teacher_r: 0.83
+step: 2900, Progress: 8%, Train Avg NLLLoss: 0.1302, Teacher_r: 0.83
+step: 2910, Progress: 8%, Train Avg NLLLoss: 0.1264, Teacher_r: 0.83
+step: 2920, Progress: 8%, Train Avg NLLLoss: 0.1234, Teacher_r: 0.83
+step: 2930, Progress: 8%, Train Avg NLLLoss: 0.1406, Teacher_r: 0.83
+step: 2940, Progress: 8%, Train Avg NLLLoss: 0.1123, Teacher_r: 0.83
+step: 2950, Progress: 8%, Train Avg NLLLoss: 0.1202, Teacher_r: 0.83
+step: 2960, Progress: 8%, Train Avg NLLLoss: 0.1037, Teacher_r: 0.83
+step: 2970, Progress: 8%, Train Avg NLLLoss: 0.1256, Teacher_r: 0.83
+step: 2980, Progress: 8%, Train Avg NLLLoss: 0.1244, Teacher_r: 0.83
+step: 2990, Progress: 8%, Train Avg NLLLoss: 0.1280, Teacher_r: 0.83
+step: 3000, Progress: 8%, Train Avg NLLLoss: 0.1544, Teacher_r: 0.83
+step: 3010, Progress: 8%, Train Avg NLLLoss: 0.1782, Teacher_r: 0.83
+step: 3020, Progress: 8%, Train Avg NLLLoss: 0.2595, Teacher_r: 0.83
+step: 3030, Progress: 8%, Train Avg NLLLoss: 0.2979, Teacher_r: 0.83
+step: 3040, Progress: 8%, Train Avg NLLLoss: 0.2547, Teacher_r: 0.83
+step: 3050, Progress: 8%, Train Avg NLLLoss: 0.2207, Teacher_r: 0.83
+step: 3060, Progress: 8%, Train Avg NLLLoss: 0.0953, Teacher_r: 0.83
+step: 3070, Progress: 8%, Train Avg NLLLoss: 0.1797, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 9, Step: 3078, train_acc: 0.23, validate_acc: 0.23, test_acc: 0.22
+step: 3080, Progress: 9%, Train Avg NLLLoss: 0.2214, Teacher_r: 0.83
+step: 3090, Progress: 9%, Train Avg NLLLoss: 0.2338, Teacher_r: 0.83
+step: 3100, Progress: 9%, Train Avg NLLLoss: 0.1949, Teacher_r: 0.83
+step: 3110, Progress: 9%, Train Avg NLLLoss: 0.1571, Teacher_r: 0.83
+step: 3120, Progress: 9%, Train Avg NLLLoss: 0.1511, Teacher_r: 0.83
+step: 3130, Progress: 9%, Train Avg NLLLoss: 0.1325, Teacher_r: 0.83
+step: 3140, Progress: 9%, Train Avg NLLLoss: 0.1315, Teacher_r: 0.83
+step: 3150, Progress: 9%, Train Avg NLLLoss: 0.1179, Teacher_r: 0.83
+step: 3160, Progress: 9%, Train Avg NLLLoss: 0.1267, Teacher_r: 0.83
+step: 3170, Progress: 9%, Train Avg NLLLoss: 0.1211, Teacher_r: 0.83
+step: 3180, Progress: 9%, Train Avg NLLLoss: 0.1109, Teacher_r: 0.83
+step: 3190, Progress: 9%, Train Avg NLLLoss: 0.1209, Teacher_r: 0.83
+step: 3200, Progress: 9%, Train Avg NLLLoss: 0.1014, Teacher_r: 0.83
+step: 3210, Progress: 9%, Train Avg NLLLoss: 0.1002, Teacher_r: 0.83
+step: 3220, Progress: 9%, Train Avg NLLLoss: 0.1080, Teacher_r: 0.83
+step: 3230, Progress: 9%, Train Avg NLLLoss: 0.1257, Teacher_r: 0.83
+step: 3240, Progress: 9%, Train Avg NLLLoss: 0.1262, Teacher_r: 0.83
+step: 3250, Progress: 9%, Train Avg NLLLoss: 0.1106, Teacher_r: 0.83
+step: 3260, Progress: 9%, Train Avg NLLLoss: 0.1203, Teacher_r: 0.83
+step: 3270, Progress: 9%, Train Avg NLLLoss: 0.1161, Teacher_r: 0.83
+step: 3280, Progress: 9%, Train Avg NLLLoss: 0.1268, Teacher_r: 0.83
+step: 3290, Progress: 9%, Train Avg NLLLoss: 0.1092, Teacher_r: 0.83
+step: 3300, Progress: 9%, Train Avg NLLLoss: 0.0945, Teacher_r: 0.83
+step: 3310, Progress: 9%, Train Avg NLLLoss: 0.0978, Teacher_r: 0.83
+step: 3320, Progress: 9%, Train Avg NLLLoss: 0.1133, Teacher_r: 0.83
+step: 3330, Progress: 9%, Train Avg NLLLoss: 0.0961, Teacher_r: 0.83
+step: 3340, Progress: 9%, Train Avg NLLLoss: 0.0922, Teacher_r: 0.83
+step: 3350, Progress: 9%, Train Avg NLLLoss: 0.1630, Teacher_r: 0.83
+step: 3360, Progress: 9%, Train Avg NLLLoss: 0.1058, Teacher_r: 0.83
+step: 3370, Progress: 9%, Train Avg NLLLoss: 0.2375, Teacher_r: 0.83
+step: 3380, Progress: 9%, Train Avg NLLLoss: 0.2307, Teacher_r: 0.83
+step: 3390, Progress: 9%, Train Avg NLLLoss: 0.1502, Teacher_r: 0.83
+step: 3400, Progress: 9%, Train Avg NLLLoss: 0.1495, Teacher_r: 0.83
+step: 3410, Progress: 9%, Train Avg NLLLoss: 0.1295, Teacher_r: 0.83
+step: 3420, Progress: 10%, Train Avg NLLLoss: 0.1104, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 10, Step: 3420, train_acc: 0.24, validate_acc: 0.23, test_acc: 0.23
+step: 3430, Progress: 10%, Train Avg NLLLoss: 0.2381, Teacher_r: 0.83
+step: 3440, Progress: 10%, Train Avg NLLLoss: 0.2266, Teacher_r: 0.83
+step: 3450, Progress: 10%, Train Avg NLLLoss: 0.1694, Teacher_r: 0.83
+step: 3460, Progress: 10%, Train Avg NLLLoss: 0.1372, Teacher_r: 0.83
+step: 3470, Progress: 10%, Train Avg NLLLoss: 0.1114, Teacher_r: 0.83
+step: 3480, Progress: 10%, Train Avg NLLLoss: 0.1052, Teacher_r: 0.83
+step: 3490, Progress: 10%, Train Avg NLLLoss: 0.0976, Teacher_r: 0.83
+step: 3500, Progress: 10%, Train Avg NLLLoss: 0.0967, Teacher_r: 0.83
+step: 3510, Progress: 10%, Train Avg NLLLoss: 0.1020, Teacher_r: 0.83
+step: 3520, Progress: 10%, Train Avg NLLLoss: 0.0877, Teacher_r: 0.83
+step: 3530, Progress: 10%, Train Avg NLLLoss: 0.1109, Teacher_r: 0.83
+step: 3540, Progress: 10%, Train Avg NLLLoss: 0.0805, Teacher_r: 0.83
+step: 3550, Progress: 10%, Train Avg NLLLoss: 0.1005, Teacher_r: 0.83
+step: 3560, Progress: 10%, Train Avg NLLLoss: 0.1036, Teacher_r: 0.83
+step: 3570, Progress: 10%, Train Avg NLLLoss: 0.0900, Teacher_r: 0.83
+step: 3580, Progress: 10%, Train Avg NLLLoss: 0.0982, Teacher_r: 0.83
+step: 3590, Progress: 10%, Train Avg NLLLoss: 0.0956, Teacher_r: 0.83
+step: 3600, Progress: 10%, Train Avg NLLLoss: 0.0852, Teacher_r: 0.83
+step: 3610, Progress: 10%, Train Avg NLLLoss: 0.1052, Teacher_r: 0.83
+step: 3620, Progress: 10%, Train Avg NLLLoss: 0.0964, Teacher_r: 0.83
+step: 3630, Progress: 10%, Train Avg NLLLoss: 0.1035, Teacher_r: 0.83
+step: 3640, Progress: 10%, Train Avg NLLLoss: 0.0987, Teacher_r: 0.83
+step: 3650, Progress: 10%, Train Avg NLLLoss: 0.0953, Teacher_r: 0.83
+step: 3660, Progress: 10%, Train Avg NLLLoss: 0.0947, Teacher_r: 0.83
+step: 3670, Progress: 10%, Train Avg NLLLoss: 0.0662, Teacher_r: 0.83
+step: 3680, Progress: 10%, Train Avg NLLLoss: 0.0742, Teacher_r: 0.83
+step: 3690, Progress: 10%, Train Avg NLLLoss: 0.1147, Teacher_r: 0.83
+step: 3700, Progress: 10%, Train Avg NLLLoss: 0.0848, Teacher_r: 0.83
+step: 3710, Progress: 10%, Train Avg NLLLoss: 0.2142, Teacher_r: 0.83
+step: 3720, Progress: 10%, Train Avg NLLLoss: 0.1740, Teacher_r: 0.83
+step: 3730, Progress: 10%, Train Avg NLLLoss: 0.1262, Teacher_r: 0.83
+step: 3740, Progress: 10%, Train Avg NLLLoss: 0.1223, Teacher_r: 0.83
+step: 3750, Progress: 10%, Train Avg NLLLoss: 0.1080, Teacher_r: 0.83
+step: 3760, Progress: 11%, Train Avg NLLLoss: 0.1193, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 11, Step: 3762, train_acc: 0.15, validate_acc: 0.15, test_acc: 0.15
+step: 3770, Progress: 11%, Train Avg NLLLoss: 0.2072, Teacher_r: 0.83
+step: 3780, Progress: 11%, Train Avg NLLLoss: 0.1735, Teacher_r: 0.83
+step: 3790, Progress: 11%, Train Avg NLLLoss: 0.1317, Teacher_r: 0.83
+step: 3800, Progress: 11%, Train Avg NLLLoss: 0.1378, Teacher_r: 0.83
+step: 3810, Progress: 11%, Train Avg NLLLoss: 0.1240, Teacher_r: 0.83
+step: 3820, Progress: 11%, Train Avg NLLLoss: 0.0915, Teacher_r: 0.83
+step: 3830, Progress: 11%, Train Avg NLLLoss: 0.1040, Teacher_r: 0.83
+step: 3840, Progress: 11%, Train Avg NLLLoss: 0.0946, Teacher_r: 0.83
+step: 3850, Progress: 11%, Train Avg NLLLoss: 0.0813, Teacher_r: 0.83
+step: 3860, Progress: 11%, Train Avg NLLLoss: 0.0988, Teacher_r: 0.83
+step: 3870, Progress: 11%, Train Avg NLLLoss: 0.0753, Teacher_r: 0.83
+step: 3880, Progress: 11%, Train Avg NLLLoss: 0.1045, Teacher_r: 0.83
+step: 3890, Progress: 11%, Train Avg NLLLoss: 0.0834, Teacher_r: 0.83
+step: 3900, Progress: 11%, Train Avg NLLLoss: 0.1001, Teacher_r: 0.83
+step: 3910, Progress: 11%, Train Avg NLLLoss: 0.1494, Teacher_r: 0.83
+step: 3920, Progress: 11%, Train Avg NLLLoss: 0.2809, Teacher_r: 0.83
+step: 3930, Progress: 11%, Train Avg NLLLoss: 0.1200, Teacher_r: 0.83
+step: 3940, Progress: 11%, Train Avg NLLLoss: 0.1094, Teacher_r: 0.83
+step: 3950, Progress: 11%, Train Avg NLLLoss: 0.0846, Teacher_r: 0.83
+step: 3960, Progress: 11%, Train Avg NLLLoss: 0.0917, Teacher_r: 0.83
+step: 3970, Progress: 11%, Train Avg NLLLoss: 0.1049, Teacher_r: 0.83
+step: 3980, Progress: 11%, Train Avg NLLLoss: 0.0868, Teacher_r: 0.83
+step: 3990, Progress: 11%, Train Avg NLLLoss: 0.0839, Teacher_r: 0.83
+step: 4000, Progress: 11%, Train Avg NLLLoss: 0.0773, Teacher_r: 0.83
+step: 4010, Progress: 11%, Train Avg NLLLoss: 0.0857, Teacher_r: 0.83
+step: 4020, Progress: 11%, Train Avg NLLLoss: 0.0577, Teacher_r: 0.83
+step: 4030, Progress: 11%, Train Avg NLLLoss: 0.1013, Teacher_r: 0.83
+step: 4040, Progress: 11%, Train Avg NLLLoss: 0.0961, Teacher_r: 0.83
+step: 4050, Progress: 11%, Train Avg NLLLoss: 0.1098, Teacher_r: 0.83
+step: 4060, Progress: 11%, Train Avg NLLLoss: 0.2583, Teacher_r: 0.83
+step: 4070, Progress: 11%, Train Avg NLLLoss: 0.1005, Teacher_r: 0.83
+step: 4080, Progress: 11%, Train Avg NLLLoss: 0.1777, Teacher_r: 0.83
+step: 4090, Progress: 11%, Train Avg NLLLoss: 0.0649, Teacher_r: 0.83
+step: 4100, Progress: 12%, Train Avg NLLLoss: 0.1033, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 12, Step: 4104, train_acc: 0.23, validate_acc: 0.24, test_acc: 0.23
+step: 4110, Progress: 12%, Train Avg NLLLoss: 0.2642, Teacher_r: 0.83
+step: 4120, Progress: 12%, Train Avg NLLLoss: 0.1474, Teacher_r: 0.83
+step: 4130, Progress: 12%, Train Avg NLLLoss: 0.1340, Teacher_r: 0.83
+step: 4140, Progress: 12%, Train Avg NLLLoss: 0.1205, Teacher_r: 0.83
+step: 4150, Progress: 12%, Train Avg NLLLoss: 0.0986, Teacher_r: 0.83
+step: 4160, Progress: 12%, Train Avg NLLLoss: 0.0824, Teacher_r: 0.83
+step: 4170, Progress: 12%, Train Avg NLLLoss: 0.0959, Teacher_r: 0.83
+step: 4180, Progress: 12%, Train Avg NLLLoss: 0.0916, Teacher_r: 0.83
+step: 4190, Progress: 12%, Train Avg NLLLoss: 0.0714, Teacher_r: 0.83
+step: 4200, Progress: 12%, Train Avg NLLLoss: 0.0787, Teacher_r: 0.83
+step: 4210, Progress: 12%, Train Avg NLLLoss: 0.0763, Teacher_r: 0.83
+step: 4220, Progress: 12%, Train Avg NLLLoss: 0.0870, Teacher_r: 0.83
+step: 4230, Progress: 12%, Train Avg NLLLoss: 0.0715, Teacher_r: 0.83
+step: 4240, Progress: 12%, Train Avg NLLLoss: 0.0876, Teacher_r: 0.83
+step: 4250, Progress: 12%, Train Avg NLLLoss: 0.0677, Teacher_r: 0.83
+step: 4260, Progress: 12%, Train Avg NLLLoss: 0.0884, Teacher_r: 0.83
+step: 4270, Progress: 12%, Train Avg NLLLoss: 0.0877, Teacher_r: 0.83
+step: 4280, Progress: 12%, Train Avg NLLLoss: 0.0766, Teacher_r: 0.83
+step: 4290, Progress: 12%, Train Avg NLLLoss: 0.0799, Teacher_r: 0.83
+step: 4300, Progress: 12%, Train Avg NLLLoss: 0.0841, Teacher_r: 0.83
+step: 4310, Progress: 12%, Train Avg NLLLoss: 0.0820, Teacher_r: 0.83
+step: 4320, Progress: 12%, Train Avg NLLLoss: 0.0700, Teacher_r: 0.83
+step: 4330, Progress: 12%, Train Avg NLLLoss: 0.0890, Teacher_r: 0.83
+step: 4340, Progress: 12%, Train Avg NLLLoss: 0.0827, Teacher_r: 0.83
+step: 4350, Progress: 12%, Train Avg NLLLoss: 0.0664, Teacher_r: 0.83
+step: 4360, Progress: 12%, Train Avg NLLLoss: 0.0507, Teacher_r: 0.83
+step: 4370, Progress: 12%, Train Avg NLLLoss: 0.0721, Teacher_r: 0.83
+step: 4380, Progress: 12%, Train Avg NLLLoss: 0.0586, Teacher_r: 0.83
+step: 4390, Progress: 12%, Train Avg NLLLoss: 0.1338, Teacher_r: 0.83
+step: 4400, Progress: 12%, Train Avg NLLLoss: 0.1373, Teacher_r: 0.83
+step: 4410, Progress: 12%, Train Avg NLLLoss: 0.0600, Teacher_r: 0.83
+step: 4420, Progress: 12%, Train Avg NLLLoss: 0.1158, Teacher_r: 0.83
+step: 4430, Progress: 12%, Train Avg NLLLoss: 0.0403, Teacher_r: 0.83
+step: 4440, Progress: 13%, Train Avg NLLLoss: 0.0745, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 13, Step: 4446, train_acc: 0.26, validate_acc: 0.25, test_acc: 0.25
+step: 4450, Progress: 13%, Train Avg NLLLoss: 0.1840, Teacher_r: 0.83
+step: 4460, Progress: 13%, Train Avg NLLLoss: 0.1491, Teacher_r: 0.83
+step: 4470, Progress: 13%, Train Avg NLLLoss: 0.1257, Teacher_r: 0.83
+step: 4480, Progress: 13%, Train Avg NLLLoss: 0.1532, Teacher_r: 0.83
+step: 4490, Progress: 13%, Train Avg NLLLoss: 0.0929, Teacher_r: 0.83
+step: 4500, Progress: 13%, Train Avg NLLLoss: 0.0890, Teacher_r: 0.83
+step: 4510, Progress: 13%, Train Avg NLLLoss: 0.0877, Teacher_r: 0.83
+step: 4520, Progress: 13%, Train Avg NLLLoss: 0.0796, Teacher_r: 0.83
+step: 4530, Progress: 13%, Train Avg NLLLoss: 0.0687, Teacher_r: 0.83
+step: 4540, Progress: 13%, Train Avg NLLLoss: 0.0722, Teacher_r: 0.83
+step: 4550, Progress: 13%, Train Avg NLLLoss: 0.0700, Teacher_r: 0.83
+step: 4560, Progress: 13%, Train Avg NLLLoss: 0.0678, Teacher_r: 0.83
+step: 4570, Progress: 13%, Train Avg NLLLoss: 0.0717, Teacher_r: 0.83
+step: 4580, Progress: 13%, Train Avg NLLLoss: 0.0679, Teacher_r: 0.83
+step: 4590, Progress: 13%, Train Avg NLLLoss: 0.0940, Teacher_r: 0.83
+step: 4600, Progress: 13%, Train Avg NLLLoss: 0.0862, Teacher_r: 0.83
+step: 4610, Progress: 13%, Train Avg NLLLoss: 0.0772, Teacher_r: 0.83
+step: 4620, Progress: 13%, Train Avg NLLLoss: 0.0676, Teacher_r: 0.83
+step: 4630, Progress: 13%, Train Avg NLLLoss: 0.0712, Teacher_r: 0.83
+step: 4640, Progress: 13%, Train Avg NLLLoss: 0.0912, Teacher_r: 0.83
+step: 4650, Progress: 13%, Train Avg NLLLoss: 0.0760, Teacher_r: 0.83
+step: 4660, Progress: 13%, Train Avg NLLLoss: 0.0701, Teacher_r: 0.83
+step: 4670, Progress: 13%, Train Avg NLLLoss: 0.0664, Teacher_r: 0.83
+step: 4680, Progress: 13%, Train Avg NLLLoss: 0.0613, Teacher_r: 0.83
+step: 4690, Progress: 13%, Train Avg NLLLoss: 0.0647, Teacher_r: 0.83
+step: 4700, Progress: 13%, Train Avg NLLLoss: 0.0420, Teacher_r: 0.83
+step: 4710, Progress: 13%, Train Avg NLLLoss: 0.0510, Teacher_r: 0.83
+step: 4720, Progress: 13%, Train Avg NLLLoss: 0.0355, Teacher_r: 0.83
+step: 4730, Progress: 13%, Train Avg NLLLoss: 0.1466, Teacher_r: 0.83
+step: 4740, Progress: 13%, Train Avg NLLLoss: 0.0798, Teacher_r: 0.83
+step: 4750, Progress: 13%, Train Avg NLLLoss: 0.0708, Teacher_r: 0.83
+step: 4760, Progress: 13%, Train Avg NLLLoss: 0.0891, Teacher_r: 0.83
+step: 4770, Progress: 13%, Train Avg NLLLoss: 0.0349, Teacher_r: 0.83
+step: 4780, Progress: 14%, Train Avg NLLLoss: 0.0455, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 14, Step: 4788, train_acc: 0.29, validate_acc: 0.28, test_acc: 0.28
+step: 4790, Progress: 14%, Train Avg NLLLoss: 0.1348, Teacher_r: 0.83
+step: 4800, Progress: 14%, Train Avg NLLLoss: 0.1254, Teacher_r: 0.83
+step: 4810, Progress: 14%, Train Avg NLLLoss: 0.1115, Teacher_r: 0.83
+step: 4820, Progress: 14%, Train Avg NLLLoss: 0.0891, Teacher_r: 0.83
+step: 4830, Progress: 14%, Train Avg NLLLoss: 0.1030, Teacher_r: 0.83
+step: 4840, Progress: 14%, Train Avg NLLLoss: 0.0702, Teacher_r: 0.83
+step: 4850, Progress: 14%, Train Avg NLLLoss: 0.0810, Teacher_r: 0.83
+step: 4860, Progress: 14%, Train Avg NLLLoss: 0.0691, Teacher_r: 0.83
+step: 4870, Progress: 14%, Train Avg NLLLoss: 0.0592, Teacher_r: 0.83
+step: 4880, Progress: 14%, Train Avg NLLLoss: 0.0675, Teacher_r: 0.83
+step: 4890, Progress: 14%, Train Avg NLLLoss: 0.0547, Teacher_r: 0.83
+step: 4900, Progress: 14%, Train Avg NLLLoss: 0.0589, Teacher_r: 0.83
+step: 4910, Progress: 14%, Train Avg NLLLoss: 0.0821, Teacher_r: 0.83
+step: 4920, Progress: 14%, Train Avg NLLLoss: 0.0546, Teacher_r: 0.83
+step: 4930, Progress: 14%, Train Avg NLLLoss: 0.0573, Teacher_r: 0.83
+step: 4940, Progress: 14%, Train Avg NLLLoss: 0.0649, Teacher_r: 0.83
+step: 4950, Progress: 14%, Train Avg NLLLoss: 0.0649, Teacher_r: 0.83
+step: 4960, Progress: 14%, Train Avg NLLLoss: 0.0529, Teacher_r: 0.83
+step: 4970, Progress: 14%, Train Avg NLLLoss: 0.0729, Teacher_r: 0.83
+step: 4980, Progress: 14%, Train Avg NLLLoss: 0.0653, Teacher_r: 0.83
+step: 4990, Progress: 14%, Train Avg NLLLoss: 0.0615, Teacher_r: 0.83
+step: 5000, Progress: 14%, Train Avg NLLLoss: 0.0633, Teacher_r: 0.83
+step: 5010, Progress: 14%, Train Avg NLLLoss: 0.0434, Teacher_r: 0.83
+step: 5020, Progress: 14%, Train Avg NLLLoss: 0.0629, Teacher_r: 0.83
+step: 5030, Progress: 14%, Train Avg NLLLoss: 0.0500, Teacher_r: 0.83
+step: 5040, Progress: 14%, Train Avg NLLLoss: 0.0275, Teacher_r: 0.83
+step: 5050, Progress: 14%, Train Avg NLLLoss: 0.0177, Teacher_r: 0.83
+step: 5060, Progress: 14%, Train Avg NLLLoss: 0.0298, Teacher_r: 0.83
+step: 5070, Progress: 14%, Train Avg NLLLoss: 0.0259, Teacher_r: 0.83
+step: 5080, Progress: 14%, Train Avg NLLLoss: 0.0455, Teacher_r: 0.83
+step: 5090, Progress: 14%, Train Avg NLLLoss: 0.0491, Teacher_r: 0.83
+step: 5100, Progress: 14%, Train Avg NLLLoss: 0.0883, Teacher_r: 0.83
+step: 5110, Progress: 14%, Train Avg NLLLoss: 0.0553, Teacher_r: 0.83
+step: 5120, Progress: 14%, Train Avg NLLLoss: 0.0378, Teacher_r: 0.83
+step: 5130, Progress: 15%, Train Avg NLLLoss: 0.0288, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 15, Step: 5130, train_acc: 0.42, validate_acc: 0.35, test_acc: 0.35
+step: 5140, Progress: 15%, Train Avg NLLLoss: 0.1691, Teacher_r: 0.83
+step: 5150, Progress: 15%, Train Avg NLLLoss: 0.1091, Teacher_r: 0.83
+step: 5160, Progress: 15%, Train Avg NLLLoss: 0.1059, Teacher_r: 0.83
+step: 5170, Progress: 15%, Train Avg NLLLoss: 0.0856, Teacher_r: 0.83
+step: 5180, Progress: 15%, Train Avg NLLLoss: 0.0645, Teacher_r: 0.83
+step: 5190, Progress: 15%, Train Avg NLLLoss: 0.0618, Teacher_r: 0.83
+step: 5200, Progress: 15%, Train Avg NLLLoss: 0.0539, Teacher_r: 0.83
+step: 5210, Progress: 15%, Train Avg NLLLoss: 0.0505, Teacher_r: 0.83
+step: 5220, Progress: 15%, Train Avg NLLLoss: 0.0516, Teacher_r: 0.83
+step: 5230, Progress: 15%, Train Avg NLLLoss: 0.0671, Teacher_r: 0.83
+step: 5240, Progress: 15%, Train Avg NLLLoss: 0.0694, Teacher_r: 0.83
+step: 5250, Progress: 15%, Train Avg NLLLoss: 0.0535, Teacher_r: 0.83
+step: 5260, Progress: 15%, Train Avg NLLLoss: 0.0467, Teacher_r: 0.83
+step: 5270, Progress: 15%, Train Avg NLLLoss: 0.0496, Teacher_r: 0.83
+step: 5280, Progress: 15%, Train Avg NLLLoss: 0.0566, Teacher_r: 0.83
+step: 5290, Progress: 15%, Train Avg NLLLoss: 0.0559, Teacher_r: 0.83
+step: 5300, Progress: 15%, Train Avg NLLLoss: 0.0536, Teacher_r: 0.83
+step: 5310, Progress: 15%, Train Avg NLLLoss: 0.0684, Teacher_r: 0.83
+step: 5320, Progress: 15%, Train Avg NLLLoss: 0.0627, Teacher_r: 0.83
+step: 5330, Progress: 15%, Train Avg NLLLoss: 0.0555, Teacher_r: 0.83
+step: 5340, Progress: 15%, Train Avg NLLLoss: 0.0543, Teacher_r: 0.83
+step: 5350, Progress: 15%, Train Avg NLLLoss: 0.0476, Teacher_r: 0.83
+step: 5360, Progress: 15%, Train Avg NLLLoss: 0.0527, Teacher_r: 0.83
+step: 5370, Progress: 15%, Train Avg NLLLoss: 0.0478, Teacher_r: 0.83
+step: 5380, Progress: 15%, Train Avg NLLLoss: 0.0308, Teacher_r: 0.83
+step: 5390, Progress: 15%, Train Avg NLLLoss: 0.0099, Teacher_r: 0.83
+step: 5400, Progress: 15%, Train Avg NLLLoss: 0.0230, Teacher_r: 0.83
+step: 5410, Progress: 15%, Train Avg NLLLoss: 0.0143, Teacher_r: 0.83
+step: 5420, Progress: 15%, Train Avg NLLLoss: 0.0317, Teacher_r: 0.83
+step: 5430, Progress: 15%, Train Avg NLLLoss: 0.0245, Teacher_r: 0.83
+step: 5440, Progress: 15%, Train Avg NLLLoss: 0.0410, Teacher_r: 0.83
+step: 5450, Progress: 15%, Train Avg NLLLoss: 0.0226, Teacher_r: 0.83
+step: 5460, Progress: 15%, Train Avg NLLLoss: 0.0135, Teacher_r: 0.83
+step: 5470, Progress: 16%, Train Avg NLLLoss: 0.0172, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 16, Step: 5472, train_acc: 0.43, validate_acc: 0.37, test_acc: 0.37
+step: 5480, Progress: 16%, Train Avg NLLLoss: 0.0807, Teacher_r: 0.83
+step: 5490, Progress: 16%, Train Avg NLLLoss: 0.0777, Teacher_r: 0.83
+step: 5500, Progress: 16%, Train Avg NLLLoss: 0.0727, Teacher_r: 0.83
+step: 5510, Progress: 16%, Train Avg NLLLoss: 0.0888, Teacher_r: 0.83
+step: 5520, Progress: 16%, Train Avg NLLLoss: 0.0547, Teacher_r: 0.83
+step: 5530, Progress: 16%, Train Avg NLLLoss: 0.0522, Teacher_r: 0.83
+step: 5540, Progress: 16%, Train Avg NLLLoss: 0.0534, Teacher_r: 0.83
+step: 5550, Progress: 16%, Train Avg NLLLoss: 0.0493, Teacher_r: 0.83
+step: 5560, Progress: 16%, Train Avg NLLLoss: 0.0565, Teacher_r: 0.83
+step: 5570, Progress: 16%, Train Avg NLLLoss: 0.0602, Teacher_r: 0.83
+step: 5580, Progress: 16%, Train Avg NLLLoss: 0.0562, Teacher_r: 0.83
+step: 5590, Progress: 16%, Train Avg NLLLoss: 0.0386, Teacher_r: 0.83
+step: 5600, Progress: 16%, Train Avg NLLLoss: 0.0469, Teacher_r: 0.83
+step: 5610, Progress: 16%, Train Avg NLLLoss: 0.0467, Teacher_r: 0.83
+step: 5620, Progress: 16%, Train Avg NLLLoss: 0.0661, Teacher_r: 0.83
+step: 5630, Progress: 16%, Train Avg NLLLoss: 0.0605, Teacher_r: 0.83
+step: 5640, Progress: 16%, Train Avg NLLLoss: 0.0486, Teacher_r: 0.83
+step: 5650, Progress: 16%, Train Avg NLLLoss: 0.0566, Teacher_r: 0.83
+step: 5660, Progress: 16%, Train Avg NLLLoss: 0.0416, Teacher_r: 0.83
+step: 5670, Progress: 16%, Train Avg NLLLoss: 0.0527, Teacher_r: 0.83
+step: 5680, Progress: 16%, Train Avg NLLLoss: 0.0380, Teacher_r: 0.83
+step: 5690, Progress: 16%, Train Avg NLLLoss: 0.0439, Teacher_r: 0.83
+step: 5700, Progress: 16%, Train Avg NLLLoss: 0.0428, Teacher_r: 0.83
+step: 5710, Progress: 16%, Train Avg NLLLoss: 0.0457, Teacher_r: 0.83
+step: 5720, Progress: 16%, Train Avg NLLLoss: 0.0365, Teacher_r: 0.83
+step: 5730, Progress: 16%, Train Avg NLLLoss: 0.0076, Teacher_r: 0.83
+step: 5740, Progress: 16%, Train Avg NLLLoss: 0.0182, Teacher_r: 0.83
+step: 5750, Progress: 16%, Train Avg NLLLoss: 0.0061, Teacher_r: 0.83
+step: 5760, Progress: 16%, Train Avg NLLLoss: 0.0128, Teacher_r: 0.83
+step: 5770, Progress: 16%, Train Avg NLLLoss: 0.0134, Teacher_r: 0.83
+step: 5780, Progress: 16%, Train Avg NLLLoss: 0.0027, Teacher_r: 0.83
+step: 5790, Progress: 16%, Train Avg NLLLoss: 0.0265, Teacher_r: 0.83
+step: 5800, Progress: 16%, Train Avg NLLLoss: 0.0096, Teacher_r: 0.83
+step: 5810, Progress: 17%, Train Avg NLLLoss: 0.0042, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 17, Step: 5814, train_acc: 0.52, validate_acc: 0.45, test_acc: 0.44
+step: 5820, Progress: 17%, Train Avg NLLLoss: 0.0925, Teacher_r: 0.83
+step: 5830, Progress: 17%, Train Avg NLLLoss: 0.0813, Teacher_r: 0.83
+step: 5840, Progress: 17%, Train Avg NLLLoss: 0.0667, Teacher_r: 0.83
+step: 5850, Progress: 17%, Train Avg NLLLoss: 0.0623, Teacher_r: 0.83
+step: 5860, Progress: 17%, Train Avg NLLLoss: 0.0538, Teacher_r: 0.83
+step: 5870, Progress: 17%, Train Avg NLLLoss: 0.0428, Teacher_r: 0.83
+step: 5880, Progress: 17%, Train Avg NLLLoss: 0.0481, Teacher_r: 0.83
+step: 5890, Progress: 17%, Train Avg NLLLoss: 0.0408, Teacher_r: 0.83
+step: 5900, Progress: 17%, Train Avg NLLLoss: 0.0364, Teacher_r: 0.83
+step: 5910, Progress: 17%, Train Avg NLLLoss: 0.0529, Teacher_r: 0.83
+step: 5920, Progress: 17%, Train Avg NLLLoss: 0.0460, Teacher_r: 0.83
+step: 5930, Progress: 17%, Train Avg NLLLoss: 0.0478, Teacher_r: 0.83
+step: 5940, Progress: 17%, Train Avg NLLLoss: 0.0355, Teacher_r: 0.83
+step: 5950, Progress: 17%, Train Avg NLLLoss: 0.0433, Teacher_r: 0.83
+step: 5960, Progress: 17%, Train Avg NLLLoss: 0.0384, Teacher_r: 0.83
+step: 5970, Progress: 17%, Train Avg NLLLoss: 0.0498, Teacher_r: 0.83
+step: 5980, Progress: 17%, Train Avg NLLLoss: 0.0416, Teacher_r: 0.83
+step: 5990, Progress: 17%, Train Avg NLLLoss: 0.0385, Teacher_r: 0.83
+step: 6000, Progress: 17%, Train Avg NLLLoss: 0.0432, Teacher_r: 0.83
+step: 6010, Progress: 17%, Train Avg NLLLoss: 0.0436, Teacher_r: 0.83
+step: 6020, Progress: 17%, Train Avg NLLLoss: 0.0411, Teacher_r: 0.83
+step: 6030, Progress: 17%, Train Avg NLLLoss: 0.0288, Teacher_r: 0.83
+step: 6040, Progress: 17%, Train Avg NLLLoss: 0.0398, Teacher_r: 0.83
+step: 6050, Progress: 17%, Train Avg NLLLoss: 0.0422, Teacher_r: 0.83
+step: 6060, Progress: 17%, Train Avg NLLLoss: 0.0460, Teacher_r: 0.83
+step: 6070, Progress: 17%, Train Avg NLLLoss: 0.0192, Teacher_r: 0.83
+step: 6080, Progress: 17%, Train Avg NLLLoss: 0.0086, Teacher_r: 0.83
+step: 6090, Progress: 17%, Train Avg NLLLoss: 0.0021, Teacher_r: 0.83
+step: 6100, Progress: 17%, Train Avg NLLLoss: 0.0211, Teacher_r: 0.83
+step: 6110, Progress: 17%, Train Avg NLLLoss: 0.0085, Teacher_r: 0.83
+step: 6120, Progress: 17%, Train Avg NLLLoss: 0.0014, Teacher_r: 0.83
+step: 6130, Progress: 17%, Train Avg NLLLoss: 0.0115, Teacher_r: 0.83
+step: 6140, Progress: 17%, Train Avg NLLLoss: 0.0087, Teacher_r: 0.83
+step: 6150, Progress: 18%, Train Avg NLLLoss: 0.0041, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 18, Step: 6156, train_acc: 0.46, validate_acc: 0.40, test_acc: 0.41
+step: 6160, Progress: 18%, Train Avg NLLLoss: 0.0439, Teacher_r: 0.83
+step: 6170, Progress: 18%, Train Avg NLLLoss: 0.0552, Teacher_r: 0.83
+step: 6180, Progress: 18%, Train Avg NLLLoss: 0.0848, Teacher_r: 0.83
+step: 6190, Progress: 18%, Train Avg NLLLoss: 0.0597, Teacher_r: 0.83
+step: 6200, Progress: 18%, Train Avg NLLLoss: 0.0655, Teacher_r: 0.83
+step: 6210, Progress: 18%, Train Avg NLLLoss: 0.0452, Teacher_r: 0.83
+step: 6220, Progress: 18%, Train Avg NLLLoss: 0.0437, Teacher_r: 0.83
+step: 6230, Progress: 18%, Train Avg NLLLoss: 0.0456, Teacher_r: 0.83
+step: 6240, Progress: 18%, Train Avg NLLLoss: 0.0442, Teacher_r: 0.83
+step: 6250, Progress: 18%, Train Avg NLLLoss: 0.0439, Teacher_r: 0.83
+step: 6260, Progress: 18%, Train Avg NLLLoss: 0.0359, Teacher_r: 0.83
+step: 6270, Progress: 18%, Train Avg NLLLoss: 0.0412, Teacher_r: 0.83
+step: 6280, Progress: 18%, Train Avg NLLLoss: 0.0350, Teacher_r: 0.83
+step: 6290, Progress: 18%, Train Avg NLLLoss: 0.0412, Teacher_r: 0.83
+step: 6300, Progress: 18%, Train Avg NLLLoss: 0.0420, Teacher_r: 0.83
+step: 6310, Progress: 18%, Train Avg NLLLoss: 0.0362, Teacher_r: 0.83
+step: 6320, Progress: 18%, Train Avg NLLLoss: 0.0423, Teacher_r: 0.83
+step: 6330, Progress: 18%, Train Avg NLLLoss: 0.0288, Teacher_r: 0.83
+step: 6340, Progress: 18%, Train Avg NLLLoss: 0.0421, Teacher_r: 0.83
+step: 6350, Progress: 18%, Train Avg NLLLoss: 0.0394, Teacher_r: 0.83
+step: 6360, Progress: 18%, Train Avg NLLLoss: 0.0364, Teacher_r: 0.83
+step: 6370, Progress: 18%, Train Avg NLLLoss: 0.0312, Teacher_r: 0.83
+step: 6380, Progress: 18%, Train Avg NLLLoss: 0.0445, Teacher_r: 0.83
+step: 6390, Progress: 18%, Train Avg NLLLoss: 0.0258, Teacher_r: 0.83
+step: 6400, Progress: 18%, Train Avg NLLLoss: 0.0323, Teacher_r: 0.83
+step: 6410, Progress: 18%, Train Avg NLLLoss: 0.0053, Teacher_r: 0.83
+step: 6420, Progress: 18%, Train Avg NLLLoss: 0.0110, Teacher_r: 0.83
+step: 6430, Progress: 18%, Train Avg NLLLoss: 0.0058, Teacher_r: 0.83
+step: 6440, Progress: 18%, Train Avg NLLLoss: 0.0086, Teacher_r: 0.83
+step: 6450, Progress: 18%, Train Avg NLLLoss: 0.0241, Teacher_r: 0.83
+step: 6460, Progress: 18%, Train Avg NLLLoss: 0.0008, Teacher_r: 0.83
+step: 6470, Progress: 18%, Train Avg NLLLoss: 0.0111, Teacher_r: 0.83
+step: 6480, Progress: 18%, Train Avg NLLLoss: 0.0098, Teacher_r: 0.83
+step: 6490, Progress: 19%, Train Avg NLLLoss: 0.0012, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 19, Step: 6498, train_acc: 0.56, validate_acc: 0.45, test_acc: 0.45
+step: 6500, Progress: 19%, Train Avg NLLLoss: 0.0307, Teacher_r: 0.83
+step: 6510, Progress: 19%, Train Avg NLLLoss: 0.0570, Teacher_r: 0.83
+step: 6520, Progress: 19%, Train Avg NLLLoss: 0.0580, Teacher_r: 0.83
+step: 6530, Progress: 19%, Train Avg NLLLoss: 0.0422, Teacher_r: 0.83
+step: 6540, Progress: 19%, Train Avg NLLLoss: 0.0514, Teacher_r: 0.83
+step: 6550, Progress: 19%, Train Avg NLLLoss: 0.0395, Teacher_r: 0.83
+step: 6560, Progress: 19%, Train Avg NLLLoss: 0.0295, Teacher_r: 0.83
+step: 6570, Progress: 19%, Train Avg NLLLoss: 0.0339, Teacher_r: 0.83
+step: 6580, Progress: 19%, Train Avg NLLLoss: 0.0313, Teacher_r: 0.83
+step: 6590, Progress: 19%, Train Avg NLLLoss: 0.0389, Teacher_r: 0.83
+step: 6600, Progress: 19%, Train Avg NLLLoss: 0.0361, Teacher_r: 0.83
+step: 6610, Progress: 19%, Train Avg NLLLoss: 0.0341, Teacher_r: 0.83
+step: 6620, Progress: 19%, Train Avg NLLLoss: 0.0322, Teacher_r: 0.83
+step: 6630, Progress: 19%, Train Avg NLLLoss: 0.0331, Teacher_r: 0.83
+step: 6640, Progress: 19%, Train Avg NLLLoss: 0.0289, Teacher_r: 0.83
+step: 6650, Progress: 19%, Train Avg NLLLoss: 0.0470, Teacher_r: 0.83
+step: 6660, Progress: 19%, Train Avg NLLLoss: 0.0332, Teacher_r: 0.83
+step: 6670, Progress: 19%, Train Avg NLLLoss: 0.0255, Teacher_r: 0.83
+step: 6680, Progress: 19%, Train Avg NLLLoss: 0.0268, Teacher_r: 0.83
+step: 6690, Progress: 19%, Train Avg NLLLoss: 0.0364, Teacher_r: 0.83
+step: 6700, Progress: 19%, Train Avg NLLLoss: 0.0225, Teacher_r: 0.83
+step: 6710, Progress: 19%, Train Avg NLLLoss: 0.0300, Teacher_r: 0.83
+step: 6720, Progress: 19%, Train Avg NLLLoss: 0.0303, Teacher_r: 0.83
+step: 6730, Progress: 19%, Train Avg NLLLoss: 0.0222, Teacher_r: 0.83
+step: 6740, Progress: 19%, Train Avg NLLLoss: 0.0346, Teacher_r: 0.83
+step: 6750, Progress: 19%, Train Avg NLLLoss: 0.0057, Teacher_r: 0.83
+step: 6760, Progress: 19%, Train Avg NLLLoss: 0.0024, Teacher_r: 0.83
+step: 6770, Progress: 19%, Train Avg NLLLoss: 0.0336, Teacher_r: 0.83
+step: 6780, Progress: 19%, Train Avg NLLLoss: 0.0074, Teacher_r: 0.83
+step: 6790, Progress: 19%, Train Avg NLLLoss: 0.0091, Teacher_r: 0.83
+step: 6800, Progress: 19%, Train Avg NLLLoss: 0.0090, Teacher_r: 0.83
+step: 6810, Progress: 19%, Train Avg NLLLoss: 0.0082, Teacher_r: 0.83
+step: 6820, Progress: 19%, Train Avg NLLLoss: 0.0030, Teacher_r: 0.83
+step: 6830, Progress: 20%, Train Avg NLLLoss: 0.0225, Teacher_r: 0.83
+step: 6840, Progress: 20%, Train Avg NLLLoss: 0.0025, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 20, Step: 6840, train_acc: 0.58, validate_acc: 0.46, test_acc: 0.47
+step: 6850, Progress: 20%, Train Avg NLLLoss: 0.0659, Teacher_r: 0.83
+step: 6860, Progress: 20%, Train Avg NLLLoss: 0.0412, Teacher_r: 0.83
+step: 6870, Progress: 20%, Train Avg NLLLoss: 0.0394, Teacher_r: 0.83
+step: 6880, Progress: 20%, Train Avg NLLLoss: 0.0394, Teacher_r: 0.83
+step: 6890, Progress: 20%, Train Avg NLLLoss: 0.0475, Teacher_r: 0.83
+step: 6900, Progress: 20%, Train Avg NLLLoss: 0.0267, Teacher_r: 0.83
+step: 6910, Progress: 20%, Train Avg NLLLoss: 0.0382, Teacher_r: 0.83
+step: 6920, Progress: 20%, Train Avg NLLLoss: 0.0257, Teacher_r: 0.83
+step: 6930, Progress: 20%, Train Avg NLLLoss: 0.0304, Teacher_r: 0.83
+step: 6940, Progress: 20%, Train Avg NLLLoss: 0.0234, Teacher_r: 0.83
+step: 6950, Progress: 20%, Train Avg NLLLoss: 0.0299, Teacher_r: 0.83
+step: 6960, Progress: 20%, Train Avg NLLLoss: 0.0257, Teacher_r: 0.83
+step: 6970, Progress: 20%, Train Avg NLLLoss: 0.0313, Teacher_r: 0.83
+step: 6980, Progress: 20%, Train Avg NLLLoss: 0.0290, Teacher_r: 0.83
+step: 6990, Progress: 20%, Train Avg NLLLoss: 0.0316, Teacher_r: 0.83
+step: 7000, Progress: 20%, Train Avg NLLLoss: 0.0288, Teacher_r: 0.83
+step: 7010, Progress: 20%, Train Avg NLLLoss: 0.0275, Teacher_r: 0.83
+step: 7020, Progress: 20%, Train Avg NLLLoss: 0.0286, Teacher_r: 0.83
+step: 7030, Progress: 20%, Train Avg NLLLoss: 0.0320, Teacher_r: 0.83
+step: 7040, Progress: 20%, Train Avg NLLLoss: 0.0225, Teacher_r: 0.83
+step: 7050, Progress: 20%, Train Avg NLLLoss: 0.0393, Teacher_r: 0.83
+step: 7060, Progress: 20%, Train Avg NLLLoss: 0.0225, Teacher_r: 0.83
+step: 7070, Progress: 20%, Train Avg NLLLoss: 0.0373, Teacher_r: 0.83
+step: 7080, Progress: 20%, Train Avg NLLLoss: 0.0330, Teacher_r: 0.83
+step: 7090, Progress: 20%, Train Avg NLLLoss: 0.0188, Teacher_r: 0.83
+step: 7100, Progress: 20%, Train Avg NLLLoss: 0.0026, Teacher_r: 0.83
+step: 7110, Progress: 20%, Train Avg NLLLoss: 0.0247, Teacher_r: 0.83
+step: 7120, Progress: 20%, Train Avg NLLLoss: 0.0060, Teacher_r: 0.83
+step: 7130, Progress: 20%, Train Avg NLLLoss: 0.0224, Teacher_r: 0.83
+step: 7140, Progress: 20%, Train Avg NLLLoss: 0.0187, Teacher_r: 0.83
+step: 7150, Progress: 20%, Train Avg NLLLoss: 0.0042, Teacher_r: 0.83
+step: 7160, Progress: 20%, Train Avg NLLLoss: 0.0040, Teacher_r: 0.83
+step: 7170, Progress: 21%, Train Avg NLLLoss: 0.0101, Teacher_r: 0.83
+step: 7180, Progress: 21%, Train Avg NLLLoss: 0.0013, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 21, Step: 7182, train_acc: 0.56, validate_acc: 0.46, test_acc: 0.46
+step: 7190, Progress: 21%, Train Avg NLLLoss: 0.0664, Teacher_r: 0.83
+step: 7200, Progress: 21%, Train Avg NLLLoss: 0.0505, Teacher_r: 0.83
+step: 7210, Progress: 21%, Train Avg NLLLoss: 0.0582, Teacher_r: 0.83
+step: 7220, Progress: 21%, Train Avg NLLLoss: 0.0490, Teacher_r: 0.83
+step: 7240, Progress: 21%, Train Avg NLLLoss: 0.0255, Teacher_r: 0.83
+step: 7250, Progress: 21%, Train Avg NLLLoss: 0.0237, Teacher_r: 0.83
+step: 7260, Progress: 21%, Train Avg NLLLoss: 0.0274, Teacher_r: 0.83
+step: 7270, Progress: 21%, Train Avg NLLLoss: 0.0281, Teacher_r: 0.83
+step: 7280, Progress: 21%, Train Avg NLLLoss: 0.0375, Teacher_r: 0.83
+step: 7290, Progress: 21%, Train Avg NLLLoss: 0.0258, Teacher_r: 0.83
+step: 7300, Progress: 21%, Train Avg NLLLoss: 0.0237, Teacher_r: 0.83
+step: 7310, Progress: 21%, Train Avg NLLLoss: 0.0286, Teacher_r: 0.83
+step: 7320, Progress: 21%, Train Avg NLLLoss: 0.0214, Teacher_r: 0.83
+step: 7330, Progress: 21%, Train Avg NLLLoss: 0.0255, Teacher_r: 0.83
+step: 7340, Progress: 21%, Train Avg NLLLoss: 0.0320, Teacher_r: 0.83
+step: 7350, Progress: 21%, Train Avg NLLLoss: 0.0280, Teacher_r: 0.83
+step: 7360, Progress: 21%, Train Avg NLLLoss: 0.0270, Teacher_r: 0.83
+step: 7370, Progress: 21%, Train Avg NLLLoss: 0.0349, Teacher_r: 0.83
+step: 7380, Progress: 21%, Train Avg NLLLoss: 0.0290, Teacher_r: 0.83
+step: 7390, Progress: 21%, Train Avg NLLLoss: 0.0334, Teacher_r: 0.83
+step: 7400, Progress: 21%, Train Avg NLLLoss: 0.0263, Teacher_r: 0.83
+step: 7410, Progress: 21%, Train Avg NLLLoss: 0.0206, Teacher_r: 0.83
+step: 7420, Progress: 21%, Train Avg NLLLoss: 0.0166, Teacher_r: 0.83
+step: 7430, Progress: 21%, Train Avg NLLLoss: 0.0133, Teacher_r: 0.83
+step: 7440, Progress: 21%, Train Avg NLLLoss: 0.0158, Teacher_r: 0.83
+step: 7450, Progress: 21%, Train Avg NLLLoss: 0.1297, Teacher_r: 0.83
+step: 7460, Progress: 21%, Train Avg NLLLoss: 0.0048, Teacher_r: 0.83
+step: 7470, Progress: 21%, Train Avg NLLLoss: 0.0481, Teacher_r: 0.83
+step: 7480, Progress: 21%, Train Avg NLLLoss: 0.0216, Teacher_r: 0.83
+step: 7490, Progress: 21%, Train Avg NLLLoss: 0.0037, Teacher_r: 0.83
+step: 7500, Progress: 21%, Train Avg NLLLoss: 0.0149, Teacher_r: 0.83
+step: 7510, Progress: 21%, Train Avg NLLLoss: 0.0162, Teacher_r: 0.83
+step: 7520, Progress: 22%, Train Avg NLLLoss: 0.0128, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 22, Step: 7524, train_acc: 0.35, validate_acc: 0.31, test_acc: 0.31
+step: 7530, Progress: 22%, Train Avg NLLLoss: 0.0694, Teacher_r: 0.83
+step: 7540, Progress: 22%, Train Avg NLLLoss: 0.0662, Teacher_r: 0.83
+step: 7550, Progress: 22%, Train Avg NLLLoss: 0.0595, Teacher_r: 0.83
+step: 7560, Progress: 22%, Train Avg NLLLoss: 0.0408, Teacher_r: 0.83
+step: 7570, Progress: 22%, Train Avg NLLLoss: 0.0426, Teacher_r: 0.83
+step: 7580, Progress: 22%, Train Avg NLLLoss: 0.0309, Teacher_r: 0.83
+step: 7590, Progress: 22%, Train Avg NLLLoss: 0.0251, Teacher_r: 0.83
+step: 7600, Progress: 22%, Train Avg NLLLoss: 0.0351, Teacher_r: 0.83
+step: 7610, Progress: 22%, Train Avg NLLLoss: 0.0228, Teacher_r: 0.83
+step: 7620, Progress: 22%, Train Avg NLLLoss: 0.0266, Teacher_r: 0.83
+step: 7630, Progress: 22%, Train Avg NLLLoss: 0.0302, Teacher_r: 0.83
+step: 7640, Progress: 22%, Train Avg NLLLoss: 0.0293, Teacher_r: 0.83
+step: 7650, Progress: 22%, Train Avg NLLLoss: 0.0192, Teacher_r: 0.83
+step: 7660, Progress: 22%, Train Avg NLLLoss: 0.0301, Teacher_r: 0.83
+step: 7670, Progress: 22%, Train Avg NLLLoss: 0.0185, Teacher_r: 0.83
+step: 7680, Progress: 22%, Train Avg NLLLoss: 0.0235, Teacher_r: 0.83
+step: 7690, Progress: 22%, Train Avg NLLLoss: 0.0310, Teacher_r: 0.83
+step: 7700, Progress: 22%, Train Avg NLLLoss: 0.0243, Teacher_r: 0.83
+step: 7710, Progress: 22%, Train Avg NLLLoss: 0.0200, Teacher_r: 0.83
+step: 7720, Progress: 22%, Train Avg NLLLoss: 0.0254, Teacher_r: 0.83
+step: 7730, Progress: 22%, Train Avg NLLLoss: 0.0264, Teacher_r: 0.83
+step: 7740, Progress: 22%, Train Avg NLLLoss: 0.0171, Teacher_r: 0.83
+step: 7750, Progress: 22%, Train Avg NLLLoss: 0.0261, Teacher_r: 0.83
+step: 7760, Progress: 22%, Train Avg NLLLoss: 0.0201, Teacher_r: 0.83
+step: 7770, Progress: 22%, Train Avg NLLLoss: 0.0180, Teacher_r: 0.83
+step: 7780, Progress: 22%, Train Avg NLLLoss: 0.0010, Teacher_r: 0.83
+step: 7790, Progress: 22%, Train Avg NLLLoss: 0.0126, Teacher_r: 0.83
+step: 7800, Progress: 22%, Train Avg NLLLoss: 0.0175, Teacher_r: 0.83
+step: 7810, Progress: 22%, Train Avg NLLLoss: 0.0076, Teacher_r: 0.83
+step: 7820, Progress: 22%, Train Avg NLLLoss: 0.0169, Teacher_r: 0.83
+step: 7830, Progress: 22%, Train Avg NLLLoss: 0.0057, Teacher_r: 0.83
+step: 7840, Progress: 22%, Train Avg NLLLoss: 0.0059, Teacher_r: 0.83
+step: 7850, Progress: 22%, Train Avg NLLLoss: 0.0129, Teacher_r: 0.83
+step: 7860, Progress: 23%, Train Avg NLLLoss: 0.0098, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 23, Step: 7866, train_acc: 0.43, validate_acc: 0.35, test_acc: 0.35
+step: 7870, Progress: 23%, Train Avg NLLLoss: 0.0239, Teacher_r: 0.83
+step: 7880, Progress: 23%, Train Avg NLLLoss: 0.0478, Teacher_r: 0.83
+step: 7890, Progress: 23%, Train Avg NLLLoss: 0.0439, Teacher_r: 0.83
+step: 7900, Progress: 23%, Train Avg NLLLoss: 0.0420, Teacher_r: 0.83
+step: 7910, Progress: 23%, Train Avg NLLLoss: 0.0312, Teacher_r: 0.83
+step: 7920, Progress: 23%, Train Avg NLLLoss: 0.0222, Teacher_r: 0.83
+step: 7930, Progress: 23%, Train Avg NLLLoss: 0.0201, Teacher_r: 0.83
+step: 7940, Progress: 23%, Train Avg NLLLoss: 0.0254, Teacher_r: 0.83
+step: 7950, Progress: 23%, Train Avg NLLLoss: 0.0214, Teacher_r: 0.83
+step: 7960, Progress: 23%, Train Avg NLLLoss: 0.0213, Teacher_r: 0.83
+step: 7970, Progress: 23%, Train Avg NLLLoss: 0.0290, Teacher_r: 0.83
+step: 7980, Progress: 23%, Train Avg NLLLoss: 0.0249, Teacher_r: 0.83
+step: 7990, Progress: 23%, Train Avg NLLLoss: 0.0168, Teacher_r: 0.83
+step: 8000, Progress: 23%, Train Avg NLLLoss: 0.0255, Teacher_r: 0.83
+step: 8010, Progress: 23%, Train Avg NLLLoss: 0.0209, Teacher_r: 0.83
+step: 8020, Progress: 23%, Train Avg NLLLoss: 0.0190, Teacher_r: 0.83
+step: 8030, Progress: 23%, Train Avg NLLLoss: 0.0253, Teacher_r: 0.83
+step: 8040, Progress: 23%, Train Avg NLLLoss: 0.0252, Teacher_r: 0.83
+step: 8050, Progress: 23%, Train Avg NLLLoss: 0.0302, Teacher_r: 0.83
+step: 8060, Progress: 23%, Train Avg NLLLoss: 0.0186, Teacher_r: 0.83
+step: 8070, Progress: 23%, Train Avg NLLLoss: 0.0152, Teacher_r: 0.83
+step: 8080, Progress: 23%, Train Avg NLLLoss: 0.0218, Teacher_r: 0.83
+step: 8090, Progress: 23%, Train Avg NLLLoss: 0.0266, Teacher_r: 0.83
+step: 8100, Progress: 23%, Train Avg NLLLoss: 0.0173, Teacher_r: 0.83
+step: 8110, Progress: 23%, Train Avg NLLLoss: 0.0255, Teacher_r: 0.83
+step: 8120, Progress: 23%, Train Avg NLLLoss: 0.0071, Teacher_r: 0.83
+step: 8130, Progress: 23%, Train Avg NLLLoss: 0.0009, Teacher_r: 0.83
+step: 8140, Progress: 23%, Train Avg NLLLoss: 0.0080, Teacher_r: 0.83
+step: 8150, Progress: 23%, Train Avg NLLLoss: 0.0087, Teacher_r: 0.83
+step: 8160, Progress: 23%, Train Avg NLLLoss: 0.0327, Teacher_r: 0.83
+step: 8170, Progress: 23%, Train Avg NLLLoss: 0.0212, Teacher_r: 0.83
+step: 8180, Progress: 23%, Train Avg NLLLoss: 0.0120, Teacher_r: 0.83
+step: 8190, Progress: 23%, Train Avg NLLLoss: 0.0034, Teacher_r: 0.83
+step: 8200, Progress: 24%, Train Avg NLLLoss: 0.0035, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 24, Step: 8208, train_acc: 0.54, validate_acc: 0.45, test_acc: 0.44
+step: 8210, Progress: 24%, Train Avg NLLLoss: 0.0176, Teacher_r: 0.83
+step: 8220, Progress: 24%, Train Avg NLLLoss: 0.0547, Teacher_r: 0.83
+step: 8230, Progress: 24%, Train Avg NLLLoss: 0.0382, Teacher_r: 0.83
+step: 8240, Progress: 24%, Train Avg NLLLoss: 0.0248, Teacher_r: 0.83
+step: 8250, Progress: 24%, Train Avg NLLLoss: 0.0258, Teacher_r: 0.83
+step: 8260, Progress: 24%, Train Avg NLLLoss: 0.0213, Teacher_r: 0.83
+step: 8270, Progress: 24%, Train Avg NLLLoss: 0.0242, Teacher_r: 0.83
+step: 8280, Progress: 24%, Train Avg NLLLoss: 0.0221, Teacher_r: 0.83
+step: 8290, Progress: 24%, Train Avg NLLLoss: 0.0249, Teacher_r: 0.83
+step: 8300, Progress: 24%, Train Avg NLLLoss: 0.0320, Teacher_r: 0.83
+step: 8310, Progress: 24%, Train Avg NLLLoss: 0.0165, Teacher_r: 0.83
+step: 8320, Progress: 24%, Train Avg NLLLoss: 0.0222, Teacher_r: 0.83
+step: 8330, Progress: 24%, Train Avg NLLLoss: 0.0186, Teacher_r: 0.83
+step: 8340, Progress: 24%, Train Avg NLLLoss: 0.0205, Teacher_r: 0.83
+step: 8350, Progress: 24%, Train Avg NLLLoss: 0.0142, Teacher_r: 0.83
+step: 8360, Progress: 24%, Train Avg NLLLoss: 0.0215, Teacher_r: 0.83
+step: 8370, Progress: 24%, Train Avg NLLLoss: 0.0231, Teacher_r: 0.83
+step: 8380, Progress: 24%, Train Avg NLLLoss: 0.0188, Teacher_r: 0.83
+step: 8390, Progress: 24%, Train Avg NLLLoss: 0.0234, Teacher_r: 0.83
+step: 8400, Progress: 24%, Train Avg NLLLoss: 0.0205, Teacher_r: 0.83
+step: 8410, Progress: 24%, Train Avg NLLLoss: 0.0174, Teacher_r: 0.83
+step: 8420, Progress: 24%, Train Avg NLLLoss: 0.0136, Teacher_r: 0.83
+step: 8430, Progress: 24%, Train Avg NLLLoss: 0.0176, Teacher_r: 0.83
+step: 8440, Progress: 24%, Train Avg NLLLoss: 0.0141, Teacher_r: 0.83
+step: 8450, Progress: 24%, Train Avg NLLLoss: 0.0219, Teacher_r: 0.83
+step: 8460, Progress: 24%, Train Avg NLLLoss: 0.0017, Teacher_r: 0.83
+step: 8470, Progress: 24%, Train Avg NLLLoss: 0.0017, Teacher_r: 0.83
+step: 8480, Progress: 24%, Train Avg NLLLoss: 0.0007, Teacher_r: 0.83
+step: 8490, Progress: 24%, Train Avg NLLLoss: 0.0009, Teacher_r: 0.83
+step: 8500, Progress: 24%, Train Avg NLLLoss: 0.0087, Teacher_r: 0.83
+step: 8510, Progress: 24%, Train Avg NLLLoss: 0.0194, Teacher_r: 0.83
+step: 8520, Progress: 24%, Train Avg NLLLoss: 0.0045, Teacher_r: 0.83
+step: 8530, Progress: 24%, Train Avg NLLLoss: 0.0057, Teacher_r: 0.83
+step: 8540, Progress: 25%, Train Avg NLLLoss: 0.0006, Teacher_r: 0.83
+step: 8550, Progress: 25%, Train Avg NLLLoss: 0.0048, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 25, Step: 8550, train_acc: 0.77, validate_acc: 0.56, test_acc: 0.57
+step: 8560, Progress: 25%, Train Avg NLLLoss: 0.0343, Teacher_r: 0.83
+step: 8570, Progress: 25%, Train Avg NLLLoss: 0.0269, Teacher_r: 0.83
+step: 8580, Progress: 25%, Train Avg NLLLoss: 0.0362, Teacher_r: 0.83
+step: 8590, Progress: 25%, Train Avg NLLLoss: 0.0420, Teacher_r: 0.83
+step: 8600, Progress: 25%, Train Avg NLLLoss: 0.0225, Teacher_r: 0.83
+step: 8610, Progress: 25%, Train Avg NLLLoss: 0.0165, Teacher_r: 0.83
+step: 8620, Progress: 25%, Train Avg NLLLoss: 0.0248, Teacher_r: 0.83
+step: 8630, Progress: 25%, Train Avg NLLLoss: 0.0137, Teacher_r: 0.83
+step: 8640, Progress: 25%, Train Avg NLLLoss: 0.0149, Teacher_r: 0.83
+step: 8650, Progress: 25%, Train Avg NLLLoss: 0.0283, Teacher_r: 0.83
+step: 8660, Progress: 25%, Train Avg NLLLoss: 0.0268, Teacher_r: 0.83
+step: 8670, Progress: 25%, Train Avg NLLLoss: 0.0233, Teacher_r: 0.83
+step: 8680, Progress: 25%, Train Avg NLLLoss: 0.0197, Teacher_r: 0.83
+step: 8690, Progress: 25%, Train Avg NLLLoss: 0.0138, Teacher_r: 0.83
+step: 8700, Progress: 25%, Train Avg NLLLoss: 0.0177, Teacher_r: 0.83
+step: 8710, Progress: 25%, Train Avg NLLLoss: 0.0192, Teacher_r: 0.83
+step: 8720, Progress: 25%, Train Avg NLLLoss: 0.0152, Teacher_r: 0.83
+step: 8730, Progress: 25%, Train Avg NLLLoss: 0.0276, Teacher_r: 0.83
+step: 8740, Progress: 25%, Train Avg NLLLoss: 0.0170, Teacher_r: 0.83
+step: 8750, Progress: 25%, Train Avg NLLLoss: 0.0159, Teacher_r: 0.83
+step: 8760, Progress: 25%, Train Avg NLLLoss: 0.0120, Teacher_r: 0.83
+step: 8770, Progress: 25%, Train Avg NLLLoss: 0.0103, Teacher_r: 0.83
+step: 8780, Progress: 25%, Train Avg NLLLoss: 0.0155, Teacher_r: 0.83
+step: 8790, Progress: 25%, Train Avg NLLLoss: 0.0107, Teacher_r: 0.83
+step: 8800, Progress: 25%, Train Avg NLLLoss: 0.0058, Teacher_r: 0.83
+step: 8810, Progress: 25%, Train Avg NLLLoss: 0.0002, Teacher_r: 0.83
+step: 8820, Progress: 25%, Train Avg NLLLoss: 0.0077, Teacher_r: 0.83
+step: 8830, Progress: 25%, Train Avg NLLLoss: 0.0001, Teacher_r: 0.83
+step: 8840, Progress: 25%, Train Avg NLLLoss: 0.0082, Teacher_r: 0.83
+step: 8850, Progress: 25%, Train Avg NLLLoss: 0.0030, Teacher_r: 0.83
+step: 8860, Progress: 25%, Train Avg NLLLoss: 0.0017, Teacher_r: 0.83
+step: 8870, Progress: 25%, Train Avg NLLLoss: 0.0015, Teacher_r: 0.83
+step: 8880, Progress: 26%, Train Avg NLLLoss: 0.0004, Teacher_r: 0.83
+step: 8890, Progress: 26%, Train Avg NLLLoss: 0.0010, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 26, Step: 8892, train_acc: 0.77, validate_acc: 0.56, test_acc: 0.56
+step: 8900, Progress: 26%, Train Avg NLLLoss: 0.0229, Teacher_r: 0.83
+step: 8910, Progress: 26%, Train Avg NLLLoss: 0.0245, Teacher_r: 0.83
+step: 8920, Progress: 26%, Train Avg NLLLoss: 0.0213, Teacher_r: 0.83
+step: 8930, Progress: 26%, Train Avg NLLLoss: 0.0238, Teacher_r: 0.83
+step: 8940, Progress: 26%, Train Avg NLLLoss: 0.0190, Teacher_r: 0.83
+step: 8950, Progress: 26%, Train Avg NLLLoss: 0.0213, Teacher_r: 0.83
+step: 8960, Progress: 26%, Train Avg NLLLoss: 0.0171, Teacher_r: 0.83
+step: 8970, Progress: 26%, Train Avg NLLLoss: 0.0235, Teacher_r: 0.83
+step: 8980, Progress: 26%, Train Avg NLLLoss: 0.0154, Teacher_r: 0.83
+step: 8990, Progress: 26%, Train Avg NLLLoss: 0.0117, Teacher_r: 0.83
+step: 9000, Progress: 26%, Train Avg NLLLoss: 0.0141, Teacher_r: 0.83
+step: 9010, Progress: 26%, Train Avg NLLLoss: 0.0162, Teacher_r: 0.83
+step: 9020, Progress: 26%, Train Avg NLLLoss: 0.0144, Teacher_r: 0.83
+step: 9030, Progress: 26%, Train Avg NLLLoss: 0.0181, Teacher_r: 0.83
+step: 9040, Progress: 26%, Train Avg NLLLoss: 0.0211, Teacher_r: 0.83
+step: 9050, Progress: 26%, Train Avg NLLLoss: 0.0269, Teacher_r: 0.83
+step: 9060, Progress: 26%, Train Avg NLLLoss: 0.0119, Teacher_r: 0.83
+step: 9070, Progress: 26%, Train Avg NLLLoss: 0.0148, Teacher_r: 0.83
+step: 9080, Progress: 26%, Train Avg NLLLoss: 0.0101, Teacher_r: 0.83
+step: 9090, Progress: 26%, Train Avg NLLLoss: 0.0110, Teacher_r: 0.83
+step: 9100, Progress: 26%, Train Avg NLLLoss: 0.0105, Teacher_r: 0.83
+step: 9110, Progress: 26%, Train Avg NLLLoss: 0.0115, Teacher_r: 0.83
+step: 9120, Progress: 26%, Train Avg NLLLoss: 0.0124, Teacher_r: 0.83
+step: 9130, Progress: 26%, Train Avg NLLLoss: 0.0151, Teacher_r: 0.83
+step: 9140, Progress: 26%, Train Avg NLLLoss: 0.0077, Teacher_r: 0.83
+step: 9150, Progress: 26%, Train Avg NLLLoss: 0.0004, Teacher_r: 0.83
+step: 9160, Progress: 26%, Train Avg NLLLoss: 0.0003, Teacher_r: 0.83
+step: 9170, Progress: 26%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 9180, Progress: 26%, Train Avg NLLLoss: 0.0009, Teacher_r: 0.83
+step: 9190, Progress: 26%, Train Avg NLLLoss: 0.0251, Teacher_r: 0.83
+step: 9200, Progress: 26%, Train Avg NLLLoss: 0.0009, Teacher_r: 0.83
+step: 9210, Progress: 26%, Train Avg NLLLoss: 0.0069, Teacher_r: 0.83
+step: 9220, Progress: 27%, Train Avg NLLLoss: 0.0005, Teacher_r: 0.83
+step: 9230, Progress: 27%, Train Avg NLLLoss: 0.0019, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 27, Step: 9234, train_acc: 0.67, validate_acc: 0.50, test_acc: 0.51
+step: 9240, Progress: 27%, Train Avg NLLLoss: 0.0151, Teacher_r: 0.83
+step: 9250, Progress: 27%, Train Avg NLLLoss: 0.0202, Teacher_r: 0.83
+step: 9260, Progress: 27%, Train Avg NLLLoss: 0.0226, Teacher_r: 0.83
+step: 9270, Progress: 27%, Train Avg NLLLoss: 0.0240, Teacher_r: 0.83
+step: 9280, Progress: 27%, Train Avg NLLLoss: 0.0189, Teacher_r: 0.83
+step: 9290, Progress: 27%, Train Avg NLLLoss: 0.0193, Teacher_r: 0.83
+step: 9300, Progress: 27%, Train Avg NLLLoss: 0.0123, Teacher_r: 0.83
+step: 9310, Progress: 27%, Train Avg NLLLoss: 0.0157, Teacher_r: 0.83
+step: 9320, Progress: 27%, Train Avg NLLLoss: 0.0141, Teacher_r: 0.83
+step: 9330, Progress: 27%, Train Avg NLLLoss: 0.0100, Teacher_r: 0.83
+step: 9340, Progress: 27%, Train Avg NLLLoss: 0.0179, Teacher_r: 0.83
+step: 9350, Progress: 27%, Train Avg NLLLoss: 0.0187, Teacher_r: 0.83
+step: 9360, Progress: 27%, Train Avg NLLLoss: 0.0184, Teacher_r: 0.83
+step: 9370, Progress: 27%, Train Avg NLLLoss: 0.0153, Teacher_r: 0.83
+step: 9380, Progress: 27%, Train Avg NLLLoss: 0.0108, Teacher_r: 0.83
+step: 9390, Progress: 27%, Train Avg NLLLoss: 0.0164, Teacher_r: 0.83
+step: 9400, Progress: 27%, Train Avg NLLLoss: 0.0136, Teacher_r: 0.83
+step: 9410, Progress: 27%, Train Avg NLLLoss: 0.0205, Teacher_r: 0.83
+step: 9420, Progress: 27%, Train Avg NLLLoss: 0.0238, Teacher_r: 0.83
+step: 9430, Progress: 27%, Train Avg NLLLoss: 0.0167, Teacher_r: 0.83
+step: 9440, Progress: 27%, Train Avg NLLLoss: 0.0181, Teacher_r: 0.83
+step: 9450, Progress: 27%, Train Avg NLLLoss: 0.0206, Teacher_r: 0.83
+step: 9460, Progress: 27%, Train Avg NLLLoss: 0.0122, Teacher_r: 0.83
+step: 9470, Progress: 27%, Train Avg NLLLoss: 0.0125, Teacher_r: 0.83
+step: 9480, Progress: 27%, Train Avg NLLLoss: 0.0059, Teacher_r: 0.83
+step: 9490, Progress: 27%, Train Avg NLLLoss: 0.0001, Teacher_r: 0.83
+step: 9500, Progress: 27%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 9510, Progress: 27%, Train Avg NLLLoss: 0.0001, Teacher_r: 0.83
+step: 9520, Progress: 27%, Train Avg NLLLoss: 0.0071, Teacher_r: 0.83
+step: 9530, Progress: 27%, Train Avg NLLLoss: 0.0064, Teacher_r: 0.83
+step: 9540, Progress: 27%, Train Avg NLLLoss: 0.0187, Teacher_r: 0.83
+step: 9550, Progress: 27%, Train Avg NLLLoss: 0.0004, Teacher_r: 0.83
+step: 9560, Progress: 28%, Train Avg NLLLoss: 0.0100, Teacher_r: 0.83
+step: 9570, Progress: 28%, Train Avg NLLLoss: 0.0007, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 28, Step: 9576, train_acc: 0.68, validate_acc: 0.53, test_acc: 0.54
+step: 9580, Progress: 28%, Train Avg NLLLoss: 0.0087, Teacher_r: 0.83
+step: 9590, Progress: 28%, Train Avg NLLLoss: 0.0252, Teacher_r: 0.83
+step: 9600, Progress: 28%, Train Avg NLLLoss: 0.0245, Teacher_r: 0.83
+step: 9610, Progress: 28%, Train Avg NLLLoss: 0.0179, Teacher_r: 0.83
+step: 9620, Progress: 28%, Train Avg NLLLoss: 0.0150, Teacher_r: 0.83
+step: 9630, Progress: 28%, Train Avg NLLLoss: 0.0174, Teacher_r: 0.83
+step: 9640, Progress: 28%, Train Avg NLLLoss: 0.0212, Teacher_r: 0.83
+step: 9650, Progress: 28%, Train Avg NLLLoss: 0.0161, Teacher_r: 0.83
+step: 9660, Progress: 28%, Train Avg NLLLoss: 0.0089, Teacher_r: 0.83
+step: 9670, Progress: 28%, Train Avg NLLLoss: 0.0089, Teacher_r: 0.83
+step: 9680, Progress: 28%, Train Avg NLLLoss: 0.0161, Teacher_r: 0.83
+step: 9690, Progress: 28%, Train Avg NLLLoss: 0.0121, Teacher_r: 0.83
+step: 9700, Progress: 28%, Train Avg NLLLoss: 0.0086, Teacher_r: 0.83
+step: 9710, Progress: 28%, Train Avg NLLLoss: 0.0119, Teacher_r: 0.83
+step: 9720, Progress: 28%, Train Avg NLLLoss: 0.0095, Teacher_r: 0.83
+step: 9730, Progress: 28%, Train Avg NLLLoss: 0.0144, Teacher_r: 0.83
+step: 9740, Progress: 28%, Train Avg NLLLoss: 0.0187, Teacher_r: 0.83
+step: 9750, Progress: 28%, Train Avg NLLLoss: 0.0128, Teacher_r: 0.83
+step: 9760, Progress: 28%, Train Avg NLLLoss: 0.0131, Teacher_r: 0.83
+step: 9770, Progress: 28%, Train Avg NLLLoss: 0.0122, Teacher_r: 0.83
+step: 9780, Progress: 28%, Train Avg NLLLoss: 0.0098, Teacher_r: 0.83
+step: 9790, Progress: 28%, Train Avg NLLLoss: 0.0085, Teacher_r: 0.83
+step: 9800, Progress: 28%, Train Avg NLLLoss: 0.0094, Teacher_r: 0.83
+step: 9810, Progress: 28%, Train Avg NLLLoss: 0.0123, Teacher_r: 0.83
+step: 9820, Progress: 28%, Train Avg NLLLoss: 0.0069, Teacher_r: 0.83
+step: 9830, Progress: 28%, Train Avg NLLLoss: 0.0003, Teacher_r: 0.83
+step: 9840, Progress: 28%, Train Avg NLLLoss: 0.0001, Teacher_r: 0.83
+step: 9850, Progress: 28%, Train Avg NLLLoss: 0.0003, Teacher_r: 0.83
+step: 9860, Progress: 28%, Train Avg NLLLoss: 0.0001, Teacher_r: 0.83
+step: 9870, Progress: 28%, Train Avg NLLLoss: 0.0004, Teacher_r: 0.83
+step: 9880, Progress: 28%, Train Avg NLLLoss: 0.0012, Teacher_r: 0.83
+step: 9890, Progress: 28%, Train Avg NLLLoss: 0.0003, Teacher_r: 0.83
+step: 9900, Progress: 29%, Train Avg NLLLoss: 0.0097, Teacher_r: 0.83
+step: 9910, Progress: 29%, Train Avg NLLLoss: 0.0036, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 29, Step: 9918, train_acc: 0.74, validate_acc: 0.54, test_acc: 0.54
+step: 9920, Progress: 29%, Train Avg NLLLoss: 0.0300, Teacher_r: 0.83
+step: 9930, Progress: 29%, Train Avg NLLLoss: 0.0129, Teacher_r: 0.83
+step: 9940, Progress: 29%, Train Avg NLLLoss: 0.0194, Teacher_r: 0.83
+step: 9950, Progress: 29%, Train Avg NLLLoss: 0.0121, Teacher_r: 0.83
+step: 9960, Progress: 29%, Train Avg NLLLoss: 0.0151, Teacher_r: 0.83
+step: 9970, Progress: 29%, Train Avg NLLLoss: 0.0185, Teacher_r: 0.83
+step: 9980, Progress: 29%, Train Avg NLLLoss: 0.0179, Teacher_r: 0.83
+step: 9990, Progress: 29%, Train Avg NLLLoss: 0.0128, Teacher_r: 0.83
+step: 10000, Progress: 29%, Train Avg NLLLoss: 0.0097, Teacher_r: 0.83
+step: 10010, Progress: 29%, Train Avg NLLLoss: 0.0169, Teacher_r: 0.83
+step: 10020, Progress: 29%, Train Avg NLLLoss: 0.0126, Teacher_r: 0.83
+step: 10030, Progress: 29%, Train Avg NLLLoss: 0.0097, Teacher_r: 0.83
+step: 10040, Progress: 29%, Train Avg NLLLoss: 0.0127, Teacher_r: 0.83
+step: 10050, Progress: 29%, Train Avg NLLLoss: 0.0103, Teacher_r: 0.83
+step: 10060, Progress: 29%, Train Avg NLLLoss: 0.0069, Teacher_r: 0.83
+step: 10070, Progress: 29%, Train Avg NLLLoss: 0.0238, Teacher_r: 0.83
+step: 10080, Progress: 29%, Train Avg NLLLoss: 0.0152, Teacher_r: 0.83
+step: 10090, Progress: 29%, Train Avg NLLLoss: 0.0091, Teacher_r: 0.83
+step: 10100, Progress: 29%, Train Avg NLLLoss: 0.0119, Teacher_r: 0.83
+step: 10110, Progress: 29%, Train Avg NLLLoss: 0.0154, Teacher_r: 0.83
+step: 10120, Progress: 29%, Train Avg NLLLoss: 0.0139, Teacher_r: 0.83
+step: 10130, Progress: 29%, Train Avg NLLLoss: 0.0104, Teacher_r: 0.83
+step: 10140, Progress: 29%, Train Avg NLLLoss: 0.0088, Teacher_r: 0.83
+step: 10150, Progress: 29%, Train Avg NLLLoss: 0.0078, Teacher_r: 0.83
+step: 10160, Progress: 29%, Train Avg NLLLoss: 0.0076, Teacher_r: 0.83
+step: 10170, Progress: 29%, Train Avg NLLLoss: 0.0043, Teacher_r: 0.83
+step: 10180, Progress: 29%, Train Avg NLLLoss: 0.0005, Teacher_r: 0.83
+step: 10190, Progress: 29%, Train Avg NLLLoss: 0.0018, Teacher_r: 0.83
+step: 10200, Progress: 29%, Train Avg NLLLoss: 0.0001, Teacher_r: 0.83
+step: 10210, Progress: 29%, Train Avg NLLLoss: 0.0009, Teacher_r: 0.83
+step: 10220, Progress: 29%, Train Avg NLLLoss: 0.0001, Teacher_r: 0.83
+step: 10230, Progress: 29%, Train Avg NLLLoss: 0.0002, Teacher_r: 0.83
+step: 10240, Progress: 29%, Train Avg NLLLoss: 0.0002, Teacher_r: 0.83
+step: 10250, Progress: 30%, Train Avg NLLLoss: 0.0074, Teacher_r: 0.83
+step: 10260, Progress: 30%, Train Avg NLLLoss: 0.0050, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 30, Step: 10260, train_acc: 0.60, validate_acc: 0.47, test_acc: 0.48
+step: 10270, Progress: 30%, Train Avg NLLLoss: 0.0269, Teacher_r: 0.83
+step: 10280, Progress: 30%, Train Avg NLLLoss: 0.0143, Teacher_r: 0.83
+step: 10290, Progress: 30%, Train Avg NLLLoss: 0.0135, Teacher_r: 0.83
+step: 10300, Progress: 30%, Train Avg NLLLoss: 0.0137, Teacher_r: 0.83
+step: 10310, Progress: 30%, Train Avg NLLLoss: 0.0106, Teacher_r: 0.83
+step: 10320, Progress: 30%, Train Avg NLLLoss: 0.0113, Teacher_r: 0.83
+step: 10330, Progress: 30%, Train Avg NLLLoss: 0.0134, Teacher_r: 0.83
+step: 10340, Progress: 30%, Train Avg NLLLoss: 0.0123, Teacher_r: 0.83
+step: 10350, Progress: 30%, Train Avg NLLLoss: 0.0080, Teacher_r: 0.83
+step: 10360, Progress: 30%, Train Avg NLLLoss: 0.0136, Teacher_r: 0.83
+step: 10370, Progress: 30%, Train Avg NLLLoss: 0.0106, Teacher_r: 0.83
+step: 10380, Progress: 30%, Train Avg NLLLoss: 0.0103, Teacher_r: 0.83
+step: 10390, Progress: 30%, Train Avg NLLLoss: 0.0107, Teacher_r: 0.83
+step: 10400, Progress: 30%, Train Avg NLLLoss: 0.0094, Teacher_r: 0.83
+step: 10410, Progress: 30%, Train Avg NLLLoss: 0.0086, Teacher_r: 0.83
+step: 10420, Progress: 30%, Train Avg NLLLoss: 0.0118, Teacher_r: 0.83
+step: 10430, Progress: 30%, Train Avg NLLLoss: 0.0083, Teacher_r: 0.83
+step: 10440, Progress: 30%, Train Avg NLLLoss: 0.0119, Teacher_r: 0.83
+step: 10450, Progress: 30%, Train Avg NLLLoss: 0.0100, Teacher_r: 0.83
+step: 10460, Progress: 30%, Train Avg NLLLoss: 0.0067, Teacher_r: 0.83
+step: 10470, Progress: 30%, Train Avg NLLLoss: 0.0113, Teacher_r: 0.83
+step: 10480, Progress: 30%, Train Avg NLLLoss: 0.0066, Teacher_r: 0.83
+step: 10490, Progress: 30%, Train Avg NLLLoss: 0.0064, Teacher_r: 0.83
+step: 10500, Progress: 30%, Train Avg NLLLoss: 0.0128, Teacher_r: 0.83
+step: 10510, Progress: 30%, Train Avg NLLLoss: 0.0023, Teacher_r: 0.83
+step: 10520, Progress: 30%, Train Avg NLLLoss: 0.0010, Teacher_r: 0.83
+step: 10530, Progress: 30%, Train Avg NLLLoss: 0.0004, Teacher_r: 0.83
+step: 10540, Progress: 30%, Train Avg NLLLoss: 0.0001, Teacher_r: 0.83
+step: 10550, Progress: 30%, Train Avg NLLLoss: 0.0001, Teacher_r: 0.83
+step: 10560, Progress: 30%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 10570, Progress: 30%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 10580, Progress: 30%, Train Avg NLLLoss: 0.0001, Teacher_r: 0.83
+step: 10590, Progress: 31%, Train Avg NLLLoss: 0.0001, Teacher_r: 0.83
+step: 10600, Progress: 31%, Train Avg NLLLoss: 0.0001, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 31, Step: 10602, train_acc: 0.87, validate_acc: 0.61, test_acc: 0.61
+step: 10610, Progress: 31%, Train Avg NLLLoss: 0.0129, Teacher_r: 0.83
+step: 10620, Progress: 31%, Train Avg NLLLoss: 0.0111, Teacher_r: 0.83
+step: 10630, Progress: 31%, Train Avg NLLLoss: 0.0095, Teacher_r: 0.83
+step: 10640, Progress: 31%, Train Avg NLLLoss: 0.0107, Teacher_r: 0.83
+step: 10650, Progress: 31%, Train Avg NLLLoss: 0.0068, Teacher_r: 0.83
+step: 10660, Progress: 31%, Train Avg NLLLoss: 0.0124, Teacher_r: 0.83
+step: 10670, Progress: 31%, Train Avg NLLLoss: 0.0106, Teacher_r: 0.83
+step: 10680, Progress: 31%, Train Avg NLLLoss: 0.0117, Teacher_r: 0.83
+step: 10690, Progress: 31%, Train Avg NLLLoss: 0.0181, Teacher_r: 0.83
+step: 10700, Progress: 31%, Train Avg NLLLoss: 0.0082, Teacher_r: 0.83
+step: 10710, Progress: 31%, Train Avg NLLLoss: 0.0107, Teacher_r: 0.83
+step: 10720, Progress: 31%, Train Avg NLLLoss: 0.0066, Teacher_r: 0.83
+step: 10730, Progress: 31%, Train Avg NLLLoss: 0.0081, Teacher_r: 0.83
+step: 10740, Progress: 31%, Train Avg NLLLoss: 0.0081, Teacher_r: 0.83
+step: 10750, Progress: 31%, Train Avg NLLLoss: 0.0052, Teacher_r: 0.83
+step: 10760, Progress: 31%, Train Avg NLLLoss: 0.0088, Teacher_r: 0.83
+step: 10770, Progress: 31%, Train Avg NLLLoss: 0.0052, Teacher_r: 0.83
+step: 10780, Progress: 31%, Train Avg NLLLoss: 0.0062, Teacher_r: 0.83
+step: 10790, Progress: 31%, Train Avg NLLLoss: 0.0107, Teacher_r: 0.83
+step: 10800, Progress: 31%, Train Avg NLLLoss: 0.0102, Teacher_r: 0.83
+step: 10810, Progress: 31%, Train Avg NLLLoss: 0.0068, Teacher_r: 0.83
+step: 10820, Progress: 31%, Train Avg NLLLoss: 0.0088, Teacher_r: 0.83
+step: 10830, Progress: 31%, Train Avg NLLLoss: 0.0070, Teacher_r: 0.83
+step: 10840, Progress: 31%, Train Avg NLLLoss: 0.0096, Teacher_r: 0.83
+step: 10850, Progress: 31%, Train Avg NLLLoss: 0.0075, Teacher_r: 0.83
+step: 10860, Progress: 31%, Train Avg NLLLoss: 0.0001, Teacher_r: 0.83
+step: 10870, Progress: 31%, Train Avg NLLLoss: 0.0001, Teacher_r: 0.83
+step: 10880, Progress: 31%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 10890, Progress: 31%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 10900, Progress: 31%, Train Avg NLLLoss: 0.0001, Teacher_r: 0.83
+step: 10910, Progress: 31%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 10920, Progress: 31%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 10930, Progress: 32%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 10940, Progress: 32%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 32, Step: 10944, train_acc: 0.81, validate_acc: 0.58, test_acc: 0.58
+step: 10950, Progress: 32%, Train Avg NLLLoss: 0.0093, Teacher_r: 0.83
+step: 10960, Progress: 32%, Train Avg NLLLoss: 0.0100, Teacher_r: 0.83
+step: 10970, Progress: 32%, Train Avg NLLLoss: 0.0123, Teacher_r: 0.83
+step: 10980, Progress: 32%, Train Avg NLLLoss: 0.0076, Teacher_r: 0.83
+step: 10990, Progress: 32%, Train Avg NLLLoss: 0.0148, Teacher_r: 0.83
+step: 11000, Progress: 32%, Train Avg NLLLoss: 0.0082, Teacher_r: 0.83
+step: 11010, Progress: 32%, Train Avg NLLLoss: 0.0116, Teacher_r: 0.83
+step: 11020, Progress: 32%, Train Avg NLLLoss: 0.0103, Teacher_r: 0.83
+step: 11030, Progress: 32%, Train Avg NLLLoss: 0.0108, Teacher_r: 0.83
+step: 11040, Progress: 32%, Train Avg NLLLoss: 0.0057, Teacher_r: 0.83
+step: 11050, Progress: 32%, Train Avg NLLLoss: 0.0072, Teacher_r: 0.83
+step: 11060, Progress: 32%, Train Avg NLLLoss: 0.0082, Teacher_r: 0.83
+step: 11070, Progress: 32%, Train Avg NLLLoss: 0.0089, Teacher_r: 0.83
+step: 11080, Progress: 32%, Train Avg NLLLoss: 0.0117, Teacher_r: 0.83
+step: 11090, Progress: 32%, Train Avg NLLLoss: 0.0108, Teacher_r: 0.83
+step: 11100, Progress: 32%, Train Avg NLLLoss: 0.0107, Teacher_r: 0.83
+step: 11110, Progress: 32%, Train Avg NLLLoss: 0.0133, Teacher_r: 0.83
+step: 11120, Progress: 32%, Train Avg NLLLoss: 0.0073, Teacher_r: 0.83
+step: 11130, Progress: 32%, Train Avg NLLLoss: 0.0083, Teacher_r: 0.83
+step: 11140, Progress: 32%, Train Avg NLLLoss: 0.0053, Teacher_r: 0.83
+step: 11150, Progress: 32%, Train Avg NLLLoss: 0.0070, Teacher_r: 0.83
+step: 11160, Progress: 32%, Train Avg NLLLoss: 0.0049, Teacher_r: 0.83
+step: 11170, Progress: 32%, Train Avg NLLLoss: 0.0142, Teacher_r: 0.83
+step: 11180, Progress: 32%, Train Avg NLLLoss: 0.0087, Teacher_r: 0.83
+step: 11190, Progress: 32%, Train Avg NLLLoss: 0.0057, Teacher_r: 0.83
+step: 11200, Progress: 32%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 11210, Progress: 32%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 11220, Progress: 32%, Train Avg NLLLoss: 0.0003, Teacher_r: 0.83
+step: 11230, Progress: 32%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 11240, Progress: 32%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 11250, Progress: 32%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 11260, Progress: 32%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 11270, Progress: 33%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 11280, Progress: 33%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 33, Step: 11286, train_acc: 0.88, validate_acc: 0.59, test_acc: 0.61
+step: 11290, Progress: 33%, Train Avg NLLLoss: 0.0073, Teacher_r: 0.83
+step: 11300, Progress: 33%, Train Avg NLLLoss: 0.0110, Teacher_r: 0.83
+step: 11310, Progress: 33%, Train Avg NLLLoss: 0.0083, Teacher_r: 0.83
+step: 11320, Progress: 33%, Train Avg NLLLoss: 0.0076, Teacher_r: 0.83
+step: 11330, Progress: 33%, Train Avg NLLLoss: 0.0159, Teacher_r: 0.83
+step: 11340, Progress: 33%, Train Avg NLLLoss: 0.0071, Teacher_r: 0.83
+step: 11350, Progress: 33%, Train Avg NLLLoss: 0.0079, Teacher_r: 0.83
+step: 11360, Progress: 33%, Train Avg NLLLoss: 0.0054, Teacher_r: 0.83
+step: 11370, Progress: 33%, Train Avg NLLLoss: 0.0084, Teacher_r: 0.83
+step: 11380, Progress: 33%, Train Avg NLLLoss: 0.0105, Teacher_r: 0.83
+step: 11390, Progress: 33%, Train Avg NLLLoss: 0.0076, Teacher_r: 0.83
+step: 11400, Progress: 33%, Train Avg NLLLoss: 0.0093, Teacher_r: 0.83
+step: 11410, Progress: 33%, Train Avg NLLLoss: 0.0091, Teacher_r: 0.83
+step: 11420, Progress: 33%, Train Avg NLLLoss: 0.0092, Teacher_r: 0.83
+step: 11430, Progress: 33%, Train Avg NLLLoss: 0.0054, Teacher_r: 0.83
+step: 11440, Progress: 33%, Train Avg NLLLoss: 0.0050, Teacher_r: 0.83
+step: 11450, Progress: 33%, Train Avg NLLLoss: 0.0063, Teacher_r: 0.83
+step: 11460, Progress: 33%, Train Avg NLLLoss: 0.0074, Teacher_r: 0.83
+step: 11470, Progress: 33%, Train Avg NLLLoss: 0.0077, Teacher_r: 0.83
+step: 11480, Progress: 33%, Train Avg NLLLoss: 0.0084, Teacher_r: 0.83
+step: 11490, Progress: 33%, Train Avg NLLLoss: 0.0113, Teacher_r: 0.83
+step: 11500, Progress: 33%, Train Avg NLLLoss: 0.0074, Teacher_r: 0.83
+step: 11510, Progress: 33%, Train Avg NLLLoss: 0.0061, Teacher_r: 0.83
+step: 11520, Progress: 33%, Train Avg NLLLoss: 0.0053, Teacher_r: 0.83
+step: 11530, Progress: 33%, Train Avg NLLLoss: 0.0104, Teacher_r: 0.83
+step: 11540, Progress: 33%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 11550, Progress: 33%, Train Avg NLLLoss: 0.0015, Teacher_r: 0.83
+step: 11560, Progress: 33%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 11570, Progress: 33%, Train Avg NLLLoss: 0.0001, Teacher_r: 0.83
+step: 11580, Progress: 33%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 11590, Progress: 33%, Train Avg NLLLoss: 0.0001, Teacher_r: 0.83
+step: 11600, Progress: 33%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 11610, Progress: 34%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 11620, Progress: 34%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 34, Step: 11628, train_acc: 0.85, validate_acc: 0.58, test_acc: 0.59
+step: 11630, Progress: 34%, Train Avg NLLLoss: 0.0011, Teacher_r: 0.83
+step: 11640, Progress: 34%, Train Avg NLLLoss: 0.0112, Teacher_r: 0.83
+step: 11650, Progress: 34%, Train Avg NLLLoss: 0.0117, Teacher_r: 0.83
+step: 11660, Progress: 34%, Train Avg NLLLoss: 0.0049, Teacher_r: 0.83
+step: 11670, Progress: 34%, Train Avg NLLLoss: 0.0057, Teacher_r: 0.83
+step: 11680, Progress: 34%, Train Avg NLLLoss: 0.0085, Teacher_r: 0.83
+step: 11690, Progress: 34%, Train Avg NLLLoss: 0.0077, Teacher_r: 0.83
+step: 11700, Progress: 34%, Train Avg NLLLoss: 0.0072, Teacher_r: 0.83
+step: 11710, Progress: 34%, Train Avg NLLLoss: 0.0082, Teacher_r: 0.83
+step: 11720, Progress: 34%, Train Avg NLLLoss: 0.0112, Teacher_r: 0.83
+step: 11730, Progress: 34%, Train Avg NLLLoss: 0.0068, Teacher_r: 0.83
+step: 11740, Progress: 34%, Train Avg NLLLoss: 0.0068, Teacher_r: 0.83
+step: 11750, Progress: 34%, Train Avg NLLLoss: 0.0112, Teacher_r: 0.83
+step: 11760, Progress: 34%, Train Avg NLLLoss: 0.0071, Teacher_r: 0.83
+step: 11770, Progress: 34%, Train Avg NLLLoss: 0.0066, Teacher_r: 0.83
+step: 11780, Progress: 34%, Train Avg NLLLoss: 0.0085, Teacher_r: 0.83
+step: 11790, Progress: 34%, Train Avg NLLLoss: 0.0061, Teacher_r: 0.83
+step: 11800, Progress: 34%, Train Avg NLLLoss: 0.0054, Teacher_r: 0.83
+step: 11810, Progress: 34%, Train Avg NLLLoss: 0.0072, Teacher_r: 0.83
+step: 11820, Progress: 34%, Train Avg NLLLoss: 0.0098, Teacher_r: 0.83
+step: 11830, Progress: 34%, Train Avg NLLLoss: 0.0067, Teacher_r: 0.83
+step: 11840, Progress: 34%, Train Avg NLLLoss: 0.0046, Teacher_r: 0.83
+step: 11850, Progress: 34%, Train Avg NLLLoss: 0.0079, Teacher_r: 0.83
+step: 11860, Progress: 34%, Train Avg NLLLoss: 0.0054, Teacher_r: 0.83
+step: 11870, Progress: 34%, Train Avg NLLLoss: 0.0036, Teacher_r: 0.83
+step: 11880, Progress: 34%, Train Avg NLLLoss: 0.0005, Teacher_r: 0.83
+step: 11890, Progress: 34%, Train Avg NLLLoss: 0.0006, Teacher_r: 0.83
+step: 11900, Progress: 34%, Train Avg NLLLoss: 0.0001, Teacher_r: 0.83
+step: 11910, Progress: 34%, Train Avg NLLLoss: 0.0002, Teacher_r: 0.83
+step: 11920, Progress: 34%, Train Avg NLLLoss: 0.0001, Teacher_r: 0.83
+step: 11930, Progress: 34%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 11940, Progress: 34%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 11950, Progress: 35%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 11960, Progress: 35%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 11970, Progress: 35%, Train Avg NLLLoss: 0.0007, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 35, Step: 11970, train_acc: 0.90, validate_acc: 0.59, test_acc: 0.60
+step: 11980, Progress: 35%, Train Avg NLLLoss: 0.0136, Teacher_r: 0.83
+step: 11990, Progress: 35%, Train Avg NLLLoss: 0.0082, Teacher_r: 0.83
+step: 12000, Progress: 35%, Train Avg NLLLoss: 0.0095, Teacher_r: 0.83
+step: 12010, Progress: 35%, Train Avg NLLLoss: 0.0079, Teacher_r: 0.83
+step: 12020, Progress: 35%, Train Avg NLLLoss: 0.0055, Teacher_r: 0.83
+step: 12030, Progress: 35%, Train Avg NLLLoss: 0.0086, Teacher_r: 0.83
+step: 12040, Progress: 35%, Train Avg NLLLoss: 0.0041, Teacher_r: 0.83
+step: 12050, Progress: 35%, Train Avg NLLLoss: 0.0111, Teacher_r: 0.83
+step: 12060, Progress: 35%, Train Avg NLLLoss: 0.0049, Teacher_r: 0.83
+step: 12070, Progress: 35%, Train Avg NLLLoss: 0.0041, Teacher_r: 0.83
+step: 12080, Progress: 35%, Train Avg NLLLoss: 0.0089, Teacher_r: 0.83
+step: 12090, Progress: 35%, Train Avg NLLLoss: 0.0041, Teacher_r: 0.83
+step: 12100, Progress: 35%, Train Avg NLLLoss: 0.0063, Teacher_r: 0.83
+step: 12110, Progress: 35%, Train Avg NLLLoss: 0.0094, Teacher_r: 0.83
+step: 12120, Progress: 35%, Train Avg NLLLoss: 0.0087, Teacher_r: 0.83
+step: 12130, Progress: 35%, Train Avg NLLLoss: 0.0063, Teacher_r: 0.83
+step: 12140, Progress: 35%, Train Avg NLLLoss: 0.0052, Teacher_r: 0.83
+step: 12150, Progress: 35%, Train Avg NLLLoss: 0.0051, Teacher_r: 0.83
+step: 12160, Progress: 35%, Train Avg NLLLoss: 0.0074, Teacher_r: 0.83
+step: 12170, Progress: 35%, Train Avg NLLLoss: 0.0054, Teacher_r: 0.83
+step: 12180, Progress: 35%, Train Avg NLLLoss: 0.0065, Teacher_r: 0.83
+step: 12190, Progress: 35%, Train Avg NLLLoss: 0.0082, Teacher_r: 0.83
+step: 12200, Progress: 35%, Train Avg NLLLoss: 0.0046, Teacher_r: 0.83
+step: 12210, Progress: 35%, Train Avg NLLLoss: 0.0088, Teacher_r: 0.83
+step: 12220, Progress: 35%, Train Avg NLLLoss: 0.0033, Teacher_r: 0.83
+step: 12230, Progress: 35%, Train Avg NLLLoss: 0.0005, Teacher_r: 0.83
+step: 12240, Progress: 35%, Train Avg NLLLoss: 0.0032, Teacher_r: 0.83
+step: 12250, Progress: 35%, Train Avg NLLLoss: 0.0006, Teacher_r: 0.83
+step: 12260, Progress: 35%, Train Avg NLLLoss: 0.0002, Teacher_r: 0.83
+step: 12270, Progress: 35%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 12280, Progress: 35%, Train Avg NLLLoss: 0.0006, Teacher_r: 0.83
+step: 12290, Progress: 36%, Train Avg NLLLoss: 0.0001, Teacher_r: 0.83
+step: 12300, Progress: 36%, Train Avg NLLLoss: 0.0001, Teacher_r: 0.83
+step: 12310, Progress: 36%, Train Avg NLLLoss: 0.0005, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 36, Step: 12312, train_acc: 0.73, validate_acc: 0.56, test_acc: 0.56
+step: 12320, Progress: 36%, Train Avg NLLLoss: 0.0120, Teacher_r: 0.83
+step: 12330, Progress: 36%, Train Avg NLLLoss: 0.0078, Teacher_r: 0.83
+step: 12340, Progress: 36%, Train Avg NLLLoss: 0.0091, Teacher_r: 0.83
+step: 12350, Progress: 36%, Train Avg NLLLoss: 0.0113, Teacher_r: 0.83
+step: 12360, Progress: 36%, Train Avg NLLLoss: 0.0044, Teacher_r: 0.83
+step: 12370, Progress: 36%, Train Avg NLLLoss: 0.0096, Teacher_r: 0.83
+step: 12380, Progress: 36%, Train Avg NLLLoss: 0.0043, Teacher_r: 0.83
+step: 12390, Progress: 36%, Train Avg NLLLoss: 0.0083, Teacher_r: 0.83
+step: 12400, Progress: 36%, Train Avg NLLLoss: 0.0041, Teacher_r: 0.83
+step: 12410, Progress: 36%, Train Avg NLLLoss: 0.0046, Teacher_r: 0.83
+step: 12420, Progress: 36%, Train Avg NLLLoss: 0.0063, Teacher_r: 0.83
+step: 12430, Progress: 36%, Train Avg NLLLoss: 0.0037, Teacher_r: 0.83
+step: 12440, Progress: 36%, Train Avg NLLLoss: 0.0086, Teacher_r: 0.83
+step: 12450, Progress: 36%, Train Avg NLLLoss: 0.0050, Teacher_r: 0.83
+step: 12460, Progress: 36%, Train Avg NLLLoss: 0.0104, Teacher_r: 0.83
+step: 12470, Progress: 36%, Train Avg NLLLoss: 0.0068, Teacher_r: 0.83
+step: 12480, Progress: 36%, Train Avg NLLLoss: 0.0032, Teacher_r: 0.83
+step: 12490, Progress: 36%, Train Avg NLLLoss: 0.0059, Teacher_r: 0.83
+step: 12500, Progress: 36%, Train Avg NLLLoss: 0.0089, Teacher_r: 0.83
+step: 12510, Progress: 36%, Train Avg NLLLoss: 0.0054, Teacher_r: 0.83
+step: 12520, Progress: 36%, Train Avg NLLLoss: 0.0084, Teacher_r: 0.83
+step: 12530, Progress: 36%, Train Avg NLLLoss: 0.0059, Teacher_r: 0.83
+step: 12540, Progress: 36%, Train Avg NLLLoss: 0.0062, Teacher_r: 0.83
+step: 12550, Progress: 36%, Train Avg NLLLoss: 0.0065, Teacher_r: 0.83
+step: 12560, Progress: 36%, Train Avg NLLLoss: 0.0038, Teacher_r: 0.83
+step: 12570, Progress: 36%, Train Avg NLLLoss: 0.0001, Teacher_r: 0.83
+step: 12580, Progress: 36%, Train Avg NLLLoss: 0.0013, Teacher_r: 0.83
+step: 12590, Progress: 36%, Train Avg NLLLoss: 0.0032, Teacher_r: 0.83
+step: 12600, Progress: 36%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 12610, Progress: 36%, Train Avg NLLLoss: 0.0085, Teacher_r: 0.83
+step: 12620, Progress: 36%, Train Avg NLLLoss: 0.0001, Teacher_r: 0.83
+step: 12630, Progress: 36%, Train Avg NLLLoss: 0.0001, Teacher_r: 0.83
+step: 12640, Progress: 37%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 12650, Progress: 37%, Train Avg NLLLoss: 0.0002, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 37, Step: 12654, train_acc: 0.85, validate_acc: 0.58, test_acc: 0.59
+step: 12660, Progress: 37%, Train Avg NLLLoss: 0.0055, Teacher_r: 0.83
+step: 12670, Progress: 37%, Train Avg NLLLoss: 0.0047, Teacher_r: 0.83
+step: 12680, Progress: 37%, Train Avg NLLLoss: 0.0084, Teacher_r: 0.83
+step: 12690, Progress: 37%, Train Avg NLLLoss: 0.0069, Teacher_r: 0.83
+step: 12700, Progress: 37%, Train Avg NLLLoss: 0.0066, Teacher_r: 0.83
+step: 12710, Progress: 37%, Train Avg NLLLoss: 0.0067, Teacher_r: 0.83
+step: 12720, Progress: 37%, Train Avg NLLLoss: 0.0057, Teacher_r: 0.83
+step: 12730, Progress: 37%, Train Avg NLLLoss: 0.0109, Teacher_r: 0.83
+step: 12740, Progress: 37%, Train Avg NLLLoss: 0.0069, Teacher_r: 0.83
+step: 12750, Progress: 37%, Train Avg NLLLoss: 0.0059, Teacher_r: 0.83
+step: 12760, Progress: 37%, Train Avg NLLLoss: 0.0069, Teacher_r: 0.83
+step: 12770, Progress: 37%, Train Avg NLLLoss: 0.0091, Teacher_r: 0.83
+step: 12780, Progress: 37%, Train Avg NLLLoss: 0.0060, Teacher_r: 0.83
+step: 12790, Progress: 37%, Train Avg NLLLoss: 0.0038, Teacher_r: 0.83
+step: 12800, Progress: 37%, Train Avg NLLLoss: 0.0070, Teacher_r: 0.83
+step: 12810, Progress: 37%, Train Avg NLLLoss: 0.0111, Teacher_r: 0.83
+step: 12820, Progress: 37%, Train Avg NLLLoss: 0.0088, Teacher_r: 0.83
+step: 12830, Progress: 37%, Train Avg NLLLoss: 0.0091, Teacher_r: 0.83
+step: 12840, Progress: 37%, Train Avg NLLLoss: 0.0067, Teacher_r: 0.83
+step: 12850, Progress: 37%, Train Avg NLLLoss: 0.0060, Teacher_r: 0.83
+step: 12860, Progress: 37%, Train Avg NLLLoss: 0.0033, Teacher_r: 0.83
+step: 12870, Progress: 37%, Train Avg NLLLoss: 0.0050, Teacher_r: 0.83
+step: 12880, Progress: 37%, Train Avg NLLLoss: 0.0034, Teacher_r: 0.83
+step: 12890, Progress: 37%, Train Avg NLLLoss: 0.0051, Teacher_r: 0.83
+step: 12900, Progress: 37%, Train Avg NLLLoss: 0.0024, Teacher_r: 0.83
+step: 12910, Progress: 37%, Train Avg NLLLoss: 0.0004, Teacher_r: 0.83
+step: 12920, Progress: 37%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 12930, Progress: 37%, Train Avg NLLLoss: 0.0004, Teacher_r: 0.83
+step: 12940, Progress: 37%, Train Avg NLLLoss: 0.0064, Teacher_r: 0.83
+step: 12950, Progress: 37%, Train Avg NLLLoss: 0.0003, Teacher_r: 0.83
+step: 12960, Progress: 37%, Train Avg NLLLoss: 0.0008, Teacher_r: 0.83
+step: 12970, Progress: 37%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 12980, Progress: 38%, Train Avg NLLLoss: 0.0002, Teacher_r: 0.83
+step: 12990, Progress: 38%, Train Avg NLLLoss: 0.0002, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 38, Step: 12996, train_acc: 0.89, validate_acc: 0.60, test_acc: 0.61
+step: 13000, Progress: 38%, Train Avg NLLLoss: 0.0024, Teacher_r: 0.83
+step: 13010, Progress: 38%, Train Avg NLLLoss: 0.0073, Teacher_r: 0.83
+step: 13020, Progress: 38%, Train Avg NLLLoss: 0.0084, Teacher_r: 0.83
+step: 13030, Progress: 38%, Train Avg NLLLoss: 0.0069, Teacher_r: 0.83
+step: 13040, Progress: 38%, Train Avg NLLLoss: 0.0055, Teacher_r: 0.83
+step: 13050, Progress: 38%, Train Avg NLLLoss: 0.0070, Teacher_r: 0.83
+step: 13060, Progress: 38%, Train Avg NLLLoss: 0.0069, Teacher_r: 0.83
+step: 13070, Progress: 38%, Train Avg NLLLoss: 0.0085, Teacher_r: 0.83
+step: 13080, Progress: 38%, Train Avg NLLLoss: 0.0062, Teacher_r: 0.83
+step: 13090, Progress: 38%, Train Avg NLLLoss: 0.0067, Teacher_r: 0.83
+step: 13100, Progress: 38%, Train Avg NLLLoss: 0.0061, Teacher_r: 0.83
+step: 13110, Progress: 38%, Train Avg NLLLoss: 0.0039, Teacher_r: 0.83
+step: 13120, Progress: 38%, Train Avg NLLLoss: 0.0064, Teacher_r: 0.83
+step: 13130, Progress: 38%, Train Avg NLLLoss: 0.0034, Teacher_r: 0.83
+step: 13140, Progress: 38%, Train Avg NLLLoss: 0.0028, Teacher_r: 0.83
+step: 13150, Progress: 38%, Train Avg NLLLoss: 0.0060, Teacher_r: 0.83
+step: 13160, Progress: 38%, Train Avg NLLLoss: 0.0092, Teacher_r: 0.83
+step: 13170, Progress: 38%, Train Avg NLLLoss: 0.0111, Teacher_r: 0.83
+step: 13180, Progress: 38%, Train Avg NLLLoss: 0.0037, Teacher_r: 0.83
+step: 13190, Progress: 38%, Train Avg NLLLoss: 0.0065, Teacher_r: 0.83
+step: 13200, Progress: 38%, Train Avg NLLLoss: 0.0028, Teacher_r: 0.83
+step: 13210, Progress: 38%, Train Avg NLLLoss: 0.0065, Teacher_r: 0.83
+step: 13220, Progress: 38%, Train Avg NLLLoss: 0.0057, Teacher_r: 0.83
+step: 13230, Progress: 38%, Train Avg NLLLoss: 0.0049, Teacher_r: 0.83
+step: 13240, Progress: 38%, Train Avg NLLLoss: 0.0096, Teacher_r: 0.83
+step: 13250, Progress: 38%, Train Avg NLLLoss: 0.0024, Teacher_r: 0.83
+step: 13260, Progress: 38%, Train Avg NLLLoss: 0.0013, Teacher_r: 0.83
+step: 13270, Progress: 38%, Train Avg NLLLoss: 0.0055, Teacher_r: 0.83
+step: 13280, Progress: 38%, Train Avg NLLLoss: 0.0036, Teacher_r: 0.83
+step: 13290, Progress: 38%, Train Avg NLLLoss: 0.0002, Teacher_r: 0.83
+step: 13300, Progress: 38%, Train Avg NLLLoss: 0.0011, Teacher_r: 0.83
+step: 13310, Progress: 38%, Train Avg NLLLoss: 0.0004, Teacher_r: 0.83
+step: 13320, Progress: 39%, Train Avg NLLLoss: 0.0002, Teacher_r: 0.83
+step: 13330, Progress: 39%, Train Avg NLLLoss: 0.0033, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 39, Step: 13338, train_acc: 0.84, validate_acc: 0.58, test_acc: 0.58
+step: 13340, Progress: 39%, Train Avg NLLLoss: 0.0082, Teacher_r: 0.83
+step: 13350, Progress: 39%, Train Avg NLLLoss: 0.0065, Teacher_r: 0.83
+step: 13360, Progress: 39%, Train Avg NLLLoss: 0.0088, Teacher_r: 0.83
+step: 13370, Progress: 39%, Train Avg NLLLoss: 0.0103, Teacher_r: 0.83
+step: 13380, Progress: 39%, Train Avg NLLLoss: 0.0088, Teacher_r: 0.83
+step: 13390, Progress: 39%, Train Avg NLLLoss: 0.0056, Teacher_r: 0.83
+step: 13400, Progress: 39%, Train Avg NLLLoss: 0.0046, Teacher_r: 0.83
+step: 13410, Progress: 39%, Train Avg NLLLoss: 0.0047, Teacher_r: 0.83
+step: 13420, Progress: 39%, Train Avg NLLLoss: 0.0050, Teacher_r: 0.83
+step: 13430, Progress: 39%, Train Avg NLLLoss: 0.0041, Teacher_r: 0.83
+step: 13440, Progress: 39%, Train Avg NLLLoss: 0.0051, Teacher_r: 0.83
+step: 13450, Progress: 39%, Train Avg NLLLoss: 0.0029, Teacher_r: 0.83
+step: 13460, Progress: 39%, Train Avg NLLLoss: 0.0039, Teacher_r: 0.83
+step: 13470, Progress: 39%, Train Avg NLLLoss: 0.0046, Teacher_r: 0.83
+step: 13480, Progress: 39%, Train Avg NLLLoss: 0.0056, Teacher_r: 0.83
+step: 13490, Progress: 39%, Train Avg NLLLoss: 0.0040, Teacher_r: 0.83
+step: 13500, Progress: 39%, Train Avg NLLLoss: 0.0079, Teacher_r: 0.83
+step: 13510, Progress: 39%, Train Avg NLLLoss: 0.0061, Teacher_r: 0.83
+step: 13520, Progress: 39%, Train Avg NLLLoss: 0.0078, Teacher_r: 0.83
+step: 13530, Progress: 39%, Train Avg NLLLoss: 0.0055, Teacher_r: 0.83
+step: 13540, Progress: 39%, Train Avg NLLLoss: 0.0056, Teacher_r: 0.83
+step: 13550, Progress: 39%, Train Avg NLLLoss: 0.0083, Teacher_r: 0.83
+step: 13560, Progress: 39%, Train Avg NLLLoss: 0.0034, Teacher_r: 0.83
+step: 13570, Progress: 39%, Train Avg NLLLoss: 0.0027, Teacher_r: 0.83
+step: 13580, Progress: 39%, Train Avg NLLLoss: 0.0083, Teacher_r: 0.83
+step: 13590, Progress: 39%, Train Avg NLLLoss: 0.0004, Teacher_r: 0.83
+step: 13600, Progress: 39%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 13610, Progress: 39%, Train Avg NLLLoss: 0.0036, Teacher_r: 0.83
+step: 13620, Progress: 39%, Train Avg NLLLoss: 0.0131, Teacher_r: 0.83
+step: 13630, Progress: 39%, Train Avg NLLLoss: 0.0019, Teacher_r: 0.83
+step: 13640, Progress: 39%, Train Avg NLLLoss: 0.0016, Teacher_r: 0.83
+step: 13650, Progress: 39%, Train Avg NLLLoss: 0.0008, Teacher_r: 0.83
+step: 13660, Progress: 40%, Train Avg NLLLoss: 0.0005, Teacher_r: 0.83
+step: 13670, Progress: 40%, Train Avg NLLLoss: 0.0017, Teacher_r: 0.83
+step: 13680, Progress: 40%, Train Avg NLLLoss: 0.0095, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 40, Step: 13680, train_acc: 0.72, validate_acc: 0.53, test_acc: 0.54
+step: 13690, Progress: 40%, Train Avg NLLLoss: 0.0175, Teacher_r: 0.83
+step: 13700, Progress: 40%, Train Avg NLLLoss: 0.0061, Teacher_r: 0.83
+step: 13710, Progress: 40%, Train Avg NLLLoss: 0.0100, Teacher_r: 0.83
+step: 13720, Progress: 40%, Train Avg NLLLoss: 0.0174, Teacher_r: 0.83
+step: 13730, Progress: 40%, Train Avg NLLLoss: 0.0057, Teacher_r: 0.83
+step: 13740, Progress: 40%, Train Avg NLLLoss: 0.0053, Teacher_r: 0.83
+step: 13750, Progress: 40%, Train Avg NLLLoss: 0.0041, Teacher_r: 0.83
+step: 13760, Progress: 40%, Train Avg NLLLoss: 0.0071, Teacher_r: 0.83
+step: 13770, Progress: 40%, Train Avg NLLLoss: 0.0074, Teacher_r: 0.83
+step: 13780, Progress: 40%, Train Avg NLLLoss: 0.0076, Teacher_r: 0.83
+step: 13790, Progress: 40%, Train Avg NLLLoss: 0.0069, Teacher_r: 0.83
+step: 13800, Progress: 40%, Train Avg NLLLoss: 0.0048, Teacher_r: 0.83
+step: 13810, Progress: 40%, Train Avg NLLLoss: 0.0044, Teacher_r: 0.83
+step: 13820, Progress: 40%, Train Avg NLLLoss: 0.0067, Teacher_r: 0.83
+step: 13830, Progress: 40%, Train Avg NLLLoss: 0.0029, Teacher_r: 0.83
+step: 13840, Progress: 40%, Train Avg NLLLoss: 0.0070, Teacher_r: 0.83
+step: 13850, Progress: 40%, Train Avg NLLLoss: 0.0053, Teacher_r: 0.83
+step: 13860, Progress: 40%, Train Avg NLLLoss: 0.0088, Teacher_r: 0.83
+step: 13870, Progress: 40%, Train Avg NLLLoss: 0.0059, Teacher_r: 0.83
+step: 13880, Progress: 40%, Train Avg NLLLoss: 0.0040, Teacher_r: 0.83
+step: 13890, Progress: 40%, Train Avg NLLLoss: 0.0054, Teacher_r: 0.83
+step: 13900, Progress: 40%, Train Avg NLLLoss: 0.0047, Teacher_r: 0.83
+step: 13910, Progress: 40%, Train Avg NLLLoss: 0.0051, Teacher_r: 0.83
+step: 13920, Progress: 40%, Train Avg NLLLoss: 0.0031, Teacher_r: 0.83
+step: 13930, Progress: 40%, Train Avg NLLLoss: 0.0030, Teacher_r: 0.83
+step: 13940, Progress: 40%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 13950, Progress: 40%, Train Avg NLLLoss: 0.0001, Teacher_r: 0.83
+step: 13960, Progress: 40%, Train Avg NLLLoss: 0.0057, Teacher_r: 0.83
+step: 13970, Progress: 40%, Train Avg NLLLoss: 0.0073, Teacher_r: 0.83
+step: 13980, Progress: 40%, Train Avg NLLLoss: 0.0034, Teacher_r: 0.83
+step: 13990, Progress: 40%, Train Avg NLLLoss: 0.0011, Teacher_r: 0.83
+step: 14000, Progress: 41%, Train Avg NLLLoss: 0.0096, Teacher_r: 0.83
+step: 14010, Progress: 41%, Train Avg NLLLoss: 0.0112, Teacher_r: 0.83
+step: 14020, Progress: 41%, Train Avg NLLLoss: 0.0083, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 41, Step: 14022, train_acc: 0.82, validate_acc: 0.57, test_acc: 0.57
+step: 14030, Progress: 41%, Train Avg NLLLoss: 0.0095, Teacher_r: 0.83
+step: 14040, Progress: 41%, Train Avg NLLLoss: 0.0113, Teacher_r: 0.83
+step: 14050, Progress: 41%, Train Avg NLLLoss: 0.0067, Teacher_r: 0.83
+step: 14060, Progress: 41%, Train Avg NLLLoss: 0.0099, Teacher_r: 0.83
+step: 14070, Progress: 41%, Train Avg NLLLoss: 0.0101, Teacher_r: 0.83
+step: 14080, Progress: 41%, Train Avg NLLLoss: 0.0066, Teacher_r: 0.83
+step: 14090, Progress: 41%, Train Avg NLLLoss: 0.0085, Teacher_r: 0.83
+step: 14100, Progress: 41%, Train Avg NLLLoss: 0.0062, Teacher_r: 0.83
+step: 14110, Progress: 41%, Train Avg NLLLoss: 0.0072, Teacher_r: 0.83
+step: 14120, Progress: 41%, Train Avg NLLLoss: 0.0056, Teacher_r: 0.83
+step: 14130, Progress: 41%, Train Avg NLLLoss: 0.0039, Teacher_r: 0.83
+step: 14140, Progress: 41%, Train Avg NLLLoss: 0.0030, Teacher_r: 0.83
+step: 14150, Progress: 41%, Train Avg NLLLoss: 0.0036, Teacher_r: 0.83
+step: 14160, Progress: 41%, Train Avg NLLLoss: 0.0098, Teacher_r: 0.83
+step: 14170, Progress: 41%, Train Avg NLLLoss: 0.0068, Teacher_r: 0.83
+step: 14180, Progress: 41%, Train Avg NLLLoss: 0.0060, Teacher_r: 0.83
+step: 14190, Progress: 41%, Train Avg NLLLoss: 0.0060, Teacher_r: 0.83
+step: 14200, Progress: 41%, Train Avg NLLLoss: 0.0065, Teacher_r: 0.83
+step: 14210, Progress: 41%, Train Avg NLLLoss: 0.0030, Teacher_r: 0.83
+step: 14220, Progress: 41%, Train Avg NLLLoss: 0.0058, Teacher_r: 0.83
+step: 14230, Progress: 41%, Train Avg NLLLoss: 0.0043, Teacher_r: 0.83
+step: 14240, Progress: 41%, Train Avg NLLLoss: 0.0031, Teacher_r: 0.83
+step: 14250, Progress: 41%, Train Avg NLLLoss: 0.0047, Teacher_r: 0.83
+step: 14260, Progress: 41%, Train Avg NLLLoss: 0.0058, Teacher_r: 0.83
+step: 14270, Progress: 41%, Train Avg NLLLoss: 0.0030, Teacher_r: 0.83
+step: 14280, Progress: 41%, Train Avg NLLLoss: 0.0001, Teacher_r: 0.83
+step: 14290, Progress: 41%, Train Avg NLLLoss: 0.0011, Teacher_r: 0.83
+step: 14300, Progress: 41%, Train Avg NLLLoss: 0.0035, Teacher_r: 0.83
+step: 14310, Progress: 41%, Train Avg NLLLoss: 0.0099, Teacher_r: 0.83
+step: 14320, Progress: 41%, Train Avg NLLLoss: 0.0153, Teacher_r: 0.83
+step: 14330, Progress: 41%, Train Avg NLLLoss: 0.0036, Teacher_r: 0.83
+step: 14340, Progress: 42%, Train Avg NLLLoss: 0.0018, Teacher_r: 0.83
+step: 14350, Progress: 42%, Train Avg NLLLoss: 0.0190, Teacher_r: 0.83
+step: 14360, Progress: 42%, Train Avg NLLLoss: 0.0066, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 42, Step: 14364, train_acc: 0.64, validate_acc: 0.48, test_acc: 0.48
+step: 14370, Progress: 42%, Train Avg NLLLoss: 0.0119, Teacher_r: 0.83
+step: 14380, Progress: 42%, Train Avg NLLLoss: 0.0144, Teacher_r: 0.83
+step: 14390, Progress: 42%, Train Avg NLLLoss: 0.0119, Teacher_r: 0.83
+step: 14400, Progress: 42%, Train Avg NLLLoss: 0.0126, Teacher_r: 0.83
+step: 14410, Progress: 42%, Train Avg NLLLoss: 0.0081, Teacher_r: 0.83
+step: 14420, Progress: 42%, Train Avg NLLLoss: 0.0078, Teacher_r: 0.83
+step: 14430, Progress: 42%, Train Avg NLLLoss: 0.0066, Teacher_r: 0.83
+step: 14440, Progress: 42%, Train Avg NLLLoss: 0.0049, Teacher_r: 0.83
+step: 14450, Progress: 42%, Train Avg NLLLoss: 0.0085, Teacher_r: 0.83
+step: 14460, Progress: 42%, Train Avg NLLLoss: 0.0073, Teacher_r: 0.83
+step: 14470, Progress: 42%, Train Avg NLLLoss: 0.0043, Teacher_r: 0.83
+step: 14480, Progress: 42%, Train Avg NLLLoss: 0.0038, Teacher_r: 0.83
+step: 14490, Progress: 42%, Train Avg NLLLoss: 0.0057, Teacher_r: 0.83
+step: 14500, Progress: 42%, Train Avg NLLLoss: 0.0073, Teacher_r: 0.83
+step: 14510, Progress: 42%, Train Avg NLLLoss: 0.0050, Teacher_r: 0.83
+step: 14520, Progress: 42%, Train Avg NLLLoss: 0.0052, Teacher_r: 0.83
+step: 14530, Progress: 42%, Train Avg NLLLoss: 0.0061, Teacher_r: 0.83
+step: 14540, Progress: 42%, Train Avg NLLLoss: 0.0035, Teacher_r: 0.83
+step: 14550, Progress: 42%, Train Avg NLLLoss: 0.0039, Teacher_r: 0.83
+step: 14560, Progress: 42%, Train Avg NLLLoss: 0.0051, Teacher_r: 0.83
+step: 14570, Progress: 42%, Train Avg NLLLoss: 0.0028, Teacher_r: 0.83
+step: 14580, Progress: 42%, Train Avg NLLLoss: 0.0034, Teacher_r: 0.83
+step: 14590, Progress: 42%, Train Avg NLLLoss: 0.0062, Teacher_r: 0.83
+step: 14600, Progress: 42%, Train Avg NLLLoss: 0.0044, Teacher_r: 0.83
+step: 14610, Progress: 42%, Train Avg NLLLoss: 0.0033, Teacher_r: 0.83
+step: 14620, Progress: 42%, Train Avg NLLLoss: 0.0028, Teacher_r: 0.83
+step: 14630, Progress: 42%, Train Avg NLLLoss: 0.0009, Teacher_r: 0.83
+step: 14640, Progress: 42%, Train Avg NLLLoss: 0.0001, Teacher_r: 0.83
+step: 14650, Progress: 42%, Train Avg NLLLoss: 0.0008, Teacher_r: 0.83
+step: 14660, Progress: 42%, Train Avg NLLLoss: 0.0043, Teacher_r: 0.83
+step: 14670, Progress: 42%, Train Avg NLLLoss: 0.0033, Teacher_r: 0.83
+step: 14680, Progress: 43%, Train Avg NLLLoss: 0.0017, Teacher_r: 0.83
+step: 14690, Progress: 43%, Train Avg NLLLoss: 0.0026, Teacher_r: 0.83
+step: 14700, Progress: 43%, Train Avg NLLLoss: 0.0042, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 43, Step: 14706, train_acc: 0.72, validate_acc: 0.52, test_acc: 0.52
+step: 14710, Progress: 43%, Train Avg NLLLoss: 0.0041, Teacher_r: 0.83
+step: 14720, Progress: 43%, Train Avg NLLLoss: 0.0118, Teacher_r: 0.83
+step: 14730, Progress: 43%, Train Avg NLLLoss: 0.0094, Teacher_r: 0.83
+step: 14740, Progress: 43%, Train Avg NLLLoss: 0.0087, Teacher_r: 0.83
+step: 14750, Progress: 43%, Train Avg NLLLoss: 0.0063, Teacher_r: 0.83
+step: 14760, Progress: 43%, Train Avg NLLLoss: 0.0083, Teacher_r: 0.83
+step: 14770, Progress: 43%, Train Avg NLLLoss: 0.0058, Teacher_r: 0.83
+step: 14780, Progress: 43%, Train Avg NLLLoss: 0.0050, Teacher_r: 0.83
+step: 14790, Progress: 43%, Train Avg NLLLoss: 0.0075, Teacher_r: 0.83
+step: 14800, Progress: 43%, Train Avg NLLLoss: 0.0045, Teacher_r: 0.83
+step: 14810, Progress: 43%, Train Avg NLLLoss: 0.0048, Teacher_r: 0.83
+step: 14820, Progress: 43%, Train Avg NLLLoss: 0.0065, Teacher_r: 0.83
+step: 14830, Progress: 43%, Train Avg NLLLoss: 0.0034, Teacher_r: 0.83
+step: 14840, Progress: 43%, Train Avg NLLLoss: 0.0047, Teacher_r: 0.83
+step: 14850, Progress: 43%, Train Avg NLLLoss: 0.0051, Teacher_r: 0.83
+step: 14860, Progress: 43%, Train Avg NLLLoss: 0.0060, Teacher_r: 0.83
+step: 14870, Progress: 43%, Train Avg NLLLoss: 0.0048, Teacher_r: 0.83
+step: 14880, Progress: 43%, Train Avg NLLLoss: 0.0039, Teacher_r: 0.83
+step: 14890, Progress: 43%, Train Avg NLLLoss: 0.0029, Teacher_r: 0.83
+step: 14900, Progress: 43%, Train Avg NLLLoss: 0.0044, Teacher_r: 0.83
+step: 14910, Progress: 43%, Train Avg NLLLoss: 0.0031, Teacher_r: 0.83
+step: 14920, Progress: 43%, Train Avg NLLLoss: 0.0024, Teacher_r: 0.83
+step: 14930, Progress: 43%, Train Avg NLLLoss: 0.0052, Teacher_r: 0.83
+step: 14940, Progress: 43%, Train Avg NLLLoss: 0.0033, Teacher_r: 0.83
+step: 14950, Progress: 43%, Train Avg NLLLoss: 0.0026, Teacher_r: 0.83
+step: 14960, Progress: 43%, Train Avg NLLLoss: 0.0024, Teacher_r: 0.83
+step: 14970, Progress: 43%, Train Avg NLLLoss: 0.0089, Teacher_r: 0.83
+step: 14980, Progress: 43%, Train Avg NLLLoss: 0.0002, Teacher_r: 0.83
+step: 14990, Progress: 43%, Train Avg NLLLoss: 0.0024, Teacher_r: 0.83
+step: 15000, Progress: 43%, Train Avg NLLLoss: 0.0139, Teacher_r: 0.83
+step: 15010, Progress: 43%, Train Avg NLLLoss: 0.0005, Teacher_r: 0.83
+step: 15020, Progress: 43%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 15030, Progress: 44%, Train Avg NLLLoss: 0.0002, Teacher_r: 0.83
+step: 15040, Progress: 44%, Train Avg NLLLoss: 0.0121, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 44, Step: 15048, train_acc: 0.41, validate_acc: 0.34, test_acc: 0.34
+step: 15050, Progress: 44%, Train Avg NLLLoss: 0.0040, Teacher_r: 0.83
+step: 15060, Progress: 44%, Train Avg NLLLoss: 0.0170, Teacher_r: 0.83
+step: 15070, Progress: 44%, Train Avg NLLLoss: 0.0087, Teacher_r: 0.83
+step: 15080, Progress: 44%, Train Avg NLLLoss: 0.0068, Teacher_r: 0.83
+step: 15090, Progress: 44%, Train Avg NLLLoss: 0.0084, Teacher_r: 0.83
+step: 15100, Progress: 44%, Train Avg NLLLoss: 0.0065, Teacher_r: 0.83
+step: 15110, Progress: 44%, Train Avg NLLLoss: 0.0066, Teacher_r: 0.83
+step: 15120, Progress: 44%, Train Avg NLLLoss: 0.0031, Teacher_r: 0.83
+step: 15130, Progress: 44%, Train Avg NLLLoss: 0.0036, Teacher_r: 0.83
+step: 15140, Progress: 44%, Train Avg NLLLoss: 0.0038, Teacher_r: 0.83
+step: 15150, Progress: 44%, Train Avg NLLLoss: 0.0025, Teacher_r: 0.83
+step: 15160, Progress: 44%, Train Avg NLLLoss: 0.0058, Teacher_r: 0.83
+step: 15170, Progress: 44%, Train Avg NLLLoss: 0.0036, Teacher_r: 0.83
+step: 15180, Progress: 44%, Train Avg NLLLoss: 0.0063, Teacher_r: 0.83
+step: 15190, Progress: 44%, Train Avg NLLLoss: 0.0036, Teacher_r: 0.83
+step: 15200, Progress: 44%, Train Avg NLLLoss: 0.0062, Teacher_r: 0.83
+step: 15210, Progress: 44%, Train Avg NLLLoss: 0.0044, Teacher_r: 0.83
+step: 15220, Progress: 44%, Train Avg NLLLoss: 0.0051, Teacher_r: 0.83
+step: 15230, Progress: 44%, Train Avg NLLLoss: 0.0032, Teacher_r: 0.83
+step: 15240, Progress: 44%, Train Avg NLLLoss: 0.0049, Teacher_r: 0.83
+step: 15250, Progress: 44%, Train Avg NLLLoss: 0.0020, Teacher_r: 0.83
+step: 15260, Progress: 44%, Train Avg NLLLoss: 0.0037, Teacher_r: 0.83
+step: 15270, Progress: 44%, Train Avg NLLLoss: 0.0042, Teacher_r: 0.83
+step: 15280, Progress: 44%, Train Avg NLLLoss: 0.0027, Teacher_r: 0.83
+step: 15290, Progress: 44%, Train Avg NLLLoss: 0.0043, Teacher_r: 0.83
+step: 15300, Progress: 44%, Train Avg NLLLoss: 0.0019, Teacher_r: 0.83
+step: 15310, Progress: 44%, Train Avg NLLLoss: 0.0004, Teacher_r: 0.83
+step: 15320, Progress: 44%, Train Avg NLLLoss: 0.0070, Teacher_r: 0.83
+step: 15330, Progress: 44%, Train Avg NLLLoss: 0.0020, Teacher_r: 0.83
+step: 15340, Progress: 44%, Train Avg NLLLoss: 0.0018, Teacher_r: 0.83
+step: 15350, Progress: 44%, Train Avg NLLLoss: 0.0117, Teacher_r: 0.83
+step: 15360, Progress: 44%, Train Avg NLLLoss: 0.0072, Teacher_r: 0.83
+step: 15370, Progress: 45%, Train Avg NLLLoss: 0.0001, Teacher_r: 0.83
+step: 15380, Progress: 45%, Train Avg NLLLoss: 0.0046, Teacher_r: 0.83
+step: 15390, Progress: 45%, Train Avg NLLLoss: 0.0001, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 45, Step: 15390, train_acc: 0.87, validate_acc: 0.58, test_acc: 0.58
+step: 15400, Progress: 45%, Train Avg NLLLoss: 0.0054, Teacher_r: 0.83
+step: 15410, Progress: 45%, Train Avg NLLLoss: 0.0043, Teacher_r: 0.83
+step: 15420, Progress: 45%, Train Avg NLLLoss: 0.0073, Teacher_r: 0.83
+step: 15430, Progress: 45%, Train Avg NLLLoss: 0.0084, Teacher_r: 0.83
+step: 15440, Progress: 45%, Train Avg NLLLoss: 0.0070, Teacher_r: 0.83
+step: 15450, Progress: 45%, Train Avg NLLLoss: 0.0027, Teacher_r: 0.83
+step: 15460, Progress: 45%, Train Avg NLLLoss: 0.0051, Teacher_r: 0.83
+step: 15470, Progress: 45%, Train Avg NLLLoss: 0.0063, Teacher_r: 0.83
+step: 15480, Progress: 45%, Train Avg NLLLoss: 0.0026, Teacher_r: 0.83
+step: 15490, Progress: 45%, Train Avg NLLLoss: 0.0038, Teacher_r: 0.83
+step: 15500, Progress: 45%, Train Avg NLLLoss: 0.0048, Teacher_r: 0.83
+step: 15510, Progress: 45%, Train Avg NLLLoss: 0.0032, Teacher_r: 0.83
+step: 15520, Progress: 45%, Train Avg NLLLoss: 0.0046, Teacher_r: 0.83
+step: 15530, Progress: 45%, Train Avg NLLLoss: 0.0030, Teacher_r: 0.83
+step: 15540, Progress: 45%, Train Avg NLLLoss: 0.0059, Teacher_r: 0.83
+step: 15550, Progress: 45%, Train Avg NLLLoss: 0.0043, Teacher_r: 0.83
+step: 15560, Progress: 45%, Train Avg NLLLoss: 0.0026, Teacher_r: 0.83
+step: 15570, Progress: 45%, Train Avg NLLLoss: 0.0043, Teacher_r: 0.83
+step: 15580, Progress: 45%, Train Avg NLLLoss: 0.0033, Teacher_r: 0.83
+step: 15590, Progress: 45%, Train Avg NLLLoss: 0.0021, Teacher_r: 0.83
+step: 15600, Progress: 45%, Train Avg NLLLoss: 0.0029, Teacher_r: 0.83
+step: 15610, Progress: 45%, Train Avg NLLLoss: 0.0040, Teacher_r: 0.83
+step: 15620, Progress: 45%, Train Avg NLLLoss: 0.0037, Teacher_r: 0.83
+step: 15630, Progress: 45%, Train Avg NLLLoss: 0.0033, Teacher_r: 0.83
+step: 15640, Progress: 45%, Train Avg NLLLoss: 0.0011, Teacher_r: 0.83
+step: 15650, Progress: 45%, Train Avg NLLLoss: 0.0004, Teacher_r: 0.83
+step: 15660, Progress: 45%, Train Avg NLLLoss: 0.0001, Teacher_r: 0.83
+step: 15670, Progress: 45%, Train Avg NLLLoss: 0.0007, Teacher_r: 0.83
+step: 15680, Progress: 45%, Train Avg NLLLoss: 0.0037, Teacher_r: 0.83
+step: 15690, Progress: 45%, Train Avg NLLLoss: 0.0109, Teacher_r: 0.83
+step: 15700, Progress: 45%, Train Avg NLLLoss: 0.0019, Teacher_r: 0.83
+step: 15710, Progress: 46%, Train Avg NLLLoss: 0.0095, Teacher_r: 0.83
+step: 15720, Progress: 46%, Train Avg NLLLoss: 0.0001, Teacher_r: 0.83
+step: 15730, Progress: 46%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 46, Step: 15732, train_acc: 0.86, validate_acc: 0.57, test_acc: 0.57
+step: 15740, Progress: 46%, Train Avg NLLLoss: 0.0040, Teacher_r: 0.83
+step: 15750, Progress: 46%, Train Avg NLLLoss: 0.0079, Teacher_r: 0.83
+step: 15760, Progress: 46%, Train Avg NLLLoss: 0.0044, Teacher_r: 0.83
+step: 15770, Progress: 46%, Train Avg NLLLoss: 0.0042, Teacher_r: 0.83
+step: 15780, Progress: 46%, Train Avg NLLLoss: 0.0035, Teacher_r: 0.83
+step: 15790, Progress: 46%, Train Avg NLLLoss: 0.0021, Teacher_r: 0.83
+step: 15800, Progress: 46%, Train Avg NLLLoss: 0.0029, Teacher_r: 0.83
+step: 15810, Progress: 46%, Train Avg NLLLoss: 0.0044, Teacher_r: 0.83
+step: 15820, Progress: 46%, Train Avg NLLLoss: 0.0045, Teacher_r: 0.83
+step: 15830, Progress: 46%, Train Avg NLLLoss: 0.0042, Teacher_r: 0.83
+step: 15840, Progress: 46%, Train Avg NLLLoss: 0.0040, Teacher_r: 0.83
+step: 15850, Progress: 46%, Train Avg NLLLoss: 0.0032, Teacher_r: 0.83
+step: 15860, Progress: 46%, Train Avg NLLLoss: 0.0024, Teacher_r: 0.83
+step: 15870, Progress: 46%, Train Avg NLLLoss: 0.0035, Teacher_r: 0.83
+step: 15880, Progress: 46%, Train Avg NLLLoss: 0.0098, Teacher_r: 0.83
+step: 15890, Progress: 46%, Train Avg NLLLoss: 0.0085, Teacher_r: 0.83
+step: 15900, Progress: 46%, Train Avg NLLLoss: 0.0030, Teacher_r: 0.83
+step: 15910, Progress: 46%, Train Avg NLLLoss: 0.0037, Teacher_r: 0.83
+step: 15920, Progress: 46%, Train Avg NLLLoss: 0.0022, Teacher_r: 0.83
+step: 15930, Progress: 46%, Train Avg NLLLoss: 0.0038, Teacher_r: 0.83
+step: 15940, Progress: 46%, Train Avg NLLLoss: 0.0035, Teacher_r: 0.83
+step: 15950, Progress: 46%, Train Avg NLLLoss: 0.0057, Teacher_r: 0.83
+step: 15960, Progress: 46%, Train Avg NLLLoss: 0.0025, Teacher_r: 0.83
+step: 15970, Progress: 46%, Train Avg NLLLoss: 0.0019, Teacher_r: 0.83
+step: 15980, Progress: 46%, Train Avg NLLLoss: 0.0022, Teacher_r: 0.83
+step: 15990, Progress: 46%, Train Avg NLLLoss: 0.0010, Teacher_r: 0.83
+step: 16000, Progress: 46%, Train Avg NLLLoss: 0.0036, Teacher_r: 0.83
+step: 16010, Progress: 46%, Train Avg NLLLoss: 0.0006, Teacher_r: 0.83
+step: 16020, Progress: 46%, Train Avg NLLLoss: 0.0005, Teacher_r: 0.83
+step: 16030, Progress: 46%, Train Avg NLLLoss: 0.0021, Teacher_r: 0.83
+step: 16040, Progress: 46%, Train Avg NLLLoss: 0.0018, Teacher_r: 0.83
+step: 16050, Progress: 47%, Train Avg NLLLoss: 0.0012, Teacher_r: 0.83
+step: 16060, Progress: 47%, Train Avg NLLLoss: 0.0002, Teacher_r: 0.83
+step: 16070, Progress: 47%, Train Avg NLLLoss: 0.0005, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 47, Step: 16074, train_acc: 0.87, validate_acc: 0.57, test_acc: 0.57
+step: 16080, Progress: 47%, Train Avg NLLLoss: 0.0064, Teacher_r: 0.83
+step: 16090, Progress: 47%, Train Avg NLLLoss: 0.0032, Teacher_r: 0.83
+step: 16100, Progress: 47%, Train Avg NLLLoss: 0.0058, Teacher_r: 0.83
+step: 16110, Progress: 47%, Train Avg NLLLoss: 0.0056, Teacher_r: 0.83
+step: 16120, Progress: 47%, Train Avg NLLLoss: 0.0067, Teacher_r: 0.83
+step: 16130, Progress: 47%, Train Avg NLLLoss: 0.0038, Teacher_r: 0.83
+step: 16140, Progress: 47%, Train Avg NLLLoss: 0.0041, Teacher_r: 0.83
+step: 16150, Progress: 47%, Train Avg NLLLoss: 0.0034, Teacher_r: 0.83
+step: 16160, Progress: 47%, Train Avg NLLLoss: 0.0035, Teacher_r: 0.83
+step: 16170, Progress: 47%, Train Avg NLLLoss: 0.0054, Teacher_r: 0.83
+step: 16180, Progress: 47%, Train Avg NLLLoss: 0.0034, Teacher_r: 0.83
+step: 16190, Progress: 47%, Train Avg NLLLoss: 0.0038, Teacher_r: 0.83
+step: 16200, Progress: 47%, Train Avg NLLLoss: 0.0032, Teacher_r: 0.83
+step: 16210, Progress: 47%, Train Avg NLLLoss: 0.0045, Teacher_r: 0.83
+step: 16220, Progress: 47%, Train Avg NLLLoss: 0.0052, Teacher_r: 0.83
+step: 16230, Progress: 47%, Train Avg NLLLoss: 0.0079, Teacher_r: 0.83
+step: 16240, Progress: 47%, Train Avg NLLLoss: 0.0051, Teacher_r: 0.83
+step: 16250, Progress: 47%, Train Avg NLLLoss: 0.0031, Teacher_r: 0.83
+step: 16260, Progress: 47%, Train Avg NLLLoss: 0.0036, Teacher_r: 0.83
+step: 16270, Progress: 47%, Train Avg NLLLoss: 0.0030, Teacher_r: 0.83
+step: 16280, Progress: 47%, Train Avg NLLLoss: 0.0042, Teacher_r: 0.83
+step: 16290, Progress: 47%, Train Avg NLLLoss: 0.0014, Teacher_r: 0.83
+step: 16300, Progress: 47%, Train Avg NLLLoss: 0.0037, Teacher_r: 0.83
+step: 16310, Progress: 47%, Train Avg NLLLoss: 0.0028, Teacher_r: 0.83
+step: 16320, Progress: 47%, Train Avg NLLLoss: 0.0030, Teacher_r: 0.83
+step: 16330, Progress: 47%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 16340, Progress: 47%, Train Avg NLLLoss: 0.0005, Teacher_r: 0.83
+step: 16350, Progress: 47%, Train Avg NLLLoss: 0.0001, Teacher_r: 0.83
+step: 16360, Progress: 47%, Train Avg NLLLoss: 0.0002, Teacher_r: 0.83
+step: 16370, Progress: 47%, Train Avg NLLLoss: 0.0137, Teacher_r: 0.83
+step: 16380, Progress: 47%, Train Avg NLLLoss: 0.0011, Teacher_r: 0.83
+step: 16390, Progress: 48%, Train Avg NLLLoss: 0.0032, Teacher_r: 0.83
+step: 16400, Progress: 48%, Train Avg NLLLoss: 0.0010, Teacher_r: 0.83
+step: 16410, Progress: 48%, Train Avg NLLLoss: 0.0207, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 48, Step: 16416, train_acc: 0.86, validate_acc: 0.56, test_acc: 0.56
+step: 16420, Progress: 48%, Train Avg NLLLoss: 0.0059, Teacher_r: 0.83
+step: 16430, Progress: 48%, Train Avg NLLLoss: 0.0077, Teacher_r: 0.83
+step: 16440, Progress: 48%, Train Avg NLLLoss: 0.0058, Teacher_r: 0.83
+step: 16450, Progress: 48%, Train Avg NLLLoss: 0.0043, Teacher_r: 0.83
+step: 16460, Progress: 48%, Train Avg NLLLoss: 0.0037, Teacher_r: 0.83
+step: 16470, Progress: 48%, Train Avg NLLLoss: 0.0056, Teacher_r: 0.83
+step: 16480, Progress: 48%, Train Avg NLLLoss: 0.0057, Teacher_r: 0.83
+step: 16490, Progress: 48%, Train Avg NLLLoss: 0.0075, Teacher_r: 0.83
+step: 16500, Progress: 48%, Train Avg NLLLoss: 0.0035, Teacher_r: 0.83
+step: 16510, Progress: 48%, Train Avg NLLLoss: 0.0031, Teacher_r: 0.83
+step: 16520, Progress: 48%, Train Avg NLLLoss: 0.0021, Teacher_r: 0.83
+step: 16530, Progress: 48%, Train Avg NLLLoss: 0.0037, Teacher_r: 0.83
+step: 16540, Progress: 48%, Train Avg NLLLoss: 0.0028, Teacher_r: 0.83
+step: 16550, Progress: 48%, Train Avg NLLLoss: 0.0032, Teacher_r: 0.83
+step: 16560, Progress: 48%, Train Avg NLLLoss: 0.0039, Teacher_r: 0.83
+step: 16570, Progress: 48%, Train Avg NLLLoss: 0.0061, Teacher_r: 0.83
+step: 16580, Progress: 48%, Train Avg NLLLoss: 0.0029, Teacher_r: 0.83
+step: 16590, Progress: 48%, Train Avg NLLLoss: 0.0025, Teacher_r: 0.83
+step: 16600, Progress: 48%, Train Avg NLLLoss: 0.0022, Teacher_r: 0.83
+step: 16610, Progress: 48%, Train Avg NLLLoss: 0.0054, Teacher_r: 0.83
+step: 16620, Progress: 48%, Train Avg NLLLoss: 0.0044, Teacher_r: 0.83
+step: 16630, Progress: 48%, Train Avg NLLLoss: 0.0024, Teacher_r: 0.83
+step: 16640, Progress: 48%, Train Avg NLLLoss: 0.0030, Teacher_r: 0.83
+step: 16650, Progress: 48%, Train Avg NLLLoss: 0.0021, Teacher_r: 0.83
+step: 16660, Progress: 48%, Train Avg NLLLoss: 0.0036, Teacher_r: 0.83
+step: 16670, Progress: 48%, Train Avg NLLLoss: 0.0001, Teacher_r: 0.83
+step: 16680, Progress: 48%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 16690, Progress: 48%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 16700, Progress: 48%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 16710, Progress: 48%, Train Avg NLLLoss: 0.0001, Teacher_r: 0.83
+step: 16720, Progress: 48%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 16730, Progress: 49%, Train Avg NLLLoss: 0.0002, Teacher_r: 0.83
+step: 16740, Progress: 49%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 16750, Progress: 49%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 49, Step: 16758, train_acc: 0.93, validate_acc: 0.62, test_acc: 0.62
+step: 16760, Progress: 49%, Train Avg NLLLoss: 0.0018, Teacher_r: 0.83
+step: 16770, Progress: 49%, Train Avg NLLLoss: 0.0028, Teacher_r: 0.83
+step: 16780, Progress: 49%, Train Avg NLLLoss: 0.0089, Teacher_r: 0.83
+step: 16790, Progress: 49%, Train Avg NLLLoss: 0.0023, Teacher_r: 0.83
+step: 16800, Progress: 49%, Train Avg NLLLoss: 0.0103, Teacher_r: 0.83
+step: 16810, Progress: 49%, Train Avg NLLLoss: 0.0023, Teacher_r: 0.83
+step: 16820, Progress: 49%, Train Avg NLLLoss: 0.0023, Teacher_r: 0.83
+step: 16830, Progress: 49%, Train Avg NLLLoss: 0.0019, Teacher_r: 0.83
+step: 16840, Progress: 49%, Train Avg NLLLoss: 0.0017, Teacher_r: 0.83
+step: 16850, Progress: 49%, Train Avg NLLLoss: 0.0046, Teacher_r: 0.83
+step: 16860, Progress: 49%, Train Avg NLLLoss: 0.0012, Teacher_r: 0.83
+step: 16870, Progress: 49%, Train Avg NLLLoss: 0.0031, Teacher_r: 0.83
+step: 16880, Progress: 49%, Train Avg NLLLoss: 0.0026, Teacher_r: 0.83
+step: 16890, Progress: 49%, Train Avg NLLLoss: 0.0016, Teacher_r: 0.83
+step: 16900, Progress: 49%, Train Avg NLLLoss: 0.0036, Teacher_r: 0.83
+step: 16910, Progress: 49%, Train Avg NLLLoss: 0.0027, Teacher_r: 0.83
+step: 16920, Progress: 49%, Train Avg NLLLoss: 0.0045, Teacher_r: 0.83
+step: 16930, Progress: 49%, Train Avg NLLLoss: 0.0050, Teacher_r: 0.83
+step: 16940, Progress: 49%, Train Avg NLLLoss: 0.0031, Teacher_r: 0.83
+step: 16950, Progress: 49%, Train Avg NLLLoss: 0.0014, Teacher_r: 0.83
+step: 16960, Progress: 49%, Train Avg NLLLoss: 0.0022, Teacher_r: 0.83
+step: 16970, Progress: 49%, Train Avg NLLLoss: 0.0018, Teacher_r: 0.83
+step: 16980, Progress: 49%, Train Avg NLLLoss: 0.0050, Teacher_r: 0.83
+step: 16990, Progress: 49%, Train Avg NLLLoss: 0.0031, Teacher_r: 0.83
+step: 17000, Progress: 49%, Train Avg NLLLoss: 0.0021, Teacher_r: 0.83
+step: 17010, Progress: 49%, Train Avg NLLLoss: 0.0002, Teacher_r: 0.83
+step: 17020, Progress: 49%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 17030, Progress: 49%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 17040, Progress: 49%, Train Avg NLLLoss: 0.0004, Teacher_r: 0.83
+step: 17050, Progress: 49%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 17060, Progress: 49%, Train Avg NLLLoss: 0.0002, Teacher_r: 0.83
+step: 17070, Progress: 50%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 17080, Progress: 50%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 17090, Progress: 50%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 17100, Progress: 50%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 50, Step: 17100, train_acc: 0.95, validate_acc: 0.62, test_acc: 0.63
+step: 17110, Progress: 50%, Train Avg NLLLoss: 0.0021, Teacher_r: 0.83
+step: 17120, Progress: 50%, Train Avg NLLLoss: 0.0011, Teacher_r: 0.83
+step: 17130, Progress: 50%, Train Avg NLLLoss: 0.0027, Teacher_r: 0.83
+step: 17140, Progress: 50%, Train Avg NLLLoss: 0.0039, Teacher_r: 0.83
+step: 17150, Progress: 50%, Train Avg NLLLoss: 0.0013, Teacher_r: 0.83
+step: 17160, Progress: 50%, Train Avg NLLLoss: 0.0029, Teacher_r: 0.83
+step: 17170, Progress: 50%, Train Avg NLLLoss: 0.0017, Teacher_r: 0.83
+step: 17180, Progress: 50%, Train Avg NLLLoss: 0.0034, Teacher_r: 0.83
+step: 17190, Progress: 50%, Train Avg NLLLoss: 0.0021, Teacher_r: 0.83
+step: 17200, Progress: 50%, Train Avg NLLLoss: 0.0016, Teacher_r: 0.83
+step: 17210, Progress: 50%, Train Avg NLLLoss: 0.0036, Teacher_r: 0.83
+step: 17220, Progress: 50%, Train Avg NLLLoss: 0.0013, Teacher_r: 0.83
+step: 17230, Progress: 50%, Train Avg NLLLoss: 0.0023, Teacher_r: 0.83
+step: 17240, Progress: 50%, Train Avg NLLLoss: 0.0025, Teacher_r: 0.83
+step: 17250, Progress: 50%, Train Avg NLLLoss: 0.0058, Teacher_r: 0.83
+step: 17260, Progress: 50%, Train Avg NLLLoss: 0.0020, Teacher_r: 0.83
+step: 17270, Progress: 50%, Train Avg NLLLoss: 0.0014, Teacher_r: 0.83
+step: 17280, Progress: 50%, Train Avg NLLLoss: 0.0025, Teacher_r: 0.83
+step: 17290, Progress: 50%, Train Avg NLLLoss: 0.0018, Teacher_r: 0.83
+step: 17300, Progress: 50%, Train Avg NLLLoss: 0.0009, Teacher_r: 0.83
+step: 17310, Progress: 50%, Train Avg NLLLoss: 0.0036, Teacher_r: 0.83
+step: 17320, Progress: 50%, Train Avg NLLLoss: 0.0016, Teacher_r: 0.83
+step: 17330, Progress: 50%, Train Avg NLLLoss: 0.0025, Teacher_r: 0.83
+step: 17340, Progress: 50%, Train Avg NLLLoss: 0.0028, Teacher_r: 0.83
+step: 17350, Progress: 50%, Train Avg NLLLoss: 0.0005, Teacher_r: 0.83
+step: 17360, Progress: 50%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 17370, Progress: 50%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 17380, Progress: 50%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 17390, Progress: 50%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 17400, Progress: 50%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 17410, Progress: 50%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 17420, Progress: 51%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 17430, Progress: 51%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 17440, Progress: 51%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 51, Step: 17442, train_acc: 0.97, validate_acc: 0.62, test_acc: 0.63
+step: 17450, Progress: 51%, Train Avg NLLLoss: 0.0008, Teacher_r: 0.83
+step: 17460, Progress: 51%, Train Avg NLLLoss: 0.0013, Teacher_r: 0.83
+step: 17470, Progress: 51%, Train Avg NLLLoss: 0.0020, Teacher_r: 0.83
+step: 17480, Progress: 51%, Train Avg NLLLoss: 0.0026, Teacher_r: 0.83
+step: 17490, Progress: 51%, Train Avg NLLLoss: 0.0043, Teacher_r: 0.83
+step: 17500, Progress: 51%, Train Avg NLLLoss: 0.0021, Teacher_r: 0.83
+step: 17510, Progress: 51%, Train Avg NLLLoss: 0.0029, Teacher_r: 0.83
+step: 17520, Progress: 51%, Train Avg NLLLoss: 0.0035, Teacher_r: 0.83
+step: 17530, Progress: 51%, Train Avg NLLLoss: 0.0021, Teacher_r: 0.83
+step: 17540, Progress: 51%, Train Avg NLLLoss: 0.0026, Teacher_r: 0.83
+step: 17550, Progress: 51%, Train Avg NLLLoss: 0.0011, Teacher_r: 0.83
+step: 17560, Progress: 51%, Train Avg NLLLoss: 0.0022, Teacher_r: 0.83
+step: 17570, Progress: 51%, Train Avg NLLLoss: 0.0019, Teacher_r: 0.83
+step: 17580, Progress: 51%, Train Avg NLLLoss: 0.0039, Teacher_r: 0.83
+step: 17590, Progress: 51%, Train Avg NLLLoss: 0.0013, Teacher_r: 0.83
+step: 17600, Progress: 51%, Train Avg NLLLoss: 0.0015, Teacher_r: 0.83
+step: 17610, Progress: 51%, Train Avg NLLLoss: 0.0017, Teacher_r: 0.83
+step: 17620, Progress: 51%, Train Avg NLLLoss: 0.0033, Teacher_r: 0.83
+step: 17630, Progress: 51%, Train Avg NLLLoss: 0.0029, Teacher_r: 0.83
+step: 17640, Progress: 51%, Train Avg NLLLoss: 0.0037, Teacher_r: 0.83
+step: 17650, Progress: 51%, Train Avg NLLLoss: 0.0011, Teacher_r: 0.83
+step: 17660, Progress: 51%, Train Avg NLLLoss: 0.0024, Teacher_r: 0.83
+step: 17670, Progress: 51%, Train Avg NLLLoss: 0.0012, Teacher_r: 0.83
+step: 17680, Progress: 51%, Train Avg NLLLoss: 0.0020, Teacher_r: 0.83
+step: 17690, Progress: 51%, Train Avg NLLLoss: 0.0004, Teacher_r: 0.83
+step: 17700, Progress: 51%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 17710, Progress: 51%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 17720, Progress: 51%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 17730, Progress: 51%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 17740, Progress: 51%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 17750, Progress: 51%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 17760, Progress: 52%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 17770, Progress: 52%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 17780, Progress: 52%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 52, Step: 17784, train_acc: 0.96, validate_acc: 0.63, test_acc: 0.63
+step: 17790, Progress: 52%, Train Avg NLLLoss: 0.0006, Teacher_r: 0.83
+step: 17800, Progress: 52%, Train Avg NLLLoss: 0.0029, Teacher_r: 0.83
+step: 17810, Progress: 52%, Train Avg NLLLoss: 0.0020, Teacher_r: 0.83
+step: 17820, Progress: 52%, Train Avg NLLLoss: 0.0011, Teacher_r: 0.83
+step: 17830, Progress: 52%, Train Avg NLLLoss: 0.0019, Teacher_r: 0.83
+step: 17840, Progress: 52%, Train Avg NLLLoss: 0.0027, Teacher_r: 0.83
+step: 17850, Progress: 52%, Train Avg NLLLoss: 0.0017, Teacher_r: 0.83
+step: 17860, Progress: 52%, Train Avg NLLLoss: 0.0035, Teacher_r: 0.83
+step: 17870, Progress: 52%, Train Avg NLLLoss: 0.0019, Teacher_r: 0.83
+step: 17880, Progress: 52%, Train Avg NLLLoss: 0.0019, Teacher_r: 0.83
+step: 17890, Progress: 52%, Train Avg NLLLoss: 0.0017, Teacher_r: 0.83
+step: 17900, Progress: 52%, Train Avg NLLLoss: 0.0017, Teacher_r: 0.83
+step: 17910, Progress: 52%, Train Avg NLLLoss: 0.0026, Teacher_r: 0.83
+step: 17920, Progress: 52%, Train Avg NLLLoss: 0.0026, Teacher_r: 0.83
+step: 17930, Progress: 52%, Train Avg NLLLoss: 0.0011, Teacher_r: 0.83
+step: 17940, Progress: 52%, Train Avg NLLLoss: 0.0058, Teacher_r: 0.83
+step: 17950, Progress: 52%, Train Avg NLLLoss: 0.0035, Teacher_r: 0.83
+step: 17960, Progress: 52%, Train Avg NLLLoss: 0.0010, Teacher_r: 0.83
+step: 17970, Progress: 52%, Train Avg NLLLoss: 0.0017, Teacher_r: 0.83
+step: 17980, Progress: 52%, Train Avg NLLLoss: 0.0014, Teacher_r: 0.83
+step: 17990, Progress: 52%, Train Avg NLLLoss: 0.0011, Teacher_r: 0.83
+step: 18000, Progress: 52%, Train Avg NLLLoss: 0.0011, Teacher_r: 0.83
+step: 18010, Progress: 52%, Train Avg NLLLoss: 0.0041, Teacher_r: 0.83
+step: 18020, Progress: 52%, Train Avg NLLLoss: 0.0024, Teacher_r: 0.83
+step: 18030, Progress: 52%, Train Avg NLLLoss: 0.0021, Teacher_r: 0.83
+step: 18040, Progress: 52%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 18050, Progress: 52%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 18060, Progress: 52%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 18070, Progress: 52%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 18080, Progress: 52%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 18090, Progress: 52%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 18100, Progress: 53%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 18110, Progress: 53%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 18120, Progress: 53%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 53, Step: 18126, train_acc: 0.96, validate_acc: 0.63, test_acc: 0.63
+step: 18130, Progress: 53%, Train Avg NLLLoss: 0.0008, Teacher_r: 0.83
+step: 18140, Progress: 53%, Train Avg NLLLoss: 0.0018, Teacher_r: 0.83
+step: 18150, Progress: 53%, Train Avg NLLLoss: 0.0030, Teacher_r: 0.83
+step: 18160, Progress: 53%, Train Avg NLLLoss: 0.0042, Teacher_r: 0.83
+step: 18170, Progress: 53%, Train Avg NLLLoss: 0.0024, Teacher_r: 0.83
+step: 18180, Progress: 53%, Train Avg NLLLoss: 0.0011, Teacher_r: 0.83
+step: 18190, Progress: 53%, Train Avg NLLLoss: 0.0032, Teacher_r: 0.83
+step: 18200, Progress: 53%, Train Avg NLLLoss: 0.0011, Teacher_r: 0.83
+step: 18210, Progress: 53%, Train Avg NLLLoss: 0.0021, Teacher_r: 0.83
+step: 18220, Progress: 53%, Train Avg NLLLoss: 0.0023, Teacher_r: 0.83
+step: 18230, Progress: 53%, Train Avg NLLLoss: 0.0021, Teacher_r: 0.83
+step: 18240, Progress: 53%, Train Avg NLLLoss: 0.0024, Teacher_r: 0.83
+step: 18250, Progress: 53%, Train Avg NLLLoss: 0.0015, Teacher_r: 0.83
+step: 18260, Progress: 53%, Train Avg NLLLoss: 0.0027, Teacher_r: 0.83
+step: 18270, Progress: 53%, Train Avg NLLLoss: 0.0018, Teacher_r: 0.83
+step: 18280, Progress: 53%, Train Avg NLLLoss: 0.0038, Teacher_r: 0.83
+step: 18290, Progress: 53%, Train Avg NLLLoss: 0.0018, Teacher_r: 0.83
+step: 18300, Progress: 53%, Train Avg NLLLoss: 0.0044, Teacher_r: 0.83
+step: 18310, Progress: 53%, Train Avg NLLLoss: 0.0045, Teacher_r: 0.83
+step: 18320, Progress: 53%, Train Avg NLLLoss: 0.0014, Teacher_r: 0.83
+step: 18330, Progress: 53%, Train Avg NLLLoss: 0.0029, Teacher_r: 0.83
+step: 18340, Progress: 53%, Train Avg NLLLoss: 0.0036, Teacher_r: 0.83
+step: 18350, Progress: 53%, Train Avg NLLLoss: 0.0026, Teacher_r: 0.83
+step: 18360, Progress: 53%, Train Avg NLLLoss: 0.0015, Teacher_r: 0.83
+step: 18370, Progress: 53%, Train Avg NLLLoss: 0.0019, Teacher_r: 0.83
+step: 18380, Progress: 53%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 18390, Progress: 53%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 18400, Progress: 53%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 18410, Progress: 53%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 18420, Progress: 53%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 18430, Progress: 53%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 18440, Progress: 54%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 18450, Progress: 54%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 18460, Progress: 54%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 54, Step: 18468, train_acc: 0.95, validate_acc: 0.62, test_acc: 0.62
+step: 18470, Progress: 54%, Train Avg NLLLoss: 0.0014, Teacher_r: 0.83
+step: 18480, Progress: 54%, Train Avg NLLLoss: 0.0023, Teacher_r: 0.83
+step: 18490, Progress: 54%, Train Avg NLLLoss: 0.0034, Teacher_r: 0.83
+step: 18500, Progress: 54%, Train Avg NLLLoss: 0.0013, Teacher_r: 0.83
+step: 18510, Progress: 54%, Train Avg NLLLoss: 0.0022, Teacher_r: 0.83
+step: 18520, Progress: 54%, Train Avg NLLLoss: 0.0012, Teacher_r: 0.83
+step: 18530, Progress: 54%, Train Avg NLLLoss: 0.0017, Teacher_r: 0.83
+step: 18540, Progress: 54%, Train Avg NLLLoss: 0.0021, Teacher_r: 0.83
+step: 18550, Progress: 54%, Train Avg NLLLoss: 0.0034, Teacher_r: 0.83
+step: 18560, Progress: 54%, Train Avg NLLLoss: 0.0026, Teacher_r: 0.83
+step: 18570, Progress: 54%, Train Avg NLLLoss: 0.0014, Teacher_r: 0.83
+step: 18580, Progress: 54%, Train Avg NLLLoss: 0.0023, Teacher_r: 0.83
+step: 18590, Progress: 54%, Train Avg NLLLoss: 0.0030, Teacher_r: 0.83
+step: 18600, Progress: 54%, Train Avg NLLLoss: 0.0051, Teacher_r: 0.83
+step: 18610, Progress: 54%, Train Avg NLLLoss: 0.0022, Teacher_r: 0.83
+step: 18620, Progress: 54%, Train Avg NLLLoss: 0.0033, Teacher_r: 0.83
+step: 18630, Progress: 54%, Train Avg NLLLoss: 0.0024, Teacher_r: 0.83
+step: 18640, Progress: 54%, Train Avg NLLLoss: 0.0023, Teacher_r: 0.83
+step: 18650, Progress: 54%, Train Avg NLLLoss: 0.0047, Teacher_r: 0.83
+step: 18660, Progress: 54%, Train Avg NLLLoss: 0.0027, Teacher_r: 0.83
+step: 18670, Progress: 54%, Train Avg NLLLoss: 0.0018, Teacher_r: 0.83
+step: 18680, Progress: 54%, Train Avg NLLLoss: 0.0035, Teacher_r: 0.83
+step: 18690, Progress: 54%, Train Avg NLLLoss: 0.0023, Teacher_r: 0.83
+step: 18700, Progress: 54%, Train Avg NLLLoss: 0.0016, Teacher_r: 0.83
+step: 18710, Progress: 54%, Train Avg NLLLoss: 0.0023, Teacher_r: 0.83
+step: 18720, Progress: 54%, Train Avg NLLLoss: 0.0005, Teacher_r: 0.83
+step: 18730, Progress: 54%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 18740, Progress: 54%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 18750, Progress: 54%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 18760, Progress: 54%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 18770, Progress: 54%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 18780, Progress: 55%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 18790, Progress: 55%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 18800, Progress: 55%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 18810, Progress: 55%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 55, Step: 18810, train_acc: 0.95, validate_acc: 0.61, test_acc: 0.62
+step: 18820, Progress: 55%, Train Avg NLLLoss: 0.0018, Teacher_r: 0.83
+step: 18830, Progress: 55%, Train Avg NLLLoss: 0.0018, Teacher_r: 0.83
+step: 18840, Progress: 55%, Train Avg NLLLoss: 0.0020, Teacher_r: 0.83
+step: 18850, Progress: 55%, Train Avg NLLLoss: 0.0018, Teacher_r: 0.83
+step: 18860, Progress: 55%, Train Avg NLLLoss: 0.0025, Teacher_r: 0.83
+step: 18870, Progress: 55%, Train Avg NLLLoss: 0.0019, Teacher_r: 0.83
+step: 18880, Progress: 55%, Train Avg NLLLoss: 0.0041, Teacher_r: 0.83
+step: 18890, Progress: 55%, Train Avg NLLLoss: 0.0022, Teacher_r: 0.83
+step: 18900, Progress: 55%, Train Avg NLLLoss: 0.0027, Teacher_r: 0.83
+step: 18910, Progress: 55%, Train Avg NLLLoss: 0.0022, Teacher_r: 0.83
+step: 18920, Progress: 55%, Train Avg NLLLoss: 0.0033, Teacher_r: 0.83
+step: 18930, Progress: 55%, Train Avg NLLLoss: 0.0021, Teacher_r: 0.83
+step: 18940, Progress: 55%, Train Avg NLLLoss: 0.0018, Teacher_r: 0.83
+step: 18950, Progress: 55%, Train Avg NLLLoss: 0.0034, Teacher_r: 0.83
+step: 18960, Progress: 55%, Train Avg NLLLoss: 0.0015, Teacher_r: 0.83
+step: 18970, Progress: 55%, Train Avg NLLLoss: 0.0024, Teacher_r: 0.83
+step: 18980, Progress: 55%, Train Avg NLLLoss: 0.0022, Teacher_r: 0.83
+step: 18990, Progress: 55%, Train Avg NLLLoss: 0.0045, Teacher_r: 0.83
+step: 19000, Progress: 55%, Train Avg NLLLoss: 0.0020, Teacher_r: 0.83
+step: 19010, Progress: 55%, Train Avg NLLLoss: 0.0023, Teacher_r: 0.83
+step: 19020, Progress: 55%, Train Avg NLLLoss: 0.0031, Teacher_r: 0.83
+step: 19030, Progress: 55%, Train Avg NLLLoss: 0.0020, Teacher_r: 0.83
+step: 19040, Progress: 55%, Train Avg NLLLoss: 0.0014, Teacher_r: 0.83
+step: 19050, Progress: 55%, Train Avg NLLLoss: 0.0024, Teacher_r: 0.83
+step: 19060, Progress: 55%, Train Avg NLLLoss: 0.0005, Teacher_r: 0.83
+step: 19070, Progress: 55%, Train Avg NLLLoss: 0.0001, Teacher_r: 0.83
+step: 19080, Progress: 55%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 19090, Progress: 55%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 19100, Progress: 55%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 19110, Progress: 55%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 19120, Progress: 56%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 19130, Progress: 56%, Train Avg NLLLoss: 0.0001, Teacher_r: 0.83
+step: 19140, Progress: 56%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+step: 19150, Progress: 56%, Train Avg NLLLoss: 0.0000, Teacher_r: 0.83
+data_list 21848
+-------- 0 21848
+data_list 4820
+-------- 0 4820
+data_list 5864
+-------- 0 5864
+Epoch: 56, Step: 19152, train_acc: 0.95, validate_acc: 0.61, test_acc: 0.61
