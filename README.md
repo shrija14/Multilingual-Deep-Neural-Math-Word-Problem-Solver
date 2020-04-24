@@ -19,7 +19,7 @@ The code in FirstStage/src contains the model that will generate equations. It c
 
 This will create 3 files for train, validation and test with generated equations. Sample has been provided in Results/GeneratorModel.
 
-Predictor: 
+Predictor:  
 The code in SecondStage takes template equations and predicts operators between them.
 In order to train a model predict flag to True. By default it is False.
 > python main.py true #predict  
