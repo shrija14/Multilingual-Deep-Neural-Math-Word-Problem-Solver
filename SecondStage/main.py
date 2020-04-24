@@ -46,7 +46,7 @@ def main():
     count = 0
     max_l = 0
     if predict:
-        norm_templates = dict(read_data_json("./data/pg_seq_norm_0821_test.json"))
+        norm_templates = dict(read_data_json("./data/pg_seq_norm_0821_test_best.json"))
     newd = {}
     for key, elem in dataset.items():
         if predict:
@@ -74,9 +74,9 @@ def main():
     logger.setLevel(logging.DEBUG)
 
 
-    params = {"batch_size": 128, #64
+    params = {"batch_size": 64, #64
               "start_epoch" : 1,
-              "n_epoch": 30,	# 100, 50
+              "n_epoch": 20,	# 100, 50
               "rnn_classes":5,	# 5, 4
               "save_file": "model_combined_att.pt"
              }
@@ -107,7 +107,7 @@ def main():
                                     lr=0.01, momentum=0.9, dampening=0.0)
         trainer.train(self_att_recu_tree, optimizer)
     else:
-        model = torch.load('model_combined_att.pt')
+        model = torch.load('./data/model_combined_att_20.pt')
         trainer.predict_joint(model).to(device)
 
 main()
