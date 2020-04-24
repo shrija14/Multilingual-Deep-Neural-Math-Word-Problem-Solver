@@ -11,7 +11,7 @@ The notebooks mentioned here are in Miscellaneous folder.
 - LAMP32K is prepared in LAMP32K.ipynb
 - LAMP32K is split in train,validation,test and postfix template preparation is in Split_Postfix.ipynb
 
-All generated files including the dataset and splits have been kept in Data folder.
+All generated files including the dataset and splits are provided in the data/ folder.
 
 Generator:  
 The code in FirstStage/src contains the model that will generate equations. It can be run using the command  
