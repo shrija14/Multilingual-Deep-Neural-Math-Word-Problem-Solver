@@ -33,3 +33,6 @@ In this we generate equation templates as opposed to entire equation in Generato
 > python main.py --cuda-use --checkpoint-dir-name params_12 --mode 0 --teacher-forcing-ratio 0.5 --input-dropout 0.4 --encoder-hidden-size 512 --decoder-hidden-size 1024  --generator 0
 
 This will create train, validation and test files with equation templates. These files can later be fed into second stage with predictor flag = true
+
+#### References
+[Template-Based Math Word Problem Solvers with Recursive Neural Networks](https://github.com/uestc-db/T-RNN)
