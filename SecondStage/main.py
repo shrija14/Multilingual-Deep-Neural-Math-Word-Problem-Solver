@@ -128,7 +128,7 @@ def main():
     
     trainer = Trainer(data_loader, params, predict)
 
-    if predict == False:
+    if predict == True:
         recu_nn = RecursiveNN(data_loader.vocab_len, encode_params['emb_size'], params["rnn_classes"])
         #recu_nn = recu_nn.cuda()
         recu_nn = recu_nn.to(device)

@@ -13,12 +13,14 @@ The notebooks mentioned here are in Miscellaneous folder.
 
 All generated files including the dataset and splits have been kept in Data folder.
 
+Generator:  
+The code in FirstStage/src contains the model that will generate equations. It can be run using the command  
+> python main.py --cuda-use --checkpoint-dir-name params_12 --mode 0 --teacher-forcing-ratio 0.5 --input-dropout 0.4 --encoder-hidden-size 512 --decoder-hidden-size 1024  
 
-Steps to reproduce results:  
-- Preprocessing 
-  - For Math23K, run Preprocess/Preprocess_Math23K.ipynb
-  - For DolphinS, run Preprocess/Preprocess_Dolphin.ipynb  
-  This will prepare data in a format that the model needs.
-- First Stage
-  - Run FirstStage/src/main.py  
-  This will give the equation templates.
+This will create 3 files for train, validation and test with generated equations. Sample has been provided in Results/GeneratorModel.
+
+Predictor: 
+The code in SecondStage takes template equations and predicts operators between them.
+In order to train a model predict flag in main.py needs to be set to True. By default it is False.
+> python main.py  
+This will output sample correct/matched equations with ground truth.
